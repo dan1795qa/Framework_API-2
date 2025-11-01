@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package userservice;
+
+message GetUserRequest {
+    string username = 1;
+}
+
+message GetUserResponse {
+    string message = 1;
+}
+
+service UserService {
+    rpc GetUser (GetUserRequest) returns (GetUserResponse);
+}
