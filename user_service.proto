@@ -2,14 +2,18 @@ syntax = "proto3";
 
 package userservice;
 
+// Определяем сообщение запроса
 message GetUserRequest {
-    string username = 1;
+  string username = 1;
 }
 
+// Определяем сообщение ответа
 message GetUserResponse {
-    string message = 1;
+  string message = 1;
 }
 
+// Определяем gRPC-сервис
 service UserService {
-    rpc GetUser (GetUserRequest) returns (GetUserResponse);
+  // Определяем метод gRPC-сервиса
+  rpc GetUser (GetUserRequest) returns (GetUserResponse);
 }
