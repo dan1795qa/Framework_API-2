@@ -7,9 +7,9 @@ class UserSchema(BaseModel):
 
     id: str
     email: EmailStr
-    last_name: str =  Field(alias="lastName")
-    first_name: str =  Field(alias="firstName")
-    middle_name: str =  Field(alias="middleName")
+    last_name: str = Field(alias="lastName")
+    first_name: str = Field(alias="firstName")
+    middle_name: str = Field(alias="middleName")
 
 
 class CreateUserRequestSchema(BaseModel):
@@ -23,10 +23,9 @@ class CreateUserRequestSchema(BaseModel):
     middle_name: str = Field(alias="middleName")
 
 
-class CreateResponseSchema(BaseModel):
+class CreateUserResponseSchema(BaseModel):
     """Описание структуры ответа создания пользователя."""
     user: UserSchema
-
 
 
 class UpdateUserRequestSchema(BaseModel):
@@ -34,9 +33,9 @@ class UpdateUserRequestSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     email: EmailStr | None
-    lastName: str | None = Field(alias="lastName")
-    firstName: str | None = Field(alias="firstName")
-    middleName: str | None = Field(alias="middleName")
+    last_name: str | None = Field(alias="lastName")
+    first_name: str | None = Field(alias="firstName")
+    middle_name: str | None = Field(alias="middleName")
 
 
 class UpdateResponseSchema(BaseModel):

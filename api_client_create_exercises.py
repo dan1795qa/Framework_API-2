@@ -1,6 +1,7 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.exercises.exercises_client import get_exercises_client, CreateExercisesResponseDict, \
-    CreateExercisesRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.exercises.exercises_client import get_exercises_client
+from clients.exercises.exercises_schema import CreateExercisesRequestSchema
+from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
@@ -38,7 +39,7 @@ create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
 # Создаем курс
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title="Python",
     maxScore=100,
     minScore=10,
@@ -53,9 +54,9 @@ print('Create course data:', create_course_response)
 exercise_client = get_exercises_client(authentication_user)
 
 # Создаем задание
-create_exercise_request = CreateExercisesRequestDict(
+create_exercise_request = CreateExercisesRequestSchema(
     title="Python basic syntax",
-    courseId=create_course_response['course']['id'],
+    courseId=create_course_response.course.id,
     maxScore=100,
     minScore=10,
     orderIndex=10,
