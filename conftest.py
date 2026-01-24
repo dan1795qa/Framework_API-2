@@ -1,5 +1,5 @@
 pytest_plugins = (
-    "fixtures.exercise"
+    "fixtures.exercises",
     "fixtures.users",
     "fixtures.files",
     "fixtures.courses",
