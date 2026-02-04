@@ -6,6 +6,7 @@ from clients.exercises.exercises_schema import CreateExercisesRequestSchema, Cre
 from fixtures.courses import CourseFixture
 from fixtures.users import UserFixture
 
+
 class ExercisesFixture(BaseModel):
     request: CreateExercisesRequestSchema
     response: CreateExercisesResponseSchema
@@ -24,6 +25,3 @@ def function_exercise(
     request = CreateExercisesRequestSchema(course_id=function_course.response.course.id)
     response = exercises_client.create_exercise(request)
     return ExercisesFixture(request=request, response=response)
-
-
-
