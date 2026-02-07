@@ -25,7 +25,7 @@ class TestFiles:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    def test_get_files(self, files_client: FilesClient, function_file: FileFixture):
+    def test_get_file(self, files_client: FilesClient, function_file: FileFixture):
         response = files_client.get_file_api(function_file.response.file.id)
         response_data = GetFileResponseSchema.model_validate_json(response.text)
 
