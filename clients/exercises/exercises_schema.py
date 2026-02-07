@@ -52,7 +52,7 @@ class CreateExercisesResponseSchema(BaseModel):
     exercise: ExerciseSchema
 
 
-class UpdateExercisesRequestSchema(BaseModel):
+class UpdateExerciseRequestSchema(BaseModel):
     """Описание структуры запроса на обновление задания."""
     model_config = ConfigDict(populate_by_name=True)
 
@@ -64,9 +64,9 @@ class UpdateExercisesRequestSchema(BaseModel):
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
 
-class UpdateExercisesResponseSchema(BaseModel):
+class UpdateExerciseResponseSchema(BaseModel):
     """Описание структуры ответа на обновление задания."""
-    exercises: list[ExerciseSchema]
+    exercise: ExerciseSchema
 
 
 class DeleteExerciseResponseSchema(BaseModel):

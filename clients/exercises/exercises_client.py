@@ -4,7 +4,7 @@ from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from clients.exercises.exercises_schema import GetExercisesQuerySchema, GetExercisesResponseSchema, \
     GetExerciseResponseSchema, CreateExercisesRequestSchema, CreateExercisesResponseSchema, \
-    UpdateExercisesRequestSchema, UpdateExercisesResponseSchema, DeleteExerciseResponseSchema
+    UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, DeleteExerciseResponseSchema
 
 
 class ExercisesClient(APIClient):
@@ -52,7 +52,7 @@ class ExercisesClient(APIClient):
         response = self.create_exercise_api(request)
         return CreateExercisesResponseSchema.model_validate_json(response.text)
 
-    def update_exercise_api(self, exercise_id: str, request: UpdateExercisesRequestSchema) -> Response:
+    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
         Метод обновления задания.
 
@@ -62,9 +62,9 @@ class ExercisesClient(APIClient):
         """
         return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
 
-    def update_exercise(self, exercise_id: str, request: UpdateExercisesRequestSchema) -> UpdateExercisesResponseSchema:
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         response = self.update_exercise_api(exercise_id, request)
-        return UpdateExercisesResponseSchema.model_validate_json(response.text)
+        return UpdateExerciseResponseSchema.model_validate_json(response.text)
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
