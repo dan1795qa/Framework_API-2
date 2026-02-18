@@ -25,11 +25,14 @@ from allure_commons.types import Severity
 @allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeatures.COURSES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeatures.COURSES)
 class TestCourses:
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.tag(AllureTag.GET_ENTITIES)
     @allure.title("Get courses")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -49,6 +52,7 @@ class TestCourses:
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.title("Update course")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         # Формируем данные для обновления
         request = UpdateCourseRequestSchema()
@@ -69,6 +73,7 @@ class TestCourses:
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.title("Create course")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_course(self, courses_client: CoursesClient, function_file: FileFixture, function_user: UserFixture):
         request = CreateCourseRequestSchema(
             preview_file_id=function_file.response.file.id,

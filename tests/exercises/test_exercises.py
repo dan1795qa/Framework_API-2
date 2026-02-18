@@ -25,11 +25,14 @@ from allure_commons.types import Severity
 @allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeatures.EXERCISES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeatures.EXERCISES)
 class TestExercises:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.title("Create exercise")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_exercise(self, exercises_client: ExercisesClient, function_course: CourseFixture):
         request = CreateExercisesRequestSchema(
             course_id=function_course.response.course.id
@@ -46,6 +49,7 @@ class TestExercises:
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.title("Get exercise")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     def test_get_exercise(self, exercises_client: ExercisesClient, function_exercise: ExercisesFixture):
         response = exercises_client.get_exercise_api(function_exercise.response.exercise.id)
         response_data = GetExerciseResponseSchema.model_validate_json(response.text)
@@ -59,6 +63,7 @@ class TestExercises:
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.title("Update exercise")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_exercise(self, exercises_client: ExercisesClient, function_exercise: ExercisesFixture):
         request = UpdateExerciseRequestSchema()
         response = exercises_client.update_exercise_api(function_exercise.response.exercise.id, request)
@@ -73,6 +78,7 @@ class TestExercises:
     @allure.tag(AllureTag.DELETE_ENTITY)
     @allure.title("Delete exercise")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)
     def test_delete_exercise(self, exercises_client: ExercisesClient, function_exercise: ExercisesFixture):
         delete_response = exercises_client.delete_exercise_api(function_exercise.response.exercise.id)
 
@@ -90,6 +96,7 @@ class TestExercises:
     @allure.tag(AllureTag.GET_ENTITIES)
     @allure.title("Get exercises")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_exercises(
             self,
             exercises_client: ExercisesClient,
