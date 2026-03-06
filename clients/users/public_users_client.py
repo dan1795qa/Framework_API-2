@@ -1,7 +1,7 @@
 from clients.api_client import APIClient
 from httpx import Response
 from typing import TypedDict
-
+from tools.routes import APIRoutes
 from clients.public_http_builder import get_public_http_client
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 import allure
@@ -17,7 +17,7 @@ class PublicUsersClient(APIClient):
         :param request: Словарь с email, password, lastName, firstName, middleName.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/users", json=request.model_dump(by_alias=True))
+        return self.post(APIRoutes.USERS, json=request.model_dump(by_alias=True))
 
     # Добавили новый метод
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
