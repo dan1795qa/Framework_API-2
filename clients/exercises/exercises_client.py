@@ -7,6 +7,8 @@ from clients.exercises.exercises_schema import GetExercisesQuerySchema, GetExerc
     UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, DeleteExerciseResponseSchema
 import allure
 
+from tools.routes import APIRoutes
+
 
 class ExercisesClient(APIClient):
     """Клиент для работы с /api/v1/exercises"""
@@ -19,7 +21,7 @@ class ExercisesClient(APIClient):
         :param query: Словарь с userId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True))
+        return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))
 
     # Добавили новый метод
     def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
@@ -34,7 +36,7 @@ class ExercisesClient(APIClient):
         :param course_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/exercises/{exercise_id}")
+        return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     # Добавили новый метод
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
@@ -49,7 +51,7 @@ class ExercisesClient(APIClient):
         :param request: Словарь с title, courseId, maxScore, minScore, orderIndex, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/exercises", json=request.model_dump(by_alias=True))
+        return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
     # Добавили новый метод
     def create_exercise(self, request: CreateExercisesRequestSchema) -> CreateExercisesResponseSchema:
@@ -65,7 +67,7 @@ class ExercisesClient(APIClient):
         :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime,
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
+        return self.patch(f"{APIRoutes.EXERCISES}/{exercise_id}", json=request.model_dump(by_alias=True))
 
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         response = self.update_exercise_api(exercise_id, request)
@@ -79,7 +81,7 @@ class ExercisesClient(APIClient):
         :param course_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/exercises/{exercise_id}")
+        return self.delete(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     def delete_exercise(self, exercise_id: str) -> DeleteExerciseResponseSchema:
         response = self.delete_exercise_api(exercise_id)
