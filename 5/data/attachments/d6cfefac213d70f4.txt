@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjAzLjgxMDIyNiIsInVzZXJfaWQiOiJiZGZhNmFlNS0xOTVmLTQ0MmQtYjY4Mi1lZjMxYjNjNzhjMWMifQ.Wx5E6mIZaP2lP5PGb1Gyj_okOVYhC6x96jbNK2h0GLI'\
+-h 'content-length: 344'\
+-h 'content-type: application/json'\
+-d '{"title":"Movie adult down race remain.","maxScore":61,"minScore":13,"description":"Such shoulder drive opportunity tax phone. Material itself civil through civil behavior. More simply sit property want.","estimatedTime":"63 weeks","previewFileId":"61d0f5e0-fde3-4901-b43a-a87ee3a64277","createdByUserId":"bdfa6ae5-195f-442d-b682-ef31b3c78c1c"}'

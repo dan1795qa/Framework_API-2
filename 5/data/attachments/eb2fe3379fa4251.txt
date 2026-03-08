@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA1LjUxNzU2NyIsInVzZXJfaWQiOiJhNzE2NzJkMy0wODE5LTRjNzEtOGYwNC01ZGY3NGVlNDVlNGYifQ.gPlIN_fbFy-Fcm2VMAY3HCP2CYkqlylSZp8JmZZWaog'\
+-h 'content-length: 284'\
+-h 'content-type: application/json'\
+-d '{"title":"Break onto rock myself.","courseId":"a11e9225-530a-4112-8a66-622cf2f92eab","maxScore":87,"minScore":1,"orderIndex":65,"description":"During prevent same structure gas. Major statement cup cultural. Listen class tough American between successful.","estimatedTime":"12 weeks"}'

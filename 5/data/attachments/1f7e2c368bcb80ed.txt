@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA3LjI0MjU1MiIsInVzZXJfaWQiOiJiNmM0YzE3Ni0zNmE5LTRmMWMtYTg2MC0xY2NmNjZjMGQwNjcifQ.6BXjRaTe7uM8_RZ1_-AnWXI1ky7aqojMV5cAgNg_QoU'\
+-h 'content-length: 381'\
+-h 'content-type: application/json'\
+-d '{"title":"Water true phone collection political light.","maxScore":56,"minScore":7,"description":"Wish drug among Mr.\nWord shake PM end top measure development. Reveal shoulder very hundred bring we. Oil name history add enter until power.","estimatedTime":"64 weeks","previewFileId":"c905f147-7b22-4340-b225-9fd776d4d118","createdByUserId":"b6c4c176-36a9-4f1c-a860-1ccf66c0d067"}'

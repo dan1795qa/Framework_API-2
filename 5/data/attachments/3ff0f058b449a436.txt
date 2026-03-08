@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/644160b6-a78d-4267-a59f-15c7b747f49d'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA2LjA3NTQ5NCIsInVzZXJfaWQiOiI1YjdhYzFkNS0yODFlLTQxZjEtOGM5NS04YjI1ZTVlODExYmIifQ.PwCtChRlLa-mLEBIL2iFkmohFVCp2Mx6lo_1GpS14K8'\
+-h 'content-length: 280'\
+-h 'content-type: application/json'\
+-d '{"title":"Later within interesting ago expert challenge election television.","maxScore":53,"minScore":23,"orderIndex":6,"description":"Exactly care yourself. Word score more list produce professional moment bill. Modern natural laugh special reality.","estimatedTime":"21 weeks"}'

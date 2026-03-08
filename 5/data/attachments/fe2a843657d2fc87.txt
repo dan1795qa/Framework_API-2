@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA3Ljc5NDE0OSIsInVzZXJfaWQiOiI5OWZkZjdkZi1mMWZjLTRkZDItYmZmZC0zNjhmNzllMGFmYTAifQ.2HwKT8yVfG6zIw5m2gjwjtKtdMzCeQDP9vM3_sbup9c'\
+-h 'content-length: 314'\
+-h 'content-type: application/json'\
+-d '{"title":"Meet yes sea when.","courseId":"0d58a66e-edbd-4932-97e2-773716bc5e15","maxScore":93,"minScore":8,"orderIndex":45,"description":"Various day rock entire cell. Guess mind arm evidence feel author.\nHot safe think increase gun. Song nothing plan throw could. Director point ten.","estimatedTime":"74 weeks"}'

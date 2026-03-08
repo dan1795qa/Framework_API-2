@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA0LjQxMDQwNiIsInVzZXJfaWQiOiI0ZWJkODEzOS0wNGZkLTQ1MDItOTYyNy1hMGU1YTk4ZDVhZDQifQ._WldD8GVuB8P05amcFOhP9tfCp9pBxG_IzLjDvSBB3E'\
+-h 'content-length: 393'\
+-h 'content-type: application/json'\
+-d '{"title":"Whole rock call far movement south treatment.","maxScore":58,"minScore":3,"description":"Focus voice almost themselves. Available get scientist worry blood maybe.\nEntire image we happen believe. Part individual always new benefit skill song.","estimatedTime":"96 weeks","previewFileId":"aed291a8-4b72-4d23-8301-998a5c6d6e18","createdByUserId":"4ebd8139-04fd-4502-9627-a0e5a98d5ad4"}'

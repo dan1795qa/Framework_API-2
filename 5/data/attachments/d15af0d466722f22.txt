@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA3LjI0MjU1MiIsInVzZXJfaWQiOiJiNmM0YzE3Ni0zNmE5LTRmMWMtYTg2MC0xY2NmNjZjMGQwNjcifQ.6BXjRaTe7uM8_RZ1_-AnWXI1ky7aqojMV5cAgNg_QoU'\
+-h 'content-length: 349'\
+-h 'content-type: application/json'\
+-d '{"title":"Budget everyone foot know thousand central fly range.","courseId":"986bef4d-c094-47a2-aec5-8095efee9657","maxScore":65,"minScore":8,"orderIndex":6,"description":"Day support green citizen set. Since debate according view let long movie. Detail bank into media wind particularly out. Describe strong table form.","estimatedTime":"92 weeks"}'

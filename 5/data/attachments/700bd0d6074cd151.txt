@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA3Ljc5NDE0OSIsInVzZXJfaWQiOiI5OWZkZjdkZi1mMWZjLTRkZDItYmZmZC0zNjhmNzllMGFmYTAifQ.2HwKT8yVfG6zIw5m2gjwjtKtdMzCeQDP9vM3_sbup9c'\
+-h 'content-length: 371'\
+-h 'content-type: application/json'\
+-d '{"title":"Marriage democratic leg mean.","maxScore":63,"minScore":17,"description":"Executive while news chair break only something. With consumer enjoy us common situation. Whether material mission health investment suggest risk.","estimatedTime":"91 weeks","previewFileId":"52dc044d-ad55-4cc5-a0b6-edbcb6bcd7d7","createdByUserId":"99fdf7df-f1fc-4dd2-bffd-368f79e0afa0"}'

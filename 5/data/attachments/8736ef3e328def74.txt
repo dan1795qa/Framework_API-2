@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA0Ljk2NTk5MyIsInVzZXJfaWQiOiI4N2JlMzYyZC1mMmEwLTQzM2UtOTAzZS05YTI0NjIwZWMzMzEifQ.xpjfCWIg6WvIYtHhA9BFExg-tMwsSPabBHkmJavwvK4'\
+-h 'content-length: 345'\
+-h 'content-type: application/json'\
+-d '{"title":"Skill someone however where begin other.","maxScore":76,"minScore":20,"description":"Know share which magazine.\nRealize management meet police. Thing arm recently blue government both remember.","estimatedTime":"11 weeks","previewFileId":"99307663-3569-40b2-bfbf-a2cd37809648","createdByUserId":"87be362d-f2a0-433e-903e-9a24620ec331"}'

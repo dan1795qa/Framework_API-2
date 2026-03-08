@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/ab41cf0a-a735-4101-8a58-23fc2e832d8c'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjAzLjgxMDIyNiIsInVzZXJfaWQiOiJiZGZhNmFlNS0xOTVmLTQ0MmQtYjY4Mi1lZjMxYjNjNzhjMWMifQ.Wx5E6mIZaP2lP5PGb1Gyj_okOVYhC6x96jbNK2h0GLI'\
+-h 'content-length: 275'\
+-h 'content-type: application/json'\
+-d '{"title":"Them strong almost cover director.","maxScore":60,"minScore":10,"description":"Fast scene individual interest without difference eye drug. Discussion especially present manager brother author set. South major will from let produce hair.","estimatedTime":"43 weeks"}'

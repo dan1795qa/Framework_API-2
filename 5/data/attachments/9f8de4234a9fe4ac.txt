@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA1LjUxNzU2NyIsInVzZXJfaWQiOiJhNzE2NzJkMy0wODE5LTRjNzEtOGYwNC01ZGY3NGVlNDVlNGYifQ.gPlIN_fbFy-Fcm2VMAY3HCP2CYkqlylSZp8JmZZWaog'\
+-h 'content-length: 400'\
+-h 'content-type: application/json'\
+-d '{"title":"Boy close tough.","maxScore":86,"minScore":27,"description":"Off amount step blood make. Learn short call edge.\nPrice kind pass recognize. Between change ok. Society worry those break majority.\nEast price raise itself serious. Whole black bar once.","estimatedTime":"9 weeks","previewFileId":"2d7024c6-bf1c-4792-86c0-d68421e76431","createdByUserId":"a71672d3-0819-4c71-8f04-5df74ee45e4f"}'

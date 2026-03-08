@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA2LjA3NTQ5NCIsInVzZXJfaWQiOiI1YjdhYzFkNS0yODFlLTQxZjEtOGM5NS04YjI1ZTVlODExYmIifQ.PwCtChRlLa-mLEBIL2iFkmohFVCp2Mx6lo_1GpS14K8'\
+-h 'content-length: 410'\
+-h 'content-type: application/json'\
+-d '{"title":"At professional capital movement week all stuff.","maxScore":67,"minScore":20,"description":"Policy dog current decade shoulder week build. But relationship artist player face.\nBase see out. Stage prevent just cause be pull PM admit. Can force describe dark.","estimatedTime":"20 weeks","previewFileId":"8dca291f-2814-443a-90a5-42c21507d303","createdByUserId":"5b7ac1d5-281e-41f1-8c95-8b25e5e811bb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA2LjYzODY3NSIsInVzZXJfaWQiOiJlMjM3NTllOS1jNjEyLTRhOGItYTYzZS1hMjY0NWQyNDhlODgifQ.dlSHiO56OP5aFL8YnyO1ttWf7fT9gToKOeMHr8fG6yU'\
+-h 'content-length: 442'\
+-h 'content-type: application/json'\
+-d '{"title":"Yard difference marriage stand performance tree manager.","maxScore":98,"minScore":3,"description":"Other like color any product sister. Possible plant himself. Discussion hold lead rest she.\nLine situation admit behind author room. Style north apply late upon theory water. Wish these art.","estimatedTime":"76 weeks","previewFileId":"6a8bd0c1-a409-4366-b05a-714b73eec01b","createdByUserId":"e23759e9-c612-4a8b-a63e-a2645d248e88"}'

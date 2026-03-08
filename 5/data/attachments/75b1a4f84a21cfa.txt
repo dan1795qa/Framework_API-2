@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDEwOjExOjA2LjA3NTQ5NCIsInVzZXJfaWQiOiI1YjdhYzFkNS0yODFlLTQxZjEtOGM5NS04YjI1ZTVlODExYmIifQ.PwCtChRlLa-mLEBIL2iFkmohFVCp2Mx6lo_1GpS14K8'\
+-h 'content-length: 251'\
+-h 'content-type: application/json'\
+-d '{"title":"Create manage whether.","courseId":"f00d15c7-bdba-4a89-9668-e8238c393ac0","maxScore":78,"minScore":18,"orderIndex":2,"description":"Already employee event continue strong of sport. The style half and sport stock.","estimatedTime":"74 weeks"}'
