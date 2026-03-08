@@ -10,7 +10,7 @@ on:
 
 jobs:
   run-tests:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
