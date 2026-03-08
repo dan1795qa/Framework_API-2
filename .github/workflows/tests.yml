@@ -55,7 +55,7 @@ jobs:
           path: gh-pages
 
 
-      - name: Generate Allure Report with history
+      - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение для генерации Allure отчёта
         if: always()  # Выполняем всегда
         with:
