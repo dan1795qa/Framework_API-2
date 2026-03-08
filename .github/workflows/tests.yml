@@ -35,7 +35,7 @@ jobs:
           JWT_SECRET_KEY: "qa-automation-engineer-api-course-secret-key"
           JWT_ACCESS_TOKEN_EXPIRE: 1800
           JWT_REFRESH_TOKEN_EXPIRE: 5184000
-        run: uvicorn main:app --host 0.0.0.0 --port --app-dir ./qa-automation-engineer-api-course &
+        run: uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
 
       - name: Install dependencies
         run: |
