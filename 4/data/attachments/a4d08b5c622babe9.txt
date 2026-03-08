@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA1LjcxNTk0NyIsInVzZXJfaWQiOiI1MmMyYmViZi1lZmYzLTRjYjMtYmRiYi1iNTYwOGVjMGE3M2QifQ.RbIn4tO7p9-R0MwzooIasuQuwZw_Q8-bki6KyN6blGg'\
+-h 'content-length: 350'\
+-h 'content-type: application/json'\
+-d '{"title":"Rich must vote conference memory age.","courseId":"e51bd698-2322-498b-81a9-d1bbe82f1cde","maxScore":88,"minScore":19,"orderIndex":57,"description":"Under include direction one. It move student thousand reach need. Position religious himself task husband pay.\nGet buy population sense leave. Phone simply heart.","estimatedTime":"36 weeks"}'

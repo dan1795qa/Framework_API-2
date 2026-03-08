@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/4fa08ae1-87d3-4e1d-b6cd-9c1b848d02da'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA1LjEyMTgyNyIsInVzZXJfaWQiOiIzY2I3ZWY2NC1iNzc0LTRkZjUtOTAwOC02YzdlYjg2ODhhMGUifQ.OiEqG5A7rgWPM4X4kwsMxiYjeZmNIYI9_0Zl2THpZLA'\
+-h 'content-length: 303'\
+-h 'content-type: application/json'\
+-d '{"title":"Information year girl camera control reality resource make.","maxScore":85,"minScore":6,"orderIndex":61,"description":"Again magazine economic offer run or. Run be establish everything drop born hear thus.\nExpert laugh visit hand toward. Realize material hit test.","estimatedTime":"7 weeks"}'

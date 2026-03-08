@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA1LjcxNTk0NyIsInVzZXJfaWQiOiI1MmMyYmViZi1lZmYzLTRjYjMtYmRiYi1iNTYwOGVjMGE3M2QifQ.RbIn4tO7p9-R0MwzooIasuQuwZw_Q8-bki6KyN6blGg'\
+-h 'content-length: 379'\
+-h 'content-type: application/json'\
+-d '{"title":"According learn week arrive ready left.","maxScore":92,"minScore":22,"description":"Task ready baby moment space campaign traditional age. Employee remember sometimes we require town. Cold difference happen pass. Can card argue.","estimatedTime":"79 weeks","previewFileId":"b9fc759e-76eb-43a8-aaa5-614b3be0583a","createdByUserId":"52c2bebf-eff3-4cb3-bdbb-b5608ec0a73d"}'

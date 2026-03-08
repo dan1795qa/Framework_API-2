@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/4c8f0e89-6202-42a1-b305-f38dfeef8689
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/4c8f0e89-6202-42a1-b305-f38dfeef8689
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 4c8f0e89-6202-42a1-b305-f38dfeef8689
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Rich must vote conference memory age.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to e51bd698-2322-498b-81a9-d1bbe82f1cde
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 88
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 19
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 57
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Under include direction one. It move student thousand reach need. Position religious himself task husband pay.
+Get buy population sense leave. Phone simply heart.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 36 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA0LjUzMjk5NSIsInVzZXJfaWQiOiI5ZTFmZWEwYS05MDk0LTRkMzctODI1My03OTM1MTc3ZWVlZmYifQ.aHMtFMwaO0HlNVqo_qVGcKmLBGeghWFAobEnxyXHTBw'\
+-h 'content-length: 410'\
+-h 'content-type: application/json'\
+-d '{"title":"Idea try south radio weight local crime.","maxScore":71,"minScore":25,"description":"Public suggest make must want around to. Strategy international executive spend order account join. Seek win state type accept carry.\nLife forward many market police behind.","estimatedTime":"14 weeks","previewFileId":"23d58988-6aea-464d-91c6-2af430d6fb9f","createdByUserId":"9e1fea0a-9094-4d37-8253-7935177eeeff"}'

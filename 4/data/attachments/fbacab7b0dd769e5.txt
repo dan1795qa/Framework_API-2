@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjAzLjM1MTEzOSIsInVzZXJfaWQiOiI4ZTIwMzMzMS03MmU4LTQ2OGMtYTczOS1iZmFiMDBmMzQxMmMifQ.pzywWlRvqo40c9UqYsKNSdUjKeyqDidRMtwG2U-DO40'\
+-h 'content-length: 368'\
+-h 'content-type: application/json'\
+-d '{"title":"Plant stay parent bit southern.","maxScore":82,"minScore":30,"description":"Often note list. Young young sell within worker argue far. May example generation specific TV. Stuff agreement he wonder say way minute when.","estimatedTime":"73 weeks","previewFileId":"e35e6560-c887-4b4e-9d32-701c2186cb1d","createdByUserId":"8e203331-72e8-468c-a739-bfab00f3412c"}'

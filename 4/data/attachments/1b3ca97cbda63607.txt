@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA2LjM0OTQxMSIsInVzZXJfaWQiOiJmMDBmMmMxMi1hYTg3LTQ5ZTAtYjhhOS03ZmMwODE1OTQwMWUifQ.b_qjrhrtGrCbR6rkGXIBHVOrnxDvf99A5KHEDvk5rjA'\
+-h 'content-length: 434'\
+-h 'content-type: application/json'\
+-d '{"title":"Question under all technology least study woman explain.","maxScore":53,"minScore":9,"description":"Quickly light whatever power. Agreement how positive herself.\nWorry major final by. Avoid effect toward.\nGreen wonder discover friend coach who. Baby thus method him painting thank.","estimatedTime":"78 weeks","previewFileId":"375d7819-22ce-48d7-904d-d6f997a3e370","createdByUserId":"f00f2c12-aa87-49e0-b8a9-7fc08159401e"}'

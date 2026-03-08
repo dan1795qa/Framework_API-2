@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA2LjM0OTQxMSIsInVzZXJfaWQiOiJmMDBmMmMxMi1hYTg3LTQ5ZTAtYjhhOS03ZmMwODE1OTQwMWUifQ.b_qjrhrtGrCbR6rkGXIBHVOrnxDvf99A5KHEDvk5rjA'\
+-h 'content-length: 376'\
+-h 'content-type: application/json'\
+-d '{"title":"Marriage agree receive answer live number.","courseId":"2689e42c-af45-4f59-9b65-05d24bf0c603","maxScore":63,"minScore":6,"orderIndex":88,"description":"Interesting threat southern professor line. Home memory per third design.\nBack eat small author. News but movement. Price large in truth none their.\nGood truth finish write represent.","estimatedTime":"31 weeks"}'

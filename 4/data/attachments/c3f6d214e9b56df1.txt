@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjAyLjQ1MTEyNCIsInVzZXJfaWQiOiJkNTY1YTgzMi1hODVjLTQwYTQtYWI4OC1mNzk1MDllMmEyZGEifQ.nRF7FbY5XXLY-iHW8DwAhVN6udCFAPIfVYONyly4hMo'\
+-h 'content-length: 430'\
+-h 'content-type: application/json'\
+-d '{"title":"Real accept to tough green reduce particular.","maxScore":57,"minScore":29,"description":"Hold whose candidate per someone way. Thank perform visit really share. Scene front name health mention buy system.\nLikely reveal lot wife among challenge technology just. Live deep truth.","estimatedTime":"38 weeks","previewFileId":"47da3041-d9a7-4498-b93b-58452a64ca5b","createdByUserId":"d565a832-a85c-40a4-ab88-f79509e2a2da"}'

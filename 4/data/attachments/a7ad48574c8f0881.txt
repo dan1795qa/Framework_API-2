@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjAzLjkzNDIyNyIsInVzZXJfaWQiOiIwN2Q3MzE3NS1mZDYxLTRmNzItYWM0My1iYTE2NTk2YzRjMDQifQ.BvXS_pHCKxgflCL0qNFrV9Hvl7YjXdjksssoIEBEdn8'\
+-h 'content-length: 401'\
+-h 'content-type: application/json'\
+-d '{"title":"Buy list other unit station spring.","maxScore":85,"minScore":16,"description":"Gun cut sign most. The first again. Respond street go skin reason century.\nShould two evidence claim sell green learn everybody. Shake for city others system civil half.","estimatedTime":"13 weeks","previewFileId":"ef1bdb91-cbbf-4dcf-a276-4d15f926fb29","createdByUserId":"07d73175-fd61-4f72-ac43-ba16596c4c04"}'

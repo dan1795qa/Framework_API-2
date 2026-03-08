@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/d15fcf94-3cdc-43ff-9cd3-d7fc321a20ae'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjAyLjQ1MTEyNCIsInVzZXJfaWQiOiJkNTY1YTgzMi1hODVjLTQwYTQtYWI4OC1mNzk1MDllMmEyZGEifQ.nRF7FbY5XXLY-iHW8DwAhVN6udCFAPIfVYONyly4hMo'\
+-h 'content-length: 287'\
+-h 'content-type: application/json'\
+-d '{"title":"Kind approach senior letter sound.","maxScore":89,"minScore":24,"description":"Network group mouth simply town card everyone.\nEarly star thought director step. Learn employee environment describe common. Partner assume gun over president live true.","estimatedTime":"2 weeks"}'

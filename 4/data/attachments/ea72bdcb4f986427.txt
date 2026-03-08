@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA1LjEyMTgyNyIsInVzZXJfaWQiOiIzY2I3ZWY2NC1iNzc0LTRkZjUtOTAwOC02YzdlYjg2ODhhMGUifQ.OiEqG5A7rgWPM4X4kwsMxiYjeZmNIYI9_0Zl2THpZLA'\
+-h 'content-length: 343'\
+-h 'content-type: application/json'\
+-d '{"title":"Free stand job into our.","courseId":"ec33795b-72ac-491e-b46d-75cb12ba7348","maxScore":82,"minScore":24,"orderIndex":11,"description":"Recent cost card animal live. Eat through white. About suddenly there sound front data investment.\nWoman sure personal dark least agree. Officer until north generation.","estimatedTime":"12 weeks"}'

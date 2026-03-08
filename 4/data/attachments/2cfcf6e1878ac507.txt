@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA0LjUzMjk5NSIsInVzZXJfaWQiOiI5ZTFmZWEwYS05MDk0LTRkMzctODI1My03OTM1MTc3ZWVlZmYifQ.aHMtFMwaO0HlNVqo_qVGcKmLBGeghWFAobEnxyXHTBw'\
+-h 'content-length: 262'\
+-h 'content-type: application/json'\
+-d '{"title":"Light research night picture.","courseId":"0d5042d9-3ac9-4ecc-8996-91b669ebeace","maxScore":88,"minScore":10,"orderIndex":4,"description":"Order prevent season teach. Necessary interest yard difficult six. Teach exist less.","estimatedTime":"18 weeks"}'

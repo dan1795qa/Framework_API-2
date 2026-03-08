@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTA4VDA4OjM5OjA1LjEyMTgyNyIsInVzZXJfaWQiOiIzY2I3ZWY2NC1iNzc0LTRkZjUtOTAwOC02YzdlYjg2ODhhMGUifQ.OiEqG5A7rgWPM4X4kwsMxiYjeZmNIYI9_0Zl2THpZLA'\
+-h 'content-length: 314'\
+-h 'content-type: application/json'\
+-d '{"title":"Kid never give back.","maxScore":94,"minScore":24,"description":"Exist street could attorney none. Subject which company.\nModel administration service finish far.","estimatedTime":"79 weeks","previewFileId":"e374129a-aa58-4e5c-9c19-0f6fba6a63cb","createdByUserId":"3cb7ef64-b774-4df5-9008-6c7eb8688a0e"}'
