@@ -123,6 +123,10 @@ jobs:
 
       - name: Prepare reports structure
         run: |
+          rm -rf gh-pages-deploy
+          mkdir -p gh-pages-deploy/allure gh-pages-deploy/reports
+          cp -r allure-history/* gh-pages-deploy/allure/
+          
           mkdir -p gh-pages/reports
           cp coverage-report/coverage.html gh-pages/reports/
 
@@ -132,4 +136,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: ./gh-pages-deploy
