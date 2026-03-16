@@ -1,4 +1,4 @@
-name: Api tests
+name: API tests
 
 on:
   push:
@@ -89,7 +89,7 @@ jobs:
           path: allure-results/
 
 
-  publish-report:
+  publish-allure:
     needs: [ run-tests ]
     runs-on: ubuntu-latest
     steps:
