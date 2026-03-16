@@ -49,6 +49,37 @@ jobs:
           pytest -m files --alluredir=allure-results --numprocesses=1
           pytest -m courses --alluredir=allure-results --numprocesses=1
           pytest -m exercises --alluredir=allure-results --numprocesses=1
+      #          pytest -m regression --alluredir=allure-results --numprocesses=1
+
+      # Восстанавливаем историю покрытия из кеша
+      - name: Restore Coverage history
+        uses: actions/cache/restore@v5
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history-
+
+      # Генерируем HTML-отчет и обновляем историю
+      - name: Generate Coverage report
+        run: |
+          swagger-coverage-tool save-report
+
+      # Сохраняем историю обратно в кеш
+      - name: Cache Coverage  history
+        if: always()
+        uses: actions/cache/save@v5
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+
+      # Загружаем HTML-отчет как артефакт
+      - name: Save Coverage report as artifact
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: coverage-report
+          path: coverage.html
 
       - name: Save Allure results as artifact
         if: always()
@@ -59,7 +90,7 @@ jobs:
 
 
   publish-report:
-    needs: run-tests
+    needs: [ run-tests ]
     runs-on: ubuntu-latest
     steps:
       - name: Download Allure results artifact
