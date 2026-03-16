@@ -120,11 +120,12 @@ jobs:
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           gh_pages: gh-pages
-          allure_history: gh-pages/allure-history  # Указываем каталог для истории отчётов
+          allure_history: allure-history  # Указываем каталог для истории отчётов
 
       - name: Prepare reports structure
         run: |
-          cp -r gh-pages/allure-history/* gh-pages/allure/ || true
+          mkdir -p gh-pages/allure
+          cp -r allure-history/* gh-pages/allure/
 
           mkdir -p gh-pages/reports
           cp coverage-report/coverage.html gh-pages/reports/
