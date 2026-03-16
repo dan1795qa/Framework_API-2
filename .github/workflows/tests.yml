@@ -119,6 +119,7 @@ jobs:
         if: always()  # Выполняем всегда
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
+          gh_pages: gh-pages/allure
           allure_history: allure-history  # Указываем каталог для истории отчётов
 
       - name: Prepare reports structure
