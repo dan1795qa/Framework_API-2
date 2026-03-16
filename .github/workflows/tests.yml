@@ -134,7 +134,7 @@ jobs:
     needs: [ run-tests, publish-allure ]
     runs-on: ubuntu-latest
     steps:
-      -
+
       - name: Download Coverage report
         uses: actions/download-artifact@v8
         with:
