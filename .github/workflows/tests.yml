@@ -124,6 +124,8 @@ jobs:
 
       - name: Prepare reports structure
         run: |
+          cp -r gh-pages/allure-history/* gh-pages/allure/ || true
+
           mkdir -p gh-pages/reports
           cp coverage-report/coverage.html gh-pages/reports/
 
