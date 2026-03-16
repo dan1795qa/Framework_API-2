@@ -122,19 +122,41 @@ jobs:
           gh_pages: gh-pages/allure
           allure_history: allure-history  # Указываем каталог для истории отчётов
 
-      - name: Prepare reports structure
-        run: |
-          rm -rf gh-pages-deploy
-          mkdir -p gh-pages-deploy/allure gh-pages-deploy/reports
-          cp -r allure-history/* gh-pages-deploy/allure/
-          
-          mkdir -p gh-pages/reports
-          cp coverage-report/coverage.html gh-pages/reports/
-
       - name: Deploy to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./gh-pages-deploy
+          publish_dir: allure-history
+
+  coverage-report:
+    needs: [ run-tests, publish-allure ]
+    runs-on: ubuntu-latest
+    steps:
+      -
+      - name: Download Coverage report
+        uses: actions/download-artifact@v8
+        with:
+          name: coverage-report
+          path: coverage-report
+
+      - name: Checkout existing gh-pages
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          path: gh-pages-content
+          fetch-depth: 0
+
+      - name: Merge Coverage into gh-pages
+        run: |
+          mkdir -p gh-pages-content/reports
+
+          cp coverage-report/coverage.html gh-pages-content/reports/
+
+      - name: Deploy Full Site (Allure + Coverage)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./gh-pages-content
