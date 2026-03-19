@@ -93,6 +93,14 @@ jobs:
     needs: [ run-tests ]
     runs-on: ubuntu-latest
     steps:
+      - name: Get Allure history
+        uses: actions/checkout@v6
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
       - name: Download Allure results artifact
         uses: actions/download-artifact@v8
         with:
@@ -104,15 +112,6 @@ jobs:
         with:
           name: coverage-report
           path: coverage-report
-
-      - name: Get Allure history
-        uses: actions/checkout@v6
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-
 
       - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение для генерации Allure отчёта
