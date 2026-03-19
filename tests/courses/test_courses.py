@@ -50,7 +50,7 @@ class TestCourses:
 
     @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.tag(AllureTag.UPDATE_ENTITY)
-    @allure.title("Update  course")
+    @allure.title("Update course")
     @allure.severity(Severity.CRITICAL)
     @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):

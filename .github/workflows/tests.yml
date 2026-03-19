@@ -107,18 +107,11 @@ jobs:
           name: allure-results
           path: allure-results
 
-      - name: Download Coverage report
-        uses: actions/download-artifact@v8
-        with:
-          name: coverage-report
-          path: coverage-report
-
       - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение для генерации Allure отчёта
         if: always()  # Выполняем всегда
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
-          gh_pages: gh-pages/allure
           allure_history: allure-history  # Указываем каталог для истории отчётов
 
       - name: Deploy to GitHub Pages
