@@ -10,8 +10,8 @@ venv/
 env/
 
 # allure
-allure_results
-allure_reports
+allure-results
+allure-reports
 
 ./utils/t1.py
 ./logs/
