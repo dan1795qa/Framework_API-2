@@ -153,6 +153,7 @@ jobs:
 
           cp coverage-report/coverage.html gh-pages-content/reports/
 
+
       - name: Deploy Full Site (Allure + Coverage)
         uses: peaceiris/actions-gh-pages@v4
         with:
