@@ -121,35 +121,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
-
-  coverage-report:
-    needs: [ run-tests, publish-allure ]
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Download Coverage report
-        uses: actions/download-artifact@v8
-        with:
-          name: coverage-report
-          path: coverage-report
-
-      - name: Checkout existing gh-pages
-        uses: actions/checkout@v6
-        with:
-          ref: gh-pages
-          path: gh-pages-content
-          fetch-depth: 0
-
-      - name: Merge Coverage into gh-pages
-        run: |
-          mkdir -p gh-pages-content/reports
-
-          cp coverage-report/coverage.html gh-pages-content/reports/
-
-
-      - name: Deploy Full Site (Allure + Coverage)
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./gh-pages-content
