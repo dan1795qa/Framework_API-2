@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.12'
+          python-version: '3.11'
 
       - name: Clone test server repository
         run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
@@ -44,11 +44,16 @@ jobs:
 
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m regression --alluredir=allure-results --numprocesses=2
+          pytest -m authentication --alluredir=allure-results --numprocesses=1
+          pytest -m users --alluredir=allure-results --numprocesses=1
+          pytest -m files --alluredir=allure-results --numprocesses=1
+          pytest -m courses --alluredir=allure-results --numprocesses=1
+          pytest -m exercises --alluredir=allure-results --numprocesses=1
+      #          pytest -m regression --alluredir=allure-results --numprocesses=1
 
       # Восстанавливаем историю покрытия из кеша
       - name: Restore Coverage history
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
@@ -63,54 +68,88 @@ jobs:
       # Сохраняем историю обратно в кеш
       - name: Cache Coverage  history
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
 
       # Загружаем HTML-отчет как артефакт
-      - name: Upload Coverage report
+      - name: Save Coverage report as artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: coverage-report
           path: coverage.html
 
-      - name: Upload Allure results
+      - name: Save Allure results as artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: allure-results
-          path: allure-results
+          path: allure-results/
 
-  publish-report:
+
+  publish-allure:
     needs: [ run-tests ]
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Get Allure history
+        uses: actions/checkout@v6
+        if: always()
+        continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Download Allure results
-        uses: actions/download-artifact@v4
+      - name: Download Allure results artifact
+        uses: actions/download-artifact@v8
         with:
           name: allure-results
           path: allure-results
 
       - name: Generate Allure Report with history
-        uses: simple-elf/allure-report-action@v1.12
-        if: always()
+        uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение для генерации Allure отчёта
+        if: always()  # Выполняем всегда
         with:
-          allure_results: allure-results
-          allure_history: allure-history
+          allure_results: allure-results  # Указываем каталог с результатами тестов
+          allure_history: allure-history  # Указываем каталог для истории отчётов
 
-      - name: Deploy report to Github Pages
+      - name: Deploy to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+
+  coverage-report:
+    needs: [ run-tests, publish-allure ]
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Download Coverage report
+        uses: actions/download-artifact@v8
+        with:
+          name: coverage-report
+          path: coverage-report
+
+      - name: Checkout existing gh-pages
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          path: gh-pages-content
+          fetch-depth: 0
+
+      - name: Merge Coverage into gh-pages
+        run: |
+          mkdir -p gh-pages-content/reports
+
+          cp coverage-report/coverage.html gh-pages-content/reports/
+
+
+      - name: Deploy Full Site (Allure + Coverage)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./gh-pages-content
