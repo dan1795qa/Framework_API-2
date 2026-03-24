@@ -91,33 +91,33 @@ jobs:
           path: allure-results/
 
 
-publish-allure:
-  needs: [run-tests]
-  runs-on: ubuntu-latest
-  env:
-    FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  publish-allure:
+    needs: [run-tests]
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-  steps:
-  - uses: actions/download-artifact@v6
-    with:
-      name: allure-results
-      path: allure-results
-
-
-  - name: Generate NEW Allure Report
-    uses: simple-elf/allure-report-action@v1.13
-    with:
-      allure_results: ./allure-results
+    steps:
+    - uses: actions/download-artifact@v6
+      with:
+        name: allure-results
+        path: allure-results
 
 
+    - name: Generate NEW Allure Report
+      uses: simple-elf/allure-report-action@v1.13
+      with:
+        allure_results: ./allure-results
 
-  - name: Deploy CLEAN gh-pages
-    uses: peaceiris/actions-gh-pages@v4
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_branch: gh-pages
-      publish_dir: ./
-      force_orphan: true
+
+
+    - name: Deploy CLEAN gh-pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./
+        force_orphan: true
 
 #  publish-allure:
 #    needs: [ run-tests ]
