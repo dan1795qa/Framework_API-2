@@ -91,42 +91,70 @@ jobs:
           path: allure-results/
 
 
-  publish-allure:
-    needs: [ run-tests ]
-    runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+publish-allure:
+  needs: [run-tests]
+  runs-on: ubuntu-latest
+  env:
+    FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-    steps:
-      - name: Get Allure history
-        uses: actions/checkout@v6
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-          submodules: false
+  steps:
+  - uses: actions/download-artifact@v6
+    with:
+      name: allure-results
+      path: allure-results
 
-      - name: Download Allure results artifact
-        uses: actions/download-artifact@v8
-        with:
-          name: allure-results
-          path: allure-results
 
-      - name: Generate Allure Report with history
-        uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение для генерации Allure отчёта
-        if: always()  # Выполняем всегда
-        with:
-          allure_results: allure-results  # Указываем каталог с результатами тестов
-          allure_history: allure-history  # Указываем каталог для истории отчётов
+  - name: Generate NEW Allure Report
+    uses: simple-elf/allure-report-action@v1.13
+    with:
+      allure_results: ./allure-results
 
-      - name: Deploy CLEAN gh-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./
-          force_orphan: true
+
+
+  - name: Deploy CLEAN gh-pages
+    uses: peaceiris/actions-gh-pages@v4
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      publish_branch: gh-pages
+      publish_dir: ./
+      force_orphan: true
+
+#  publish-allure:
+#    needs: [ run-tests ]
+#    runs-on: ubuntu-latest
+#    env:
+#      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+#
+#    steps:
+#      - name: Get Allure history
+#        uses: actions/checkout@v6
+#        if: always()
+#        continue-on-error: true
+#        with:
+#          ref: gh-pages
+#          path: gh-pages
+#          submodules: false
+#
+#      - name: Download Allure results artifact
+#        uses: actions/download-artifact@v8
+#        with:
+#          name: allure-results
+#          path: allure-results
+#
+#      - name: Generate Allure Report with history
+#        uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение для генерации Allure отчёта
+#        if: always()  # Выполняем всегда
+#        with:
+#          allure_results: allure-results  # Указываем каталог с результатами тестов
+#          allure_history: allure-history  # Указываем каталог для истории отчётов
+#
+#      - name: Deploy CLEAN gh-pages
+#        uses: peaceiris/actions-gh-pages@v4
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_branch: gh-pages
+#          publish_dir: ./
+#          force_orphan: true
 #      - name: Deploy to GitHub Pages
 #        if: always()
 #        uses: peaceiris/actions-gh-pages@v4
