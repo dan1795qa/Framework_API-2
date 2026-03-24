@@ -119,13 +119,6 @@ jobs:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов
 
-      - name: Deploy CLEAN gh-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./
-          force_orphan: true
       - name: Deploy to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
