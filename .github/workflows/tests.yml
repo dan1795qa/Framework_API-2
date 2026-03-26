@@ -46,12 +46,12 @@ jobs:
 
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m authentication --alluredir=allure-results --numprocesses=1
-          pytest -m users --alluredir=allure-results --numprocesses=1
-          pytest -m files --alluredir=allure-results --numprocesses=1
-          pytest -m courses --alluredir=allure-results --numprocesses=1
-          pytest -m exercises --alluredir=allure-results --numprocesses=1
-      #          pytest -m regression --alluredir=allure-results --numprocesses=1
+#          pytest -m authentication --alluredir=allure-results --numprocesses=1
+#          pytest -m users --alluredir=allure-results --numprocesses=1
+#          pytest -m files --alluredir=allure-results --numprocesses=1
+#          pytest -m courses --alluredir=allure-results --numprocesses=1
+#          pytest -m exercises --alluredir=allure-results --numprocesses=1
+          pytest -m regression --alluredir=allure-results --numprocesses=1
 
       # Восстанавливаем историю покрытия из кеша
       - name: Restore Coverage history
