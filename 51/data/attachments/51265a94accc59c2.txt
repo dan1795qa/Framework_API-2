@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjM5OjAzLjMxMjU1NiIsInVzZXJfaWQiOiI4ZDQ2ZWM4Mi1lNGY0LTQ1OWEtODI1ZC1lNzZkMGRkZmZkYmUifQ.LrcGxwvBrzqDXvpFZ_1PQv2KUsOcjjb9UOGuiSJOiio'\
+-h 'content-length: 417'\
+-h 'content-type: application/json'\
+-d '{"title":"Season finish democratic recently.","maxScore":71,"minScore":12,"description":"Follow owner suffer million safe almost. Officer site successful hard.\nRemember religious according student how myself manage. Music analysis maybe better area within. Course give throw.","estimatedTime":"52 weeks","previewFileId":"edb10450-381f-4d21-b148-8ab763e6334d","createdByUserId":"8d46ec82-e4f4-459a-825d-e76d0ddffdbe"}'

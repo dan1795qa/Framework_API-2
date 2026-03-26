@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjM5OjAzLjk5NjQzOCIsInVzZXJfaWQiOiI4NzJiZTJmNC03N2U2LTRmYTAtYTNjOS0xYzFmZTExZDZjZDMifQ.7XHmcpb8gXCM7DKMyMRryZoco1xuekpimzn3ssNiO5A'\
+-h 'content-length: 355'\
+-h 'content-type: application/json'\
+-d '{"title":"Security low boy attorney do herself one.","maxScore":67,"minScore":27,"description":"Idea including marriage especially sometimes. Central half tonight decision price certainly. Form husband per ability.","estimatedTime":"42 weeks","previewFileId":"9c5b3361-8617-4359-aa01-3e4cb16325b3","createdByUserId":"872be2f4-77e6-4fa0-a3c9-1c1fe11d6cd3"}'

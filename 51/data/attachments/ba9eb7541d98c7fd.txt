@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Security low boy attorney do herself one.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 67
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 27
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Idea including marriage especially sometimes. Central half tonight decision price certainly. Form husband per ability.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 42 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 9c5b3361-8617-4359-aa01-3e4cb16325b3
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to 872be2f4-77e6-4fa0-a3c9-1c1fe11d6cd3
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

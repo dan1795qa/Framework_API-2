@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjM5OjAyLjYzMjU0MiIsInVzZXJfaWQiOiJmMGM0ZjgyOS0wYTM2LTRjMzEtOTg3NC0yM2RiNzA2NjRlMGUifQ.PiWy0aSxz-YvgJmZkXc4Ic_qhfxQR3eo7rvypuE9nM8'\
+-h 'content-length: 333'\
+-h 'content-type: application/json'\
+-d '{"title":"Start election project in other next myself.","maxScore":87,"minScore":1,"description":"Star stand catch why. Pm prepare two box put suddenly night. Hit risk out fine spend campaign.","estimatedTime":"15 weeks","previewFileId":"2b930d09-5dce-4c4e-a287-6c4f6bebadf8","createdByUserId":"f0c4f829-0a36-4c31-9874-23db70664e0e"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/5dd69501-1e3e-4bb5-bae4-9da8947f9fa5'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjM5OjAzLjMxMjU1NiIsInVzZXJfaWQiOiI4ZDQ2ZWM4Mi1lNGY0LTQ1OWEtODI1ZC1lNzZkMGRkZmZkYmUifQ.LrcGxwvBrzqDXvpFZ_1PQv2KUsOcjjb9UOGuiSJOiio'\
+-h 'content-length: 279'\
+-h 'content-type: application/json'\
+-d '{"title":"For which improve church.","maxScore":89,"minScore":11,"description":"Sea sure page week church. Ability drive fund mention month health. Participant protect training officer reality own.\nSame lawyer at appear certain poor. News rich race.","estimatedTime":"71 weeks"}'
