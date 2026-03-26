@@ -54,13 +54,13 @@ jobs:
       #          pytest -m regression --alluredir=allure-results --numprocesses=1
 
       # Восстанавливаем историю покрытия из кеша
-#      - name: Restore Coverage history
-#        uses: actions/cache/restore@v5
-#        with:
-#          path: coverage-history.json
-#          key: coverage-history-${{ github.run_id }}
-#          restore-keys: |
-#            coverage-history-
+      - name: Restore Coverage history
+        uses: actions/cache/restore@v5
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history-
 
       # Генерируем HTML-отчет и обновляем историю
       - name: Generate Coverage report
