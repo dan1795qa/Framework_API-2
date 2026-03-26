@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjU1LjgxOTM3NSIsInVzZXJfaWQiOiIxZGI1NjQ1Ni03YjQxLTQ3YTUtODg3My00MmQ2ZTc5MjMxN2EifQ.G7G0YR1mfFErB-JGOsdAEtl0L5nFK6zK0yzICadI7xk'\
+-h 'content-length: 388'\
+-h 'content-type: application/json'\
+-d '{"title":"Specific sure world it they news.","maxScore":72,"minScore":25,"description":"Suffer situation prove standard tend condition however. Much rock health blood certain own Republican. South first air social structure religious before score.","estimatedTime":"78 weeks","previewFileId":"e2c70610-7a9e-4c22-89ba-e84e6726e02f","createdByUserId":"1db56456-7b41-47a5-8873-42d6e792317a"}'

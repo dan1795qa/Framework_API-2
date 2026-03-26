@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjU2LjQ4NzMxNyIsInVzZXJfaWQiOiJlZGUyNzZhOS1mOWFmLTQ1NDktYTA0Zi05ODliN2Q1NmQ5MTgifQ.0tDumxNPDHaqU2qMd6VsCxznp2YGaCbWh91SACfLowU'\
+-h 'content-length: 421'\
+-h 'content-type: application/json'\
+-d '{"title":"Government amount necessary require.","maxScore":95,"minScore":6,"description":"Color reason him available marriage. Long bank look fast decision.\nTv north sure someone security article man. Find participant seem smile player. South game so else population market free.","estimatedTime":"88 weeks","previewFileId":"aa89fe70-6045-482d-bd68-54d963960656","createdByUserId":"ede276a9-f9af-4549-a04f-989b7d56d918"}'

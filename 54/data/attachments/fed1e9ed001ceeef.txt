@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjUwLjIyMDczOSIsInVzZXJfaWQiOiI3NWM3ZDE3Mi05ZjQ0LTQ4ZmEtOWI4Ni03MWM3ZmQzMmU4MTUifQ.yRoFWI94abwHSEVpryPzV2BUjYlbkeU0WF4tYRy2veo'\
+-h 'content-length: 405'\
+-h 'content-type: application/json'\
+-d '{"title":"Well once tend vote.","maxScore":65,"minScore":14,"description":"Different detail myself build bill. Practice likely edge identify wonder. Road security organization peace.\nTrue exactly itself task politics force police idea. Suffer impact natural item.","estimatedTime":"72 weeks","previewFileId":"1221ab38-28aa-4955-8d73-6ac5dd1dc90e","createdByUserId":"75c7d172-9f44-48fa-9b86-71c7fd32e815"}'

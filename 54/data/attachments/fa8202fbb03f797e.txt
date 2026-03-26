@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjUzLjgwNzgzMiIsInVzZXJfaWQiOiI2Y2U0Yzc4YS1iOThkLTQ4OWUtYTBmMC0zNGNiNTE4NzU3YjEifQ.4l02W-wPTNIIIqeehz9hjWctQqLGkGxUrfd27sToS0o'\
+-h 'content-length: 339'\
+-h 'content-type: application/json'\
+-d '{"title":"Seek imagine policy skill goal western policy director.","maxScore":61,"minScore":7,"description":"Serve key hit him.\nOld long memory near. Police range step include successful everybody.","estimatedTime":"18 weeks","previewFileId":"87f63013-7462-48e1-8aa9-a83f647cc438","createdByUserId":"6ce4c78a-b98d-489e-a0f0-34cb518757b1"}'

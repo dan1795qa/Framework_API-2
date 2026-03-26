@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjU1LjE0NTc4NCIsInVzZXJfaWQiOiI5ZWQ3ODY5Ny1iNDBhLTQ0M2EtYmJhNy1mNGI3MWJkMWNhNWEifQ.dCrk9qD8cDd29mAW7DSox2y_yf9yDxMpcyQwMyRxZtc'\
+-h 'content-length: 404'\
+-h 'content-type: application/json'\
+-d '{"title":"Sell everything religious language building south west.","courseId":"75426688-4b93-4dbe-b503-98126d811376","maxScore":82,"minScore":27,"orderIndex":96,"description":"Kitchen write medical modern writer specific. Left writer former not forward. Election series than whole song training political song.\nBill various job let here. Drive network short member security.","estimatedTime":"69 weeks"}'

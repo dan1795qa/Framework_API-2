@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjU0LjQ3NTI4OCIsInVzZXJfaWQiOiJlNGViNGU0YS0yNmI5LTQyYjEtYjdkNi0wZTRkOTY1NzQ2MzYifQ.2uwiyKueJk6CmKAViLPQWcemhalO0VZcne-i_Ytih5U'\
+-h 'content-length: 365'\
+-h 'content-type: application/json'\
+-d '{"title":"Especially threat indicate over.","maxScore":78,"minScore":29,"description":"Yeah turn mother safe exist rule attention. Hour into camera present both. Smile successful during thought piece community room security.","estimatedTime":"50 weeks","previewFileId":"024edfbd-9919-4c37-9f90-4ca5c1ce8a4e","createdByUserId":"e4eb4e4a-26b9-42b1-b7d6-0e4d96574636"}'

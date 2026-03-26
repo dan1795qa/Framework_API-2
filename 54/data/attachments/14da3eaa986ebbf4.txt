@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjU1LjgxOTM3NSIsInVzZXJfaWQiOiIxZGI1NjQ1Ni03YjQxLTQ3YTUtODg3My00MmQ2ZTc5MjMxN2EifQ.G7G0YR1mfFErB-JGOsdAEtl0L5nFK6zK0yzICadI7xk'\
+-h 'content-length: 361'\
+-h 'content-type: application/json'\
+-d '{"title":"Role example bit agency southern.","courseId":"d56ce6ee-e926-4b23-9fa3-081ae3961776","maxScore":94,"minScore":17,"orderIndex":25,"description":"White east surface behind. Current while decade training leg owner because pull.\nMaybe argue thank I ten. Heavy issue owner year build born feel. Teach value future couple stay.","estimatedTime":"95 weeks"}'

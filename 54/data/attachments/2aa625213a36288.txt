@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjUzLjgwNzgzMiIsInVzZXJfaWQiOiI2Y2U0Yzc4YS1iOThkLTQ4OWUtYTBmMC0zNGNiNTE4NzU3YjEifQ.4l02W-wPTNIIIqeehz9hjWctQqLGkGxUrfd27sToS0o'\
+-h 'content-length: 283'\
+-h 'content-type: application/json'\
+-d '{"title":"Market mean expect.","courseId":"3612cd64-870f-4b7e-8058-769210cade7b","maxScore":63,"minScore":20,"orderIndex":40,"description":"Threat add individual tend. Skin including face development edge community. Remain quickly easy last concern yeah.","estimatedTime":"60 weeks"}'

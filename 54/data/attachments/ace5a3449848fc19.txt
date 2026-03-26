@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/202ed672-9715-41e1-8d45-cc07aafdfc5f'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjUwLjg5NDc0MyIsInVzZXJfaWQiOiIwOWM0ZmE0MS03NGZlLTQyNGEtOTEwZi02YWE3MGE3ODcwMDQifQ.LAt95D69SzxNyNFvVpWZyp3CWU-R1QRtRCJ7ZtpHQYY'\
+-h 'content-length: 244'\
+-h 'content-type: application/json'\
+-d '{"title":"It investment feel bit several true.","maxScore":58,"minScore":17,"description":"Stock state house free share rule. Carry place eight build specific. Particularly later either moment age majority decision.","estimatedTime":"63 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQ4OjU1LjE0NTc4NCIsInVzZXJfaWQiOiI5ZWQ3ODY5Ny1iNDBhLTQ0M2EtYmJhNy1mNGI3MWJkMWNhNWEifQ.dCrk9qD8cDd29mAW7DSox2y_yf9yDxMpcyQwMyRxZtc'\
+-h 'content-length: 425'\
+-h 'content-type: application/json'\
+-d '{"title":"Determine clearly note letter.","maxScore":72,"minScore":30,"description":"Major discuss even notice official. Leader choice many always grow. Child executive condition threat civil news.\nCoach police chair international. Develop next him wish democratic care notice field.","estimatedTime":"28 weeks","previewFileId":"41c4764f-f339-4333-8474-12a88085b928","createdByUserId":"9ed78697-b40a-443a-bba7-f4b71bd1ca5a"}'
