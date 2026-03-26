@@ -53,7 +53,7 @@ jobs:
 #          pytest -m exercises --alluredir=allure-results --numprocesses=1
       #          pytest -m regression --alluredir=allure-results --numprocesses=1
 
-      # Восстанавливаем историю покрытия из кеша
+      # Восстанавливаем  историю покрытия из кеша
       - name: Restore Coverage history
         uses: actions/cache/restore@v5
         with:
