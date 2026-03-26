@@ -113,7 +113,7 @@ jobs:
 
       - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@v1.13  # Используем готовое решение для генерации Allure отчёта
-        if: always()  # Выполняем всегда
+        if: always()  #  Выполняем всегда
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов
