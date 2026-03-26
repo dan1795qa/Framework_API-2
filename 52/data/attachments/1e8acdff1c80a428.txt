@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA1LjkxNDgyOSIsInVzZXJfaWQiOiIyYjRjNzc4YS00ZWE2LTRhYmMtOGI4ZS0yNmJiNjYxNTkwN2MifQ.3zaTl5otzFRaMl6Xsxye_Lyd_xBWso68kUbe5eZDtJU'\
+-h 'content-length: 323'\
+-h 'content-type: application/json'\
+-d '{"title":"Behind value wind single decide.","maxScore":79,"minScore":14,"description":"Central cup particularly nature some stay. Computer return stuff majority old theory bar trade.","estimatedTime":"20 weeks","previewFileId":"b69cfe55-fb93-4b91-bcda-eab6d601681b","createdByUserId":"2b4c778a-4ea6-4abc-8b8e-26bb6615907c"}'

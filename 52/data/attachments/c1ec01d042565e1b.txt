@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjAxLjY1OTE2NyIsInVzZXJfaWQiOiI3YTI3NmViOS1lNmUwLTQ4YzEtODIwOC00OTE3MTUzMDRiYTQifQ.FCu5hUr2GgvSep8EdXHGE7BSeZ4G_cUIyJZXwVJrqhY'\
+-h 'content-length: 392'\
+-h 'content-type: application/json'\
+-d '{"title":"Threat agent animal fire.","maxScore":54,"minScore":5,"description":"Live one specific training cold. There task church clearly interview. Then turn which arm.\nScene admit have take. Under machine bag case individual. Room over power since.","estimatedTime":"43 weeks","previewFileId":"afdf80b7-5a0a-408e-85d6-c71fcdd3db8a","createdByUserId":"7a276eb9-e6e0-48c1-8208-491715304ba4"}'

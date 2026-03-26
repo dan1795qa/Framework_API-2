@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA3LjI0ODkxNiIsInVzZXJfaWQiOiJmZTVjOWM2NS04YzMxLTQyNDEtOTZkMS0zMWI3NGIyZGNjMTAifQ.qEh5CFmTQNH3XLuLtU6ohXPlYjh9MWdY7OPy5bOS5Hw'\
+-h 'content-length: 343'\
+-h 'content-type: application/json'\
+-d '{"title":"Own accept reach test great home fact.","courseId":"08b9cf01-9610-4b27-89b7-1d2b7af903a5","maxScore":70,"minScore":6,"orderIndex":81,"description":"Surface professional high few have amount. Successful daughter control scientist raise despite.\nAmong think design inside. Four all note which she personal.","estimatedTime":"2 weeks"}'

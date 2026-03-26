@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjAzLjAwNzYyMSIsInVzZXJfaWQiOiI1OWIwZmZiOS04MmE4LTQ2MGItOTFlNy02YjNlNjQ5MTQ1MzAifQ.6j0iC-u2GF3HMqLzRQ_kgp00LbftkftAWhnJxzOumkA'\
+-h 'content-length: 347'\
+-h 'content-type: application/json'\
+-d '{"title":"Minute service clearly thus.","maxScore":100,"minScore":11,"description":"End get name contain need ago. Would brother indeed kitchen continue.\nWhen early major especially score. Nor agree thank.","estimatedTime":"10 weeks","previewFileId":"ec79c9c3-0206-4e45-a0e5-0464847a9b00","createdByUserId":"59b0ffb9-82a8-460b-91e7-6b3e64914530"}'

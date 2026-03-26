@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA3LjkxNTcyNyIsInVzZXJfaWQiOiI3OTdkZjIyYi1hZTc2LTRmZDMtYTdkMy05M2JjOTc0OGQ0ZWYifQ.c6LnC1_MqxLswu57w5Dsz1P5zYd8dN7GN3xXhRIpxL0'\
+-h 'content-length: 410'\
+-h 'content-type: application/json'\
+-d '{"title":"Area how ball history enough.","maxScore":98,"minScore":11,"description":"Road wear them culture. Simple source consider.\nMeasure staff bit. Owner career per sometimes music tonight. Radio always central small treatment. War maybe set benefit available year.","estimatedTime":"16 weeks","previewFileId":"0c9c5586-7512-4573-8bac-0b678a30c2e7","createdByUserId":"797df22b-ae76-4fd3-a7d3-93bc9748d4ef"}'

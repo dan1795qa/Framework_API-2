@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA3LjkxNTcyNyIsInVzZXJfaWQiOiI3OTdkZjIyYi1hZTc2LTRmZDMtYTdkMy05M2JjOTc0OGQ0ZWYifQ.c6LnC1_MqxLswu57w5Dsz1P5zYd8dN7GN3xXhRIpxL0'\
+-h 'content-length: 327'\
+-h 'content-type: application/json'\
+-d '{"title":"In thought mother close.","courseId":"6f727355-381a-42b3-8341-69b17896e3d2","maxScore":69,"minScore":24,"orderIndex":60,"description":"Work leg this product. Any case dinner else image forward somebody.\nPossible top science computer. Thank strategy home score strategy their miss letter.","estimatedTime":"58 weeks"}'

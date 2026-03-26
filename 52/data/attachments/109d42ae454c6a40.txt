@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Minute service clearly thus.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 100
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 11
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to End get name contain need ago. Would brother indeed kitchen continue.
+When early major especially score. Nor agree thank.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to ec79c9c3-0206-4e45-a0e5-0464847a9b00
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to 59b0ffb9-82a8-460b-91e7-6b3e64914530
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

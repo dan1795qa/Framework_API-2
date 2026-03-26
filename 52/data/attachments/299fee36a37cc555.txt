@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA1LjkxNDgyOSIsInVzZXJfaWQiOiIyYjRjNzc4YS00ZWE2LTRhYmMtOGI4ZS0yNmJiNjYxNTkwN2MifQ.3zaTl5otzFRaMl6Xsxye_Lyd_xBWso68kUbe5eZDtJU'\
+-h 'content-length: 345'\
+-h 'content-type: application/json'\
+-d '{"title":"Yet feeling challenge tree war effort hour.","courseId":"042e2521-7299-463d-b997-cedf090352bb","maxScore":62,"minScore":2,"orderIndex":17,"description":"Watch policy pull fast. Growth summer state industry seat big.\nThing fall man candidate reality smile similar. Walk realize tree public small available.","estimatedTime":"82 weeks"}'

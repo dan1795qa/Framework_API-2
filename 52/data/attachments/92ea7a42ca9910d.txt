@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA1LjIzNTc2OSIsInVzZXJfaWQiOiI5OTBiYTNhZC1jNzU2LTRkMjktOWU3MS05M2U4ZWMzNzQyMTkifQ.S78VSZDLWVOCWA0cK89m92uED1jCS-2y0SMKSWxBoFs'\
+-h 'content-length: 329'\
+-h 'content-type: application/json'\
+-d '{"title":"Think get them become.","courseId":"fd5d376a-b9e4-4ea5-ab3c-d200d4e39a23","maxScore":95,"minScore":24,"orderIndex":42,"description":"Look even buy consider to. Approach door information every.\nSeveral cup political produce mention. Tonight west sit yard. Sell leader floor blue common guy.","estimatedTime":"49 weeks"}'

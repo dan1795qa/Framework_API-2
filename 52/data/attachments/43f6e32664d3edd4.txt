@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA3LjI0ODkxNiIsInVzZXJfaWQiOiJmZTVjOWM2NS04YzMxLTQyNDEtOTZkMS0zMWI3NGIyZGNjMTAifQ.qEh5CFmTQNH3XLuLtU6ohXPlYjh9MWdY7OPy5bOS5Hw'\
+-h 'content-length: 407'\
+-h 'content-type: application/json'\
+-d '{"title":"Candidate now everything another field.","maxScore":79,"minScore":5,"description":"Option table lot down dream.\nAdult professor read agree do. Couple she in front fill deal subject.\nFor certainly develop hour support. Cause baby new collection rise long.","estimatedTime":"45 weeks","previewFileId":"8aa5991f-dd6f-4995-a330-4ab2728f523e","createdByUserId":"fe5c9c65-8c31-4241-96d1-31b74b2dcc10"}'

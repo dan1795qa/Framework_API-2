@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA2LjU4MjQxOCIsInVzZXJfaWQiOiIxNDBmODc5YS1hMzQ2LTRjYjEtYmJiYi0xOWVhYzY3MmJjNjkifQ.zehh_lY-M8XkswH1r7ZaCEIS0wYrt06dhGYMHwSjypA'\
+-h 'content-length: 403'\
+-h 'content-type: application/json'\
+-d '{"title":"This science nature its us health table.","maxScore":97,"minScore":29,"description":"Experience be sure break wind. Author program recently up well impact hand.\nSomebody person any skill. Outside wish lay prevent run parent soon. Grow star early tend.","estimatedTime":"31 weeks","previewFileId":"9ed0a017-175c-4ba6-ae84-58d2b7af64c3","createdByUserId":"140f879a-a346-4cb1-bbbb-19eac672bc69"}'

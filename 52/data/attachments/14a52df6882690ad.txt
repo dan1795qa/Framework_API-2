@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjAyLjMzNTY5OSIsInVzZXJfaWQiOiJjMDkzNmMwYi0yNDc1LTRkYmUtYjZkZi1lYmRjOGJmMTlmYjkifQ.8IsQ9h8YekizOzJlBrBRc9NcFhHUL-mWwqFZ5hJP5jw'\
+-h 'content-length: 361'\
+-h 'content-type: application/json'\
+-d '{"title":"Ability across thousand focus.","maxScore":95,"minScore":8,"description":"Must during yet respond. Five also others sit.\nSeveral turn house world state strategy must. Many subject real increase. Sell go wrong.","estimatedTime":"35 weeks","previewFileId":"2909f21a-8805-47dd-8731-0b7c4be760f2","createdByUserId":"c0936c0b-2475-4dbe-b6df-ebdc8bf19fb9"}'

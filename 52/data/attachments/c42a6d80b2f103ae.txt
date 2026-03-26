@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/08c39a05-0c94-461c-99d2-7d0763708615'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA2LjU4MjQxOCIsInVzZXJfaWQiOiIxNDBmODc5YS1hMzQ2LTRjYjEtYmJiYi0xOWVhYzY3MmJjNjkifQ.zehh_lY-M8XkswH1r7ZaCEIS0wYrt06dhGYMHwSjypA'\
+-h 'content-length: 246'\
+-h 'content-type: application/json'\
+-d '{"title":"Election partner rise plant reason they.","maxScore":79,"minScore":17,"orderIndex":35,"description":"Teacher affect throughout. Fine decision plan most seven. Training series ball push radio big hope charge.","estimatedTime":"84 weeks"}'

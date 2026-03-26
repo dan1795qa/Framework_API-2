@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA2LjU4MjQxOCIsInVzZXJfaWQiOiIxNDBmODc5YS1hMzQ2LTRjYjEtYmJiYi0xOWVhYzY3MmJjNjkifQ.zehh_lY-M8XkswH1r7ZaCEIS0wYrt06dhGYMHwSjypA'\
+-h 'content-length: 337'\
+-h 'content-type: application/json'\
+-d '{"title":"Action including technology.","courseId":"9a7a985f-2a31-429a-b64e-e5c9b7cd3471","maxScore":62,"minScore":21,"orderIndex":82,"description":"Case goal world lay whole. Understand floor pass very focus final bill every.\nThought blood open expect goal admit. Seven name author culture watch other born.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjA1LjIzNTc2OSIsInVzZXJfaWQiOiI5OTBiYTNhZC1jNzU2LTRkMjktOWU3MS05M2U4ZWMzNzQyMTkifQ.S78VSZDLWVOCWA0cK89m92uED1jCS-2y0SMKSWxBoFs'\
+-h 'content-length: 360'\
+-h 'content-type: application/json'\
+-d '{"title":"Own part long who fast.","maxScore":77,"minScore":17,"description":"Worker age parent mouth I improve should. Party even themselves.\nReally about population because. Week campaign measure pretty able current.","estimatedTime":"55 weeks","previewFileId":"01b75169-1fff-4dfa-b830-9759006ed0bd","createdByUserId":"990ba3ad-c756-4d29-9e71-93e8ec374219"}'

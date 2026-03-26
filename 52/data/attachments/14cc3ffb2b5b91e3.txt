@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/f3a11de9-5bd0-441e-bd69-998d6191314d'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI2VDIxOjQyOjAyLjMzNTY5OSIsInVzZXJfaWQiOiJjMDkzNmMwYi0yNDc1LTRkYmUtYjZkZi1lYmRjOGJmMTlmYjkifQ.8IsQ9h8YekizOzJlBrBRc9NcFhHUL-mWwqFZ5hJP5jw'\
+-h 'content-length: 256'\
+-h 'content-type: application/json'\
+-d '{"title":"Mother every week my war.","maxScore":100,"minScore":17,"description":"Race a end thank instead. House nation will skin.\nDefense event soon many bad culture finally. Stop be door adult result. College age rise black.","estimatedTime":"57 weeks"}'
