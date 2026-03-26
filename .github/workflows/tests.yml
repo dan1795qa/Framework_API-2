@@ -93,6 +93,8 @@ jobs:
   publish-allure:
     needs: [ run-tests ]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -117,6 +119,10 @@ jobs:
         with:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов
+
+      # ✅ .nojekyll для Pages + коммит!
+      - name: Create .nojekyll
+        run: touch .nojekyll
 
       - name: Deploy to GitHub Pages
         if: always()
