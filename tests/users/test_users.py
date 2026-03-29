@@ -67,3 +67,19 @@ class TestUsers:
         assert_get_user_response(response_data, function_user.response)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+
+    @allure.tag(AllureTag.GET_ENTITY)
+    @allure.story(AllureStory.GET_ENTITY)
+    @allure.title("Get user view")
+    @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
+    def test_get_user_me(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
+        response = private_users_client.get_user_api(function_user.response.user.id)
+        response_data = GetUserResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_get_user_response(response_data, function_user.response)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
