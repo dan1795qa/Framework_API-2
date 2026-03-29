@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQ0Ljc5NzYzMiIsInVzZXJfaWQiOiIyMzkyNTc1My00MTMyLTQwNzktOGVmNC0zOWE0ZTBiYTUyZmUifQ.-mbHeiGZTjjDFuEgsLD99fYkIQouthUcOICxZeQrQV4'\
+-h 'content-length: 336'\
+-h 'content-type: application/json'\
+-d '{"title":"Six choose program attention nothing.","maxScore":57,"minScore":19,"description":"Join raise order should. Effect rather wrong particularly develop. Take report former mention company.","estimatedTime":"100 weeks","previewFileId":"05bd2e78-3919-4751-b03b-0ef29a8167ac","createdByUserId":"23925753-4132-4079-8ef4-39a4e0ba52fe"}'

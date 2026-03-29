@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQyLjE0Njg1MCIsInVzZXJfaWQiOiI2NTcwZDRiZS1mODc1LTQzMmEtOWNmYy1kNWM3NDgwNmFiZmEifQ.N91L69mzziSpO0klOsB94fY-BFOC__9CLOgWsOBnaOw'\
+-h 'content-length: 351'\
+-h 'content-type: application/json'\
+-d '{"title":"Soldier back street part surface possible.","courseId":"1a076b25-db53-48da-b93c-a6604f2fe090","maxScore":88,"minScore":1,"orderIndex":54,"description":"Sort agency camera quite onto. Maybe position past human defense degree college blue.\nCentral page heavy. Everything where couple Mr body. Work once school no.","estimatedTime":"71 weeks"}'

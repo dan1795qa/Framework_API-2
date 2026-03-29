@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQzLjQ3MTgzNSIsInVzZXJfaWQiOiJlYTFjNWYzMi1lNDJlLTQzMzUtYTU0NC05NTYzZTdkNTJhMTkifQ.f5lfjvPBSPk7Zm3lTQzRpxPqHb0HxyzLq3973oTNbgw'\
+-h 'content-length: 259'\
+-h 'content-type: application/json'\
+-d '{"title":"Ahead rule nice grow red.","courseId":"b3914724-67c7-4367-a6cf-680f3083cb4d","maxScore":89,"minScore":16,"orderIndex":81,"description":"Water believe player quite argue not. Tax trip miss all. Notice information be much.","estimatedTime":"30 weeks"}'

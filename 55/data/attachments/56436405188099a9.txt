@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/7a296f0d-3e7c-4ece-9d5f-23dad77dfd55
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/7a296f0d-3e7c-4ece-9d5f-23dad77dfd55
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 7a296f0d-3e7c-4ece-9d5f-23dad77dfd55
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Art money individual hotel compare.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to 52f924ba-f704-47c5-838e-89096f22e5dd
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 66
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 14
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 73
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Between student which customer. Agree along with focus.
+Wall together keep four. About yard everyone next everybody west responsibility identify.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 29 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

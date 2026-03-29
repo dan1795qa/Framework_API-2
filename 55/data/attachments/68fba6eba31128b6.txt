@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjM5Ljk2MDc0MSIsInVzZXJfaWQiOiI0N2ZlMmVlYy1jYjgzLTRjNTgtYmI4Yy04YmI0ZmY5NjMyMDIifQ.Uq8JnYqUBbeetRZWSIx8eozAdU3254Mn1-rE8a9MD1w'\
+-h 'content-length: 381'\
+-h 'content-type: application/json'\
+-d '{"title":"Page few night fish suffer.","maxScore":54,"minScore":4,"description":"Daughter fall choose myself. Cut however professor end ever.\nTend section north mention fish economic push TV. Environment into participant hotel decade read.","estimatedTime":"30 weeks","previewFileId":"5a223d22-d935-47bd-938c-386a5b207d8f","createdByUserId":"47fe2eec-cb83-4c58-bb8c-8bb4ff963202"}'

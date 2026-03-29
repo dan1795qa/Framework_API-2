@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/30ecd41a-5321-4130-841c-a0619c8c401c'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjM5LjI5MzA0OSIsInVzZXJfaWQiOiJmYThiODIxOS0yOGJmLTRiM2YtYWNiMC1lZWRhNTVkZDNjZmQifQ.VTWQVXKzxzGpmb38ywb-SP1NpBWQxZmjjJK3v_BNxfE'\
+-h 'content-length: 216'\
+-h 'content-type: application/json'\
+-d '{"title":"Air perhaps task general benefit tell call.","maxScore":100,"minScore":18,"description":"Community month politics budget majority whole Republican in. Her hour contain attorney.","estimatedTime":"14 weeks"}'

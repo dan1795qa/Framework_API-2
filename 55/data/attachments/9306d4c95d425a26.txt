@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjM4LjYyMzQ0OCIsInVzZXJfaWQiOiJlNTIyZTg0MC1kMGRlLTRhMGQtYTcxOC1hMDdkYjFmZTMwNTYifQ.XicJp2qkIWofdA5S7eG3hqtcSH-nGInsb-bD3zug68k'\
+-h 'content-length: 358'\
+-h 'content-type: application/json'\
+-d '{"title":"Environment policy seem.","maxScore":83,"minScore":30,"description":"Agent outside mind building method stage. Prove even country white huge small notice despite. Reveal probably present myself decide follow.","estimatedTime":"6 weeks","previewFileId":"221ea260-02e1-49c5-8c0f-3e1a223cd762","createdByUserId":"e522e840-d0de-4a0d-a718-a07db1fe3056"}'

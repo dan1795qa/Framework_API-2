@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQ0LjEzNjQ1MCIsInVzZXJfaWQiOiJiOWYxY2Y3My02YmUwLTQ2NWYtYjJhZi0wMTM2NzVmN2IzYTgifQ.Lu-6rfShy-AdjZKh7lwqHNGIEvXgos2cjwVbl_HlCGY'\
+-h 'content-length: 409'\
+-h 'content-type: application/json'\
+-d '{"title":"Budget national population.","maxScore":54,"minScore":13,"description":"Star themselves act. Serious per down focus start know lawyer. Turn week your life sit party on.\nNatural long board office policy matter. Personal thank away. Little idea make audience.","estimatedTime":"32 weeks","previewFileId":"2e8fb48c-46f4-4cf8-8c12-8aed9956e322","createdByUserId":"b9f1cf73-6be0-465f-b2af-013675f7b3a8"}'

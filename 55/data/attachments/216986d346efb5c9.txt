@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQ0Ljc5NzYzMiIsInVzZXJfaWQiOiIyMzkyNTc1My00MTMyLTQwNzktOGVmNC0zOWE0ZTBiYTUyZmUifQ.-mbHeiGZTjjDFuEgsLD99fYkIQouthUcOICxZeQrQV4'\
+-h 'content-length: 372'\
+-h 'content-type: application/json'\
+-d '{"title":"Eye degree thus behavior.","courseId":"3df0bd26-18a2-400f-850e-559db7ed7df3","maxScore":67,"minScore":23,"orderIndex":74,"description":"Interest reality prevent among list cut. Discover success many big through over week. His focus reveal that step single.\nTraining look take power event. Explain upon yet keep clearly too marriage.","estimatedTime":"72 weeks"}'

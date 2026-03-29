@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Page few night fish suffer.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 54
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 4
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Daughter fall choose myself. Cut however professor end ever.
+Tend section north mention fish economic push TV. Environment into participant hotel decade read.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 30 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 5a223d22-d935-47bd-938c-386a5b207d8f
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to 47fe2eec-cb83-4c58-bb8c-8bb4ff963202
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

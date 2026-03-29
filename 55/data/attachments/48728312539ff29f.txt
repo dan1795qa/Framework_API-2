@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQyLjE0Njg1MCIsInVzZXJfaWQiOiI2NTcwZDRiZS1mODc1LTQzMmEtOWNmYy1kNWM3NDgwNmFiZmEifQ.N91L69mzziSpO0klOsB94fY-BFOC__9CLOgWsOBnaOw'\
+-h 'content-length: 437'\
+-h 'content-type: application/json'\
+-d '{"title":"Teacher across rise end assume religious relate.","maxScore":57,"minScore":23,"description":"Weight sea bank more. Half son mind piece decision long miss. Author standard world contain today least role.\nUsually low explain do action year else window. Tough production threat agreement.","estimatedTime":"81 weeks","previewFileId":"c50741e7-2b4f-4aa4-8c7c-7fd5225eff7c","createdByUserId":"6570d4be-f875-432a-9cfc-d5c74806abfa"}'

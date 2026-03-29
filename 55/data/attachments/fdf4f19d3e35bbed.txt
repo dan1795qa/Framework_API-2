@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQzLjQ3MTgzNSIsInVzZXJfaWQiOiJlYTFjNWYzMi1lNDJlLTQzMzUtYTU0NC05NTYzZTdkNTJhMTkifQ.f5lfjvPBSPk7Zm3lTQzRpxPqHb0HxyzLq3973oTNbgw'\
+-h 'content-length: 398'\
+-h 'content-type: application/json'\
+-d '{"title":"Growth population guess eat yourself century.","maxScore":82,"minScore":13,"description":"Carry ability present. Ask image plant agreement defense.\nNorth might girl article. Marriage company worker ball natural.\nJob himself adult national there.","estimatedTime":"12 weeks","previewFileId":"919c5c85-0129-4fbf-b548-f87e2439854c","createdByUserId":"ea1c5f32-e42e-4335-a544-9563e7d52a19"}'

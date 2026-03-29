@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjQyLjgwODY3NyIsInVzZXJfaWQiOiJhYzljZGIwMy05MGViLTRiODMtYTdkNS0yZTFkNTZlMGY3NGUifQ.iBxAMZFg3Bu2YkJOYymMuB27pJzHx0YpOxl_dnMeszo'\
+-h 'content-length: 331'\
+-h 'content-type: application/json'\
+-d '{"title":"Art money individual hotel compare.","courseId":"52f924ba-f704-47c5-838e-89096f22e5dd","maxScore":66,"minScore":14,"orderIndex":73,"description":"Between student which customer. Agree along with focus.\nWall together keep four. About yard everyone next everybody west responsibility identify.","estimatedTime":"29 weeks"}'

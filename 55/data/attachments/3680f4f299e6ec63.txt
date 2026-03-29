@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDE4OjAwOjM5LjI5MzA0OSIsInVzZXJfaWQiOiJmYThiODIxOS0yOGJmLTRiM2YtYWNiMC1lZWRhNTVkZDNjZmQifQ.VTWQVXKzxzGpmb38ywb-SP1NpBWQxZmjjJK3v_BNxfE'\
+-h 'content-length: 431'\
+-h 'content-type: application/json'\
+-d '{"title":"Western direction forward produce forget quite business.","maxScore":67,"minScore":21,"description":"Nice apply main month.\nEnvironment visit can. Kid admit produce can success test see. Lot various evidence senior charge far sort artist.\nStill indeed behavior industry machine.","estimatedTime":"13 weeks","previewFileId":"70d88a82-587a-4803-bb97-32ab66cf6492","createdByUserId":"fa8b8219-28bf-4b3f-acb0-eeda55dd3cfd"}'
