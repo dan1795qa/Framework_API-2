@@ -1,8 +1,10 @@
+from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema, \
     GetUserResponseSchema
 from tools.assertions.base import assert_equal
 import allure
 
+from tools.assertions.errors import assert_validation_error_response
 from tools.logger import get_logger
 
 logger = get_logger("USERS_ASSERTIONS")
@@ -61,3 +63,30 @@ def assert_get_user_response(
     expected_user = create_user_response.user
 
     assert_user(actual_user, expected_user)
+
+
+@allure.step("Check get user with incorrect user is response")
+def assert_get_user_with_incorrect_user_id_response(actual: ValidationErrorResponseSchema):
+    """
+    Проверяет, что ответ на получение пользователя с некорректным uuid соответствует ожидаемой валидационной ошибке.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    logger.info(f"Check get user with incorrect file is response")
+
+    expected = ValidationErrorResponseSchema(
+        details=[
+            ValidationErrorSchema(
+                type="uuid_parsing",  # Тип ошибки, связанной с невалидным UUID.
+                input="incorrect-user-id",  # Некорректный uuid.
+                context={
+                    "error": "invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"},
+                # Минимальная длина строки должна быть 1 символ.
+                message="Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+                # Сообщение об ошибке.
+                location=["path", "user_id"]  # Ошибка возникает в теле запроса, поле "directory".
+            )
+        ]
+    )
+    assert_validation_error_response(actual, expected)
