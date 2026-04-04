@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIzLjI3OTgxMSIsInVzZXJfaWQiOiIzY2Y4OTkxOS0wMzMwLTRlODUtYmI4NS1kNGQzYjFmMWIyNmYifQ.-K9ytg6fJMM0q1l18TfcoxfuEXyqaRCZ3nDbz2iXWLA'\
+-h 'content-length: 376'\
+-h 'content-type: application/json'\
+-d '{"title":"Message eat law plan great.","maxScore":62,"minScore":15,"description":"Many chance consider source gas. May scientist improve often method. Total approach husband first.\nJob serious professional receive. Police without gas.","estimatedTime":"27 weeks","previewFileId":"f0918c31-0e1e-433b-a1ca-189179ca204a","createdByUserId":"3cf89919-0330-4e85-bb85-d4d3b1f1b26f"}'

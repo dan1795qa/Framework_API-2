@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/4103d48a-9e71-4f47-8a00-2445b2553ab6'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIxLjk0NDYyNCIsInVzZXJfaWQiOiI4NThhNGMwNS0xMjY5LTQxYjctYjc2MS0zOTQyM2I0ZjA5MzcifQ.H5yBZRBrrx5hEpTU0StrzC5epl5Vu4MIdj-DYFcfcfw'\
+-h 'content-length: 211'\
+-h 'content-type: application/json'\
+-d '{"title":"Heart save identify.","maxScore":63,"minScore":14,"orderIndex":5,"description":"Down data these strong yes area decide. Color available sea mouth perform direction material.","estimatedTime":"5 weeks"}'

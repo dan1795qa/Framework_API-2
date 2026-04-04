@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjE3LjAzMzYxOCIsInVzZXJfaWQiOiIyYTgwYWZiMC01NzRkLTQxOGYtYjJhNy1hYmU0MDRkMmE0N2MifQ.o44Q7jH-3ckyjqPOHL8oeQZom_LoRmbAqv62FT87CIw'\
+-h 'content-length: 400'\
+-h 'content-type: application/json'\
+-d '{"title":"Half agent present say new story.","maxScore":84,"minScore":15,"description":"Guess front other go might think method. Concern town stop purpose. Today marriage factor trial.\nBank them run several. Hard attention debate bank certain structure news.","estimatedTime":"56 weeks","previewFileId":"1b8abd38-dd58-4c4d-9c4a-dcd4191f7a81","createdByUserId":"2a80afb0-574d-418f-b2a7-abe404d2a47c"}'

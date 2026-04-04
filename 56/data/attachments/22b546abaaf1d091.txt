@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIxLjI3NTQ2NiIsInVzZXJfaWQiOiI5ZWVhMTk4Yi01ODZiLTQ1MDgtYWRjOC01NTAwNzk0YzBkY2UifQ.9dSTQ_Itg3Xcpcji0Rttsv9aKUJnzsXDarTQKLvUs7s'\
+-h 'content-length: 349'\
+-h 'content-type: application/json'\
+-d '{"title":"Speech policy artist finally season near civil.","courseId":"3fd9c031-5fb1-41da-b272-bea20cc95c77","maxScore":100,"minScore":30,"orderIndex":19,"description":"Realize imagine sell place not near population. Water fight often require can senior animal fire. Subject rather education claim author citizen charge.","estimatedTime":"78 weeks"}'

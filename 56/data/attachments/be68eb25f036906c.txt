@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIwLjYwMTAyNiIsInVzZXJfaWQiOiJkMWFjN2E3OC1iMTA0LTRlMmYtYmE5MS1jMmM1MTk1NGFlYjgifQ.o1QmhSRn09tAuKkUQj5v5fpCDUwvuOLz1uMuoz-pwXA'\
+-h 'content-length: 376'\
+-h 'content-type: application/json'\
+-d '{"title":"Buy produce nice plan sort first research fall.","maxScore":95,"minScore":26,"description":"Month include collection speak century key. Card family community. Want through place network.\nPossible hot imagine condition worry.","estimatedTime":"87 weeks","previewFileId":"d56af107-0f7a-464e-87db-2ba1b875a50a","createdByUserId":"d1ac7a78-b104-4e2f-ba91-c2c51954aeb8"}'

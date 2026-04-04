@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIyLjYxNDExMiIsInVzZXJfaWQiOiJmYWMzYzE3MC04MDM3LTRhMWUtYjFmYi0xZTQxZGRlNWVkYTgifQ.Nt2MeB1gjSzOk2NYWD1ukSO_3MYbqiTVlLbHJ_EWZJM'\
+-h 'content-length: 418'\
+-h 'content-type: application/json'\
+-d '{"title":"She million mission into last several.","maxScore":69,"minScore":7,"description":"Field education tax. Ten energy attack seem room choice might. Trial option leader ever. Country campaign large that movement.\nSure produce quite likely recognize page although record.","estimatedTime":"38 weeks","previewFileId":"4d86751d-be3c-45ae-9ffa-6406520959a5","createdByUserId":"fac3c170-8037-4a1e-b1fb-1e41dde5eda8"}'

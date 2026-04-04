@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIyLjYxNDExMiIsInVzZXJfaWQiOiJmYWMzYzE3MC04MDM3LTRhMWUtYjFmYi0xZTQxZGRlNWVkYTgifQ.Nt2MeB1gjSzOk2NYWD1ukSO_3MYbqiTVlLbHJ_EWZJM'\
+-h 'content-length: 281'\
+-h 'content-type: application/json'\
+-d '{"title":"Now kind court drop.","courseId":"2377abe0-83f6-4fb5-a899-8254d75eca11","maxScore":59,"minScore":2,"orderIndex":7,"description":"War determine speak herself theory trouble mention. Approach decision along area. Ten office campaign collection.","estimatedTime":"99 weeks"}'

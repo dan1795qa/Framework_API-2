@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIzLjI3OTgxMSIsInVzZXJfaWQiOiIzY2Y4OTkxOS0wMzMwLTRlODUtYmI4NS1kNGQzYjFmMWIyNmYifQ.-K9ytg6fJMM0q1l18TfcoxfuEXyqaRCZ3nDbz2iXWLA'\
+-h 'content-length: 317'\
+-h 'content-type: application/json'\
+-d '{"title":"Dinner civil along suffer box.","courseId":"328f9796-7858-4ce2-8191-029f5f70a534","maxScore":86,"minScore":28,"orderIndex":48,"description":"Manager building pull central place. Certain treat most war attention.\nCondition paper institution task standard total. Later card feel.","estimatedTime":"80 weeks"}'

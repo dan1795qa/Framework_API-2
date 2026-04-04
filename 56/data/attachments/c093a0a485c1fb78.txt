@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIxLjk0NDYyNCIsInVzZXJfaWQiOiI4NThhNGMwNS0xMjY5LTQxYjctYjc2MS0zOTQyM2I0ZjA5MzcifQ.H5yBZRBrrx5hEpTU0StrzC5epl5Vu4MIdj-DYFcfcfw'\
+-h 'content-length: 409'\
+-h 'content-type: application/json'\
+-d '{"title":"Five after church over mention might.","maxScore":98,"minScore":23,"description":"Attention analysis fight throw woman suffer. Beautiful officer large part operation listen. How gas test never.\nTraining mean specific believe. Team edge before ten wind girl.","estimatedTime":"23 weeks","previewFileId":"14d10fab-cbb7-4919-a111-a6d839c72208","createdByUserId":"858a4c05-1269-41b7-b761-39423b4f0937"}'

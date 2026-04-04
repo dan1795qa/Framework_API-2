@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjE4LjM4Mjc1MCIsInVzZXJfaWQiOiJiN2I1YWNlZS1mNDFjLTQxOTItOGFlOC01ZTkwMGRkYmExZDQifQ.9dotkDYVX-Ynx-ToMLjd2vqK9jtftZKz6ZNRu7SlkAE'\
+-h 'content-length: 353'\
+-h 'content-type: application/json'\
+-d '{"title":"They husband choice majority including the.","maxScore":73,"minScore":22,"description":"Artist increase tax which three than friend. Window although bank choose even. Wife check teach hundred base lead.","estimatedTime":"18 weeks","previewFileId":"6b69d072-31cf-4c90-ab50-e12ee1aaac6b","createdByUserId":"b7b5acee-f41c-4192-8ae8-5e900ddba1d4"}'

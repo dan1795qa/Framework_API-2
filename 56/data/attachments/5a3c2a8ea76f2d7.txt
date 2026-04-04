@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIxLjI3NTQ2NiIsInVzZXJfaWQiOiI5ZWVhMTk4Yi01ODZiLTQ1MDgtYWRjOC01NTAwNzk0YzBkY2UifQ.9dSTQ_Itg3Xcpcji0Rttsv9aKUJnzsXDarTQKLvUs7s'\
+-h 'content-length: 321'\
+-h 'content-type: application/json'\
+-d '{"title":"Show any nor claim audience Congress head magazine.","maxScore":95,"minScore":6,"description":"People people worry tough available. Home professor phone north occur some.","estimatedTime":"76 weeks","previewFileId":"c6d021a6-56da-488e-b262-53aa0831d32d","createdByUserId":"9eea198b-586b-4508-adc8-5500794c0dce"}'

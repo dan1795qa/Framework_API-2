@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjE3LjcwOTExMyIsInVzZXJfaWQiOiJhMzU2OGRlNS04NGEwLTRlMGEtYTBhOC00MDljYzM5Y2Q5ZWQifQ.aO8oLFPGWVFKqjGZagedHayM_2mAIzkRsxolSoswtS4'\
+-h 'content-length: 375'\
+-h 'content-type: application/json'\
+-d '{"title":"Sense believe serve Mrs trial around.","maxScore":65,"minScore":13,"description":"Important thank local interest well between follow. That blood option since evening avoid occur. Shake could weight fact business piece group.","estimatedTime":"13 weeks","previewFileId":"f0913c7b-0d62-4c39-a7a3-4d32472abdc0","createdByUserId":"a3568de5-84a0-4e0a-a0a8-409cc39cd9ed"}'

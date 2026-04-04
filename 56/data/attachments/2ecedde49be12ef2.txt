@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIxLjk0NDYyNCIsInVzZXJfaWQiOiI4NThhNGMwNS0xMjY5LTQxYjctYjc2MS0zOTQyM2I0ZjA5MzcifQ.H5yBZRBrrx5hEpTU0StrzC5epl5Vu4MIdj-DYFcfcfw'\
+-h 'content-length: 369'\
+-h 'content-type: application/json'\
+-d '{"title":"Impact democratic because everybody behind.","courseId":"3304d243-017a-422c-8721-66636872306b","maxScore":89,"minScore":7,"orderIndex":41,"description":"Education rate decision. Help under beat side list best her. Plant natural democratic someone high together.\nAlmost clearly theory recently play produce. Baby daughter serious.","estimatedTime":"40 weeks"}'

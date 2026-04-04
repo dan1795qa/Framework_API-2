@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/749fe8d8-b3ad-400b-bdf0-9e8c2a1c7070'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjE3LjcwOTExMyIsInVzZXJfaWQiOiJhMzU2OGRlNS04NGEwLTRlMGEtYTBhOC00MDljYzM5Y2Q5ZWQifQ.aO8oLFPGWVFKqjGZagedHayM_2mAIzkRsxolSoswtS4'\
+-h 'content-length: 289'\
+-h 'content-type: application/json'\
+-d '{"title":"Voice throughout per produce town home they.","maxScore":51,"minScore":8,"description":"Down day buy. Indicate your care stock loss morning field. Concern western face learn.\nHealth statement idea wrong beyond. Either role news chair dinner road be.","estimatedTime":"55 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEyOjM2OjIwLjYwMTAyNiIsInVzZXJfaWQiOiJkMWFjN2E3OC1iMTA0LTRlMmYtYmE5MS1jMmM1MTk1NGFlYjgifQ.o1QmhSRn09tAuKkUQj5v5fpCDUwvuOLz1uMuoz-pwXA'\
+-h 'content-length: 312'\
+-h 'content-type: application/json'\
+-d '{"title":"Fear sure management around information.","courseId":"64f2b553-2818-46b4-adae-8770b338bcb8","maxScore":99,"minScore":14,"orderIndex":5,"description":"Sing down represent quite rest. Day stand image focus. Yet responsibility process voice partner lawyer.\nLike buy wait one.","estimatedTime":"20 weeks"}'
