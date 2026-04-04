@@ -74,7 +74,7 @@ class TestUsers:
     @allure.title("Get user view")
     @allure.severity(Severity.CRITICAL)
     @allure.sub_suite(AllureStory.GET_ENTITY)
-    def test_get_user_me(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
+    def test_get_user_view(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
         response = private_users_client.get_user_api(function_user.response.user.id)
         response_data = GetUserResponseSchema.model_validate_json(response.text)
 
