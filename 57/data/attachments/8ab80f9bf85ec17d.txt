@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/ba2e4ce5-efc5-476e-8682-eb5d966a2c5f'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUyLjQwOTA0MCIsInVzZXJfaWQiOiJlMTZkZmVjOC1lZTNkLTQyMGUtYjJiYy1kODlkYzRhZTc4YWYifQ.Up84ntGLIBNh3bUwYzzU_pGg_SlyVO3FPi1TRnXQt4A'\
+-h 'content-length: 331'\
+-h 'content-type: application/json'\
+-d '{"title":"Thing now group send beautiful.","maxScore":62,"minScore":8,"orderIndex":69,"description":"Budget fund cell. List forget investment both the. Number mouth central trouble man even.\nSuggest provide third bed keep. Theory pull sister.\nOffer remain face arrive. Win happy sell mean dinner one.","estimatedTime":"45 weeks"}'

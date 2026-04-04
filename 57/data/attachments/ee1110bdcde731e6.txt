@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjQ4LjYxODc5MyIsInVzZXJfaWQiOiIzM2QwNzBlMS1hODA1LTRkNzgtYmI4OC1kNzgyMDYwNGU0ZTUifQ.q-rxhpueH293SAEowryQ8GlZhlIstjxtkzcqeA6zQb8'\
+-h 'content-length: 374'\
+-h 'content-type: application/json'\
+-d '{"title":"Score politics now eat relationship.","maxScore":64,"minScore":2,"description":"Box Congress short reveal city. Last eye opportunity campaign. Every force white here reflect president able official. Point sport friend space.","estimatedTime":"5 weeks","previewFileId":"902d6aba-bf69-4cb2-8201-febc6a3c2b08","createdByUserId":"33d070e1-a805-4d78-bb88-d7820604e4e5"}'

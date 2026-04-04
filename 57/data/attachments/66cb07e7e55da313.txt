@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUxLjcyMzYwNiIsInVzZXJfaWQiOiI2OGFhZTEwZi04NzY2LTQzOTUtOTk0Yy04YmU5MzMxY2JiZGEifQ.GvYgTr7nMikSbxRoolOV_AR29v4pCDvWjTytmcvH-58'\
+-h 'content-length: 398'\
+-h 'content-type: application/json'\
+-d '{"title":"During sure eat him.","maxScore":65,"minScore":12,"description":"Drive management others be recognize control. Question civil science song. Town small system at.\nNor decade option yes. Now late deal industry specific. Day more type though energy.","estimatedTime":"22 weeks","previewFileId":"02b89390-540a-4589-8a84-81ab74059610","createdByUserId":"68aae10f-8766-4395-994c-8be9331cbbda"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/a506d8e0-2dbb-4269-ac19-ea43964e7ed8'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjQ3LjkzMzcyNSIsInVzZXJfaWQiOiI5ZDMwYzY0MS0yODVlLTQxYjAtYTNkNC1mMTE1YzdkOTQ1MTMifQ.UaThLQU0asWu1acIqbb9qt5m-5_-bdgPFM4RJR19yag'\
+-h 'content-length: 205'\
+-h 'content-type: application/json'\
+-d '{"title":"Voice body force history become run.","maxScore":79,"minScore":3,"description":"Condition teach forget investment staff she likely prepare. Little us good move never.","estimatedTime":"53 weeks"}'

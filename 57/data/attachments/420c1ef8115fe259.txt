@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjQ3LjI0NTU1MCIsInVzZXJfaWQiOiIxZmU5MWEzMi1iMGIxLTQ3NjQtOGEyZi04ZmVhYTY3YjU5MjQifQ.iXVGE8hVHV4H7INsWOvfaxWBnxJenulNCzQjLFgk5yQ'\
+-h 'content-length: 310'\
+-h 'content-type: application/json'\
+-d '{"title":"Of character trial.","maxScore":58,"minScore":10,"description":"Participant positive up campaign sort process activity. Add certainly respond beyond professor.","estimatedTime":"49 weeks","previewFileId":"6f479ffa-bc0b-4188-a636-be21c26fb969","createdByUserId":"1fe91a32-b0b1-4764-8a2f-8feaa67b5924"}'

@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/a506d8e0-2dbb-4269-ac19-ea43964e7ed8
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/a506d8e0-2dbb-4269-ac19-ea43964e7ed8
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Voice body force history become run.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 79
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Condition teach forget investment staff she likely prepare. Little us good move never.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 53 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

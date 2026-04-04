@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUxLjA0NjQxMSIsInVzZXJfaWQiOiI3NDA4NmY4Ni0wOWY0LTRmOTQtYWQwNC0zNGUxMmE2NjJlOGMifQ.uDjNoSaglTLbUh5gRjvsifaB34b1eC4X0ftBD2Rf4KI'\
+-h 'content-length: 237'\
+-h 'content-type: application/json'\
+-d '{"title":"Too name old fine wrong.","courseId":"5d6bf1f9-9c3e-46d4-a2f6-173d3797846b","maxScore":61,"minScore":17,"orderIndex":21,"description":"Knowledge fish alone while that. Most forget step beyond moment.","estimatedTime":"4 weeks"}'

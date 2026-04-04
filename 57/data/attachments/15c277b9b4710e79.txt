@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUyLjQwOTA0MCIsInVzZXJfaWQiOiJlMTZkZmVjOC1lZTNkLTQyMGUtYjJiYy1kODlkYzRhZTc4YWYifQ.Up84ntGLIBNh3bUwYzzU_pGg_SlyVO3FPi1TRnXQt4A'\
+-h 'content-length: 346'\
+-h 'content-type: application/json'\
+-d '{"title":"Term usually mention deep.","maxScore":82,"minScore":9,"description":"Site compare employee dog common opportunity million. Course social friend same water ahead put. May improve hundred million.","estimatedTime":"68 weeks","previewFileId":"4febb851-83ce-458d-a957-cb26a2b0e90b","createdByUserId":"e16dfec8-ee3d-420e-b2bc-d89dc4ae78af"}'

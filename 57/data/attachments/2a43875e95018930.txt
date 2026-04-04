@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUzLjc4NjExMyIsInVzZXJfaWQiOiI3NjZkMjIyZC1hN2JlLTQ0MWItYjVmYy0zYTMxMmY4OTViNjgifQ.Lfz9FhVppsmaLPTRDHpBcEh4sq7eMNFDmD52swXaz6U'\
+-h 'content-length: 315'\
+-h 'content-type: application/json'\
+-d '{"title":"Our grow particular usually machine.","courseId":"c1bce9ef-cbe0-4990-9632-29e9d534e645","maxScore":52,"minScore":13,"orderIndex":94,"description":"Stay model available ten produce white for cause. Reality change power although not. Win beyond enough air trip standard soldier.","estimatedTime":"97 weeks"}'

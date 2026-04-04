@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUxLjcyMzYwNiIsInVzZXJfaWQiOiI2OGFhZTEwZi04NzY2LTQzOTUtOTk0Yy04YmU5MzMxY2JiZGEifQ.GvYgTr7nMikSbxRoolOV_AR29v4pCDvWjTytmcvH-58'\
+-h 'content-length: 279'\
+-h 'content-type: application/json'\
+-d '{"title":"Feel range black kid national budget cell foreign.","courseId":"8788738c-3fa5-47e3-935f-4141732e73d6","maxScore":55,"minScore":29,"orderIndex":99,"description":"Behavior soon describe fine. Various seem often probably. Then own dream story.","estimatedTime":"81 weeks"}'

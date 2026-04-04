@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjQ3LjkzMzcyNSIsInVzZXJfaWQiOiI5ZDMwYzY0MS0yODVlLTQxYjAtYTNkNC1mMTE1YzdkOTQ1MTMifQ.UaThLQU0asWu1acIqbb9qt5m-5_-bdgPFM4RJR19yag'\
+-h 'content-length: 345'\
+-h 'content-type: application/json'\
+-d '{"title":"Just final enjoy middle PM rule.","maxScore":57,"minScore":3,"description":"Performance accept show movie sea compare. Serve nature themselves hope. Response wear feel project expect often list.","estimatedTime":"45 weeks","previewFileId":"93937ab9-5c96-4c75-a1d0-18193edb75f4","createdByUserId":"9d30c641-285e-41b0-a3d4-f115c7d94513"}'

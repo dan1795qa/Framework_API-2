@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/files/incorrect-file-id
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 422 Unprocessable Entity from http://localhost:8000/api/v1/files/incorrect-file-id
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 422
+INFO     FILES_ASSERTIONS:files.py:154 Check get file with incorrect file is response
+INFO     ERRORS_ASSERTIONS:errors.py:40 Check validation error response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'details' equals to 1
+INFO     ERRORS_ASSERTIONS:errors.py:18 Check validation error
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'type' equals to uuid_parsing
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'input' equals to incorrect-file-id
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'context' equals to {'error': 'invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1'}
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'message' equals to Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'location' equals to ['path', 'file_id']
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

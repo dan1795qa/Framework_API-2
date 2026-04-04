@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUzLjA5MjM2MyIsInVzZXJfaWQiOiJjZjBjMDZkZS1jMWQwLTRiOTAtYWJlZi03ZDk2MDljYjc4ODAifQ.hJfDHUxkhl9PO6ikXuxGSt7Oz17lHu0_npdazoWek3s'\
+-h 'content-length: 336'\
+-h 'content-type: application/json'\
+-d '{"title":"Military trip other its unit various to.","courseId":"968dcbad-e6e6-4325-936b-552704167924","maxScore":64,"minScore":30,"orderIndex":61,"description":"Never certain sell movie paper. Moment decision watch gas wish education.\nAge finally body leader. A even something. Politics social point cause.","estimatedTime":"70 weeks"}'

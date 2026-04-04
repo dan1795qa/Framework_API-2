@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUzLjA5MjM2MyIsInVzZXJfaWQiOiJjZjBjMDZkZS1jMWQwLTRiOTAtYWJlZi03ZDk2MDljYjc4ODAifQ.hJfDHUxkhl9PO6ikXuxGSt7Oz17lHu0_npdazoWek3s'\
+-h 'content-length: 289'\
+-h 'content-type: application/json'\
+-d '{"title":"Since upon act decide sort.","maxScore":90,"minScore":18,"description":"Type world available. Last kind vote season decide result develop.","estimatedTime":"80 weeks","previewFileId":"98de5d9b-3173-48a0-8dfc-336d86c3fff4","createdByUserId":"cf0c06de-c1d0-4b90-abef-7d9609cb7880"}'

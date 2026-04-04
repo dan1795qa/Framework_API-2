@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUyLjQwOTA0MCIsInVzZXJfaWQiOiJlMTZkZmVjOC1lZTNkLTQyMGUtYjJiYy1kODlkYzRhZTc4YWYifQ.Up84ntGLIBNh3bUwYzzU_pGg_SlyVO3FPi1TRnXQt4A'\
+-h 'content-length: 307'\
+-h 'content-type: application/json'\
+-d '{"title":"Add everything since recognize election.","courseId":"650ccb32-eff8-4d3f-9571-939c53ac2dc6","maxScore":59,"minScore":10,"orderIndex":63,"description":"Card its next position meeting. Operation represent remember toward various. Fight tend response tend capital recent.","estimatedTime":"83 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUzLjc4NjExMyIsInVzZXJfaWQiOiI3NjZkMjIyZC1hN2JlLTQ0MWItYjVmYy0zYTMxMmY4OTViNjgifQ.Lfz9FhVppsmaLPTRDHpBcEh4sq7eMNFDmD52swXaz6U'\
+-h 'content-length: 361'\
+-h 'content-type: application/json'\
+-d '{"title":"From police road music role.","maxScore":87,"minScore":4,"description":"Which against central five organization. International market night radio success miss lose worker. Set third base road drug light energy.","estimatedTime":"44 weeks","previewFileId":"de9ddc6a-77e3-4685-93a1-06fcc32504f6","createdByUserId":"766d222d-a7be-441b-b5fc-3a312f895b68"}'

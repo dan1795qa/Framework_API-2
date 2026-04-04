@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Score politics now eat relationship.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 64
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 2
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Box Congress short reveal city. Last eye opportunity campaign. Every force white here reflect president able official. Point sport friend space.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 902d6aba-bf69-4cb2-8201-febc6a3c2b08
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to 33d070e1-a805-4d78-bb88-d7820604e4e5
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

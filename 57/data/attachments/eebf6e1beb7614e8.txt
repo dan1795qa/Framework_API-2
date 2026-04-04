@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTA0VDEzOjM4OjUxLjA0NjQxMSIsInVzZXJfaWQiOiI3NDA4NmY4Ni0wOWY0LTRmOTQtYWQwNC0zNGUxMmE2NjJlOGMifQ.uDjNoSaglTLbUh5gRjvsifaB34b1eC4X0ftBD2Rf4KI'\
+-h 'content-length: 410'\
+-h 'content-type: application/json'\
+-d '{"title":"Gun able them task dream financial environmental.","maxScore":51,"minScore":27,"description":"According campaign partner beautiful. Hard cell food.\nThose high court majority person he. National event six range close along somebody.\nOut charge race ready or.","estimatedTime":"25 weeks","previewFileId":"5e2b5355-0cb5-458b-b1c9-cfdb41910551","createdByUserId":"74086f86-09f4-4f94-ad04-34e12a662e8c"}'
