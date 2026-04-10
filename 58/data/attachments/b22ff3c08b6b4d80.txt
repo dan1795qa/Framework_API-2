@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI0LjY0MzE2NCIsInVzZXJfaWQiOiI2NjMwZmRkZi03MGRmLTRhY2YtYjJhOC04YzZhMWFmNmM5ZDUifQ.RyxVKkf_P2LtBqqyESXniqXi-cVT4dDPNVKmwn7TvlE'\
+-h 'content-length: 306'\
+-h 'content-type: application/json'\
+-d '{"title":"Could unit work.","maxScore":91,"minScore":15,"description":"Control degree chance window. Feeling really next camera charge. Arrive president war officer.","estimatedTime":"81 weeks","previewFileId":"66ce463e-796c-4d4d-be17-6c34643c5cc0","createdByUserId":"6630fddf-70df-4acf-b2a8-8c6a1af6c9d5"}'

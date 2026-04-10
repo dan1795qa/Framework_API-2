@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI1LjkyMTE0NSIsInVzZXJfaWQiOiJmN2E3Yjc5ZS02MWYxLTRjMDMtYWY0MC00ZGU2NzY5NDAzNGMifQ.rKK_V5Q4Kj_7CDA7KdV0Yte7rdry_Gnw1qpLOKg62tI'\
+-h 'content-length: 411'\
+-h 'content-type: application/json'\
+-d '{"title":"Entire food successful method people it time agreement.","maxScore":74,"minScore":22,"description":"Property then result national. Six stuff remember. Visit interview mouth state religious performance reason adult. Power whatever north area between major lose.","estimatedTime":"70 weeks","previewFileId":"795cfb35-19d6-4669-83d1-7d2942d04a84","createdByUserId":"f7a7b79e-61f1-4c03-af40-4de67694034c"}'

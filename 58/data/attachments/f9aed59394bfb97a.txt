@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/11d356d9-cd77-474c-812e-ba4a90973e86'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjIwLjY2NDY5MCIsInVzZXJfaWQiOiJkODA5ZWM4Yi1iY2NiLTRhYjEtOWExMC0yMDk4NDdhYTk3OTIifQ.OfEIiibkmuL04oA_ufjqPXVqarKmxMnJJ7XfIpY39Iw'\
+-h 'content-length: 250'\
+-h 'content-type: application/json'\
+-d '{"title":"Important foreign idea matter.","maxScore":85,"minScore":21,"description":"Its Republican west job. Hand just six feel. Right partner about month successful despite. Future always affect fire teach task general.","estimatedTime":"53 weeks"}'

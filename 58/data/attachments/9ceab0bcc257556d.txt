@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI1LjkyMTE0NSIsInVzZXJfaWQiOiJmN2E3Yjc5ZS02MWYxLTRjMDMtYWY0MC00ZGU2NzY5NDAzNGMifQ.rKK_V5Q4Kj_7CDA7KdV0Yte7rdry_Gnw1qpLOKg62tI'\
+-h 'content-length: 260'\
+-h 'content-type: application/json'\
+-d '{"title":"Imagine office station Mrs.","courseId":"c2a00cef-1628-4f5c-aecf-3d851de3463c","maxScore":81,"minScore":27,"orderIndex":21,"description":"Responsibility old out just wonder five. People three cultural door painting human.","estimatedTime":"29 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjIwLjAyMTgyMiIsInVzZXJfaWQiOiI0MTBmZDUxMi1lNzQ5LTQxNjUtYjNiZC04MTU0MGY0NTg3ZGQifQ.HrtIhIx1YLHZtHxatfbBDL1l-fi2F1pKkRZfJ2mKjcQ'\
+-h 'content-length: 372'\
+-h 'content-type: application/json'\
+-d '{"title":"Guess manage light above those.","maxScore":98,"minScore":21,"description":"New guy suggest off animal often theory. Relate whole wrong operation push million. Attention make enough reflect near despite. Must door wonder.","estimatedTime":"61 weeks","previewFileId":"6fad4907-0ed5-4c02-9b50-eed1d81b45cb","createdByUserId":"410fd512-e749-4165-b3bd-81540f4587dd"}'

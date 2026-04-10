@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjIxLjkzMjQxNyIsInVzZXJfaWQiOiIxNWRiZWRkZC05NGRjLTQ0YWEtOTVlYi04N2FkZDVkOWU1NDUifQ.kjmKdwwxSdfVP-tYWqc6thFSVKtb2PMwWzE751Qerss'\
+-h 'content-length: 361'\
+-h 'content-type: application/json'\
+-d '{"title":"Who station relate.","maxScore":68,"minScore":28,"description":"Lose answer civil member write common popular say. Debate avoid coach city no front respond.\nProfessional today themselves land couple kind live.","estimatedTime":"32 weeks","previewFileId":"410b1436-b241-46fb-a617-826f79da3aae","createdByUserId":"15dbeddd-94dc-44aa-95eb-87add5d9e545"}'

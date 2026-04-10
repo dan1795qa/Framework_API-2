@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI1LjI3ODg3OCIsInVzZXJfaWQiOiJhNGY4ODMyYy0yOGI0LTRhYmItYTRmMi03YzJiOWYwZjdmMGMifQ.St8Qk6m8rWL8AZ8An01J5fFbKwicoljSTEfEBCOt_3M'\
+-h 'content-length: 333'\
+-h 'content-type: application/json'\
+-d '{"title":"Change special brother action.","courseId":"741823d0-0a60-46b7-ac2f-7c986571c18f","maxScore":54,"minScore":19,"orderIndex":38,"description":"Western force war capital knowledge to community. Imagine rule enjoy some more.\nTry long movie trip top. Environmental political teacher dinner thought.","estimatedTime":"65 weeks"}'

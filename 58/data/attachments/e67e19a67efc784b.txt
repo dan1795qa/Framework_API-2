@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI1LjI3ODg3OCIsInVzZXJfaWQiOiJhNGY4ODMyYy0yOGI0LTRhYmItYTRmMi03YzJiOWYwZjdmMGMifQ.St8Qk6m8rWL8AZ8An01J5fFbKwicoljSTEfEBCOt_3M'\
+-h 'content-length: 324'\
+-h 'content-type: application/json'\
+-d '{"title":"Dog house want Mrs leave dark.","maxScore":53,"minScore":16,"description":"Issue around look yes. Like then group popular bar. According total knowledge again have into leg.","estimatedTime":"19 weeks","previewFileId":"d2d266d9-787f-4d46-94e1-ff02f9c5fa03","createdByUserId":"a4f8832c-28b4-4abb-a4f2-7c2b9f0f7f0c"}'

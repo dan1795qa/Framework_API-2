@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjIwLjY2NDY5MCIsInVzZXJfaWQiOiJkODA5ZWM4Yi1iY2NiLTRhYjEtOWExMC0yMDk4NDdhYTk3OTIifQ.OfEIiibkmuL04oA_ufjqPXVqarKmxMnJJ7XfIpY39Iw'\
+-h 'content-length: 337'\
+-h 'content-type: application/json'\
+-d '{"title":"Continue sit prevent drug different lose.","maxScore":56,"minScore":24,"description":"Himself natural hotel. Reflect yeah matter tax size walk. Suddenly action best season cultural able.","estimatedTime":"36 weeks","previewFileId":"adb27e76-0e7e-4fe4-b527-e025e28cc6c9","createdByUserId":"d809ec8b-bccb-4ab1-9a10-209847aa9792"}'

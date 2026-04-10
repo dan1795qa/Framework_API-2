@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI0LjAwNTU2NyIsInVzZXJfaWQiOiI4NGNhNDQxMS00ZTMzLTRkN2UtOGRkOS1iNDA4OTIwMWRlZjAifQ.aVfRr6fb-kl4EI9e4rXN8kvjxrqUjHtjLxfC85ycCFQ'\
+-h 'content-length: 421'\
+-h 'content-type: application/json'\
+-d '{"title":"Whatever radio war environment.","maxScore":93,"minScore":13,"description":"Available all court perhaps. Like small down scene. Drop all daughter whole and federal.\nWait ability large same month. Benefit pay accept blue Mrs full small. Specific range water create many.","estimatedTime":"29 weeks","previewFileId":"d32dbfe1-04fb-4f99-a8a9-083a7f5b511f","createdByUserId":"84ca4411-4e33-4d7e-8dd9-b4089201def0"}'

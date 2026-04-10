@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI2LjU1NjMzOSIsInVzZXJfaWQiOiIxZjIyYTQwMC0zMDE1LTQ4YjUtYjM3NC0zYTRhOTliZDhlMzIifQ.ODhLgkHrGsEg2mLYAacZnTyOX5Z7RC7Vr07z1QEZDlE'\
+-h 'content-length: 372'\
+-h 'content-type: application/json'\
+-d '{"title":"Believe professional anyone should difficult such push.","courseId":"736eaea5-1e68-4466-9b1d-ba08442926cb","maxScore":92,"minScore":13,"orderIndex":72,"description":"Behavior run example action follow. Hard measure mouth act pass. Up evening appear out adult.\nStore store important painting kitchen sing. Yard although rule century.","estimatedTime":"41 weeks"}'

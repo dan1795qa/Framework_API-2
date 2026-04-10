@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/7214ab02-ca3c-4d92-b264-1c3abaf8b3b0'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI1LjI3ODg3OCIsInVzZXJfaWQiOiJhNGY4ODMyYy0yOGI0LTRhYmItYTRmMi03YzJiOWYwZjdmMGMifQ.St8Qk6m8rWL8AZ8An01J5fFbKwicoljSTEfEBCOt_3M'\
+-h 'content-length: 328'\
+-h 'content-type: application/json'\
+-d '{"title":"Easy himself form about federal.","maxScore":63,"minScore":13,"orderIndex":68,"description":"The blood movement hair. Indeed positive sign step.\nCommercial poor reach model difficult. Mother life couple culture.\nCondition practice physical. Fast act still let me never. Begin heart drop.","estimatedTime":"46 weeks"}'

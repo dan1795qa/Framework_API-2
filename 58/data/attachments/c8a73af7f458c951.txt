@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjIxLjMwNzE2OSIsInVzZXJfaWQiOiI0YWE5NThmOS1lYWExLTQwNmUtOWRjZC1jZWQ1MjA3MTUyNjcifQ.BzAbC2A2UN-dJBrvCWUh8p_Wr9fo3tBOPDwjIYbBaSw'\
+-h 'content-length: 347'\
+-h 'content-type: application/json'\
+-d '{"title":"Effort news brother low today.","maxScore":90,"minScore":25,"description":"Citizen kid approach his cover day notice. Recognize experience travel. Service home station vote tonight meet according.","estimatedTime":"84 weeks","previewFileId":"276a9992-9b1a-4e45-81ee-543ab8c381e5","createdByUserId":"4aa958f9-eaa1-406e-9dcd-ced520715267"}'

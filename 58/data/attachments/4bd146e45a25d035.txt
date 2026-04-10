@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI0LjAwNTU2NyIsInVzZXJfaWQiOiI4NGNhNDQxMS00ZTMzLTRkN2UtOGRkOS1iNDA4OTIwMWRlZjAifQ.aVfRr6fb-kl4EI9e4rXN8kvjxrqUjHtjLxfC85ycCFQ'\
+-h 'content-length: 312'\
+-h 'content-type: application/json'\
+-d '{"title":"At guess trip people site newspaper scene soldier.","courseId":"47fcf45b-db24-4481-af83-483432e15c13","maxScore":50,"minScore":12,"orderIndex":66,"description":"Will more movement far. According above into play school might. Task sell sing generation. Political at officer.","estimatedTime":"91 weeks"}'

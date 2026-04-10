@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTEwVDE4OjAwOjI2LjU1NjMzOSIsInVzZXJfaWQiOiIxZjIyYTQwMC0zMDE1LTQ4YjUtYjM3NC0zYTRhOTliZDhlMzIifQ.ODhLgkHrGsEg2mLYAacZnTyOX5Z7RC7Vr07z1QEZDlE'\
+-h 'content-length: 411'\
+-h 'content-type: application/json'\
+-d '{"title":"Measure space meet hold least from all.","maxScore":53,"minScore":29,"description":"At adult also democratic baby sport finally. Money type issue start east. Suffer themselves sort finally anything when.\nMiddle site tree forward ago. Inside Mr speak both yeah.","estimatedTime":"9 weeks","previewFileId":"044ab967-103b-4522-8e6b-8f84de969e14","createdByUserId":"1f22a400-3015-48b5-b374-3a4a99bd8e32"}'
