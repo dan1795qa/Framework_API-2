@@ -50,6 +50,11 @@ class CreateCourseResponseSchema(BaseModel):
     course: CourseSchema
 
 
+class GetCourseResponseSchema(BaseModel):
+    """Описание структуры ответа получения курса."""
+    course: CourseSchema
+
+
 class UpdateCourseRequestSchema(BaseModel):
     """Описание структуры запроса на обновление курса."""
     model_config = ConfigDict(populate_by_name=True)
