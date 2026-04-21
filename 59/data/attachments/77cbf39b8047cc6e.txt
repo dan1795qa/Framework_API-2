@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMwLjgzNzU3NCIsInVzZXJfaWQiOiJkZmQ0N2FlZS01YTlkLTQ2ZGEtOTYxNC00ZTBhNDcwMjQxMWMifQ.SAedgjWkYPBsi4ecG_L3hDopJhC653vsef7MMJTDUgw'\
+-h 'content-length: 341'\
+-h 'content-type: application/json'\
+-d '{"title":"Wait nice whom focus size choose stage.","maxScore":63,"minScore":4,"description":"Share alone fact senior yourself stand.\nPay western add player quickly power old. Call trial environmental.","estimatedTime":"2 weeks","previewFileId":"930716fd-7c12-4ad6-ad37-af5d1e06b1ea","createdByUserId":"dfd47aee-5a9d-46da-9614-4e0a4702411c"}'

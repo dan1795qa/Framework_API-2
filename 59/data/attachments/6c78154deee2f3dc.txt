@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMxLjUwMzU0NCIsInVzZXJfaWQiOiJkN2Q2YWMyZi04OTZhLTQxMWQtOTIxNi1kYTdjMmRmZWJmYzMifQ.sSIk-yKxNAVJP6O4CfwfmYUv3TeE1MESx9RLQ8X6oTs'\
+-h 'content-length: 328'\
+-h 'content-type: application/json'\
+-d '{"title":"Without blood smile magazine section also form.","courseId":"532de37d-369b-406c-ba59-cea0f1a47176","maxScore":94,"minScore":7,"orderIndex":93,"description":"Air address when nature despite. Nearly practice than control authority front defense. Value prevent big subject stuff rich serious.","estimatedTime":"93 weeks"}'

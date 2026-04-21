@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/0d9bb0cb-55fe-4dba-a6a2-75e7b991a4cd'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjI1Ljk5NTA0MyIsInVzZXJfaWQiOiI3OTNhZTM0OC05ZmIwLTQ0NDYtYjU5NS00NjQzNzMwYmM5NGUifQ.niPhw3nhuiynYfLONi4SFs-8mhh89BtPIvSjWzyDxrk'\
+-h 'content-length: 238'\
+-h 'content-type: application/json'\
+-d '{"title":"Forward wear station vote think center.","maxScore":66,"minScore":10,"description":"Kid source pass her. First listen thank prevent away west base. Black speak figure yeah matter ready take security.","estimatedTime":"87 weeks"}'

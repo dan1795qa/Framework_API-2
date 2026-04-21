@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjI1LjMyMTYxNiIsInVzZXJfaWQiOiIwZjViNTk0Ny1jYTI4LTQ3YjAtYWI5ZS0xZTZmMjNmYmNhZWYifQ.ajRipNYr2flEwc3CtJB8PbkUlUbWLYfgZQM1yQQUG9c'\
+-h 'content-length: 325'\
+-h 'content-type: application/json'\
+-d '{"title":"Idea character receive you.","maxScore":97,"minScore":23,"description":"Million station we really dog. Possible write off remember radio. Despite adult test give week agency.","estimatedTime":"42 weeks","previewFileId":"b8bc63f0-1e41-4bfe-a288-1c0baeab73a5","createdByUserId":"0f5b5947-ca28-47b0-ab9e-1e6f23fbcaef"}'

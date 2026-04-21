@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjI3LjMwODMyNSIsInVzZXJfaWQiOiIxZGRjMmQ5NC1kMGU1LTQ1NzMtOGY1ZC00YzJjMTk4ZDZmMjQifQ.K8ZhR8ZKfywg8QJx9JD44c_Ye2-duEtIkCO8R0kA_Ag'\
+-h 'content-length: 340'\
+-h 'content-type: application/json'\
+-d '{"title":"Page before enter amount strategy increase.","maxScore":69,"minScore":7,"description":"Word usually long entire understand gun growth. Create return debate guess soldier organization three.","estimatedTime":"79 weeks","previewFileId":"2a3a81f3-42fe-4e6f-82ae-d65142499861","createdByUserId":"1ddc2d94-d0e5-4573-8f5d-4c2c198d6f24"}'

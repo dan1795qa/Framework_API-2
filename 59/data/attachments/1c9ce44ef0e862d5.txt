@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMyLjE2NDU2NyIsInVzZXJfaWQiOiJjMzExM2U5Yy1lZGY3LTQwMmYtOTM0OS04OTgwYmM4ZGI2NWMifQ.3FrkPIRKDLq2Bm9RA_9A__z8268Y-beFaXXuRw_Yguc'\
+-h 'content-length: 337'\
+-h 'content-type: application/json'\
+-d '{"title":"Memory peace blue once nation care.","courseId":"ec4f368e-9614-41fa-9845-defdf12affdb","maxScore":60,"minScore":29,"orderIndex":16,"description":"Action discover issue radio continue size leg establish. Speak material make media difference book call choice. Through some remain full medical policy.","estimatedTime":"66 weeks"}'

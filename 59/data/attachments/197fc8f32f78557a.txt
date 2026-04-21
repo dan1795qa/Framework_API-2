@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjI2LjY1ODY3OSIsInVzZXJfaWQiOiI1Y2I2ZjJjNC0zOTc1LTQ1ZDgtOGRmYi1mZWI3MzY1MTZmZDQifQ.PfbA0XNLxRysgbPPUtDnSCqi0PXZ7Ad_qlgRxVplyvY'\
+-h 'content-length: 389'\
+-h 'content-type: application/json'\
+-d '{"title":"Institution garden stock rock show.","maxScore":95,"minScore":6,"description":"Effect become effort skin mouth score. Easy into teach dark high seat even.\nBest possible sister view positive. Lay month next. Race summer special ready near.","estimatedTime":"4 weeks","previewFileId":"ca9737f2-ff86-4c80-b4da-c162fb869241","createdByUserId":"5cb6f2c4-3975-45d8-8dfb-feb736516fd4"}'

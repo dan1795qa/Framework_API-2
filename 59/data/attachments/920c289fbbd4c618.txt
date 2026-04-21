@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMyLjE2NDU2NyIsInVzZXJfaWQiOiJjMzExM2U5Yy1lZGY3LTQwMmYtOTM0OS04OTgwYmM4ZGI2NWMifQ.3FrkPIRKDLq2Bm9RA_9A__z8268Y-beFaXXuRw_Yguc'\
+-h 'content-length: 359'\
+-h 'content-type: application/json'\
+-d '{"title":"Mention course own son.","maxScore":68,"minScore":8,"description":"Simple notice system they environment perform. Nearly join major way leave.\nSupport baby threat. A answer across yeah back national perhaps.","estimatedTime":"69 weeks","previewFileId":"4a3c268c-802a-4eb0-b83c-456990133e20","createdByUserId":"c3113e9c-edf7-402f-9349-8980bc8db65c"}'

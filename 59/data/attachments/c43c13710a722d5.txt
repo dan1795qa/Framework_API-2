@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjI1Ljk5NTA0MyIsInVzZXJfaWQiOiI3OTNhZTM0OC05ZmIwLTQ0NDYtYjU5NS00NjQzNzMwYmM5NGUifQ.niPhw3nhuiynYfLONi4SFs-8mhh89BtPIvSjWzyDxrk'\
+-h 'content-length: 369'\
+-h 'content-type: application/json'\
+-d '{"title":"Today cut event space.","maxScore":61,"minScore":26,"description":"Who film exist happy trial body suggest edge. Chance and stuff three rather full. Option quite agent away age inside join.\nTrue your sense think walk.","estimatedTime":"46 weeks","previewFileId":"7909a87b-23e0-423d-89f6-aa2803128245","createdByUserId":"793ae348-9fb0-4446-b595-4643730bc94e"}'

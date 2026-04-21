@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMwLjE3NTYyOCIsInVzZXJfaWQiOiI1YTc5MzdjZC1hOTQ3LTRiODQtYTIxMC00NjljM2RiMDhiNjQifQ.lyW-4ABBb92-cWbiAXLj55nbkfcdO9pjOpAqRMYvokI'\
+-h 'content-length: 335'\
+-h 'content-type: application/json'\
+-d '{"title":"Should animal reveal lot pattern place.","maxScore":87,"minScore":26,"description":"Exactly must reduce something time. Apply personal fine actually.\nDaughter party affect bring feel.","estimatedTime":"69 weeks","previewFileId":"586e3303-db37-4ac7-9945-9bb2154aaef5","createdByUserId":"5a7937cd-a947-4b84-a210-469c3db08b64"}'

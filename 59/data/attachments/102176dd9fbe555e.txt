@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMwLjgzNzU3NCIsInVzZXJfaWQiOiJkZmQ0N2FlZS01YTlkLTQ2ZGEtOTYxNC00ZTBhNDcwMjQxMWMifQ.SAedgjWkYPBsi4ecG_L3hDopJhC653vsef7MMJTDUgw'\
+-h 'content-length: 372'\
+-h 'content-type: application/json'\
+-d '{"title":"Treat of whom class issue approach perform.","courseId":"e38ac1ac-4c18-407b-987a-e670194d0969","maxScore":100,"minScore":1,"orderIndex":58,"description":"Cost speech realize wind citizen. Camera range protect easy gun audience.\nOne western buy recent especially result. Firm environment through shoulder room. Son day could require.","estimatedTime":"26 weeks"}'

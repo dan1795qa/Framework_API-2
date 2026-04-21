@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMwLjE3NTYyOCIsInVzZXJfaWQiOiI1YTc5MzdjZC1hOTQ3LTRiODQtYTIxMC00NjljM2RiMDhiNjQifQ.lyW-4ABBb92-cWbiAXLj55nbkfcdO9pjOpAqRMYvokI'\
+-h 'content-length: 310'\
+-h 'content-type: application/json'\
+-d '{"title":"Policy those actually skin win no maintain recently.","courseId":"6bd1bf63-4532-4414-a05a-7485be0834c9","maxScore":84,"minScore":24,"orderIndex":15,"description":"Up attack choose world. Business check air usually reveal fear. Chair along stage now popular forward adult.","estimatedTime":"11 weeks"}'

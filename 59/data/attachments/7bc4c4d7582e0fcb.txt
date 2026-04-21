@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjI5LjUxODI1NiIsInVzZXJfaWQiOiI4Njk1MDRiNS03NTc0LTQwZTQtYWVlZC1kMTJkMjdiOGNiMGMifQ.PjWw5yfIahk3s35mXMu-TbCjhDT0E9sqcz86_LQ50DM'\
+-h 'content-length: 383'\
+-h 'content-type: application/json'\
+-d '{"title":"Other claim final something value.","maxScore":60,"minScore":8,"description":"Generation protect wait author. Among husband must officer. Reality sit traditional air affect watch spend protect. Tv lawyer capital reduce speech suffer.","estimatedTime":"6 weeks","previewFileId":"7eda5f75-2d5d-47ad-8f1c-a34c5bf643f1","createdByUserId":"869504b5-7574-40e4-aeed-d12d27b8cb0c"}'

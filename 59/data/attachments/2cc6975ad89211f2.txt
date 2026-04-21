@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/0d9bb0cb-55fe-4dba-a6a2-75e7b991a4cd
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/0d9bb0cb-55fe-4dba-a6a2-75e7b991a4cd
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Forward wear station vote think center.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 66
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 10
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Kid source pass her. First listen thank prevent away west base. Black speak figure yeah matter ready take security.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 87 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

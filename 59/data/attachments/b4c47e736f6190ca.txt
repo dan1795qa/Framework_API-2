@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTIxVDIwOjE4OjMxLjUwMzU0NCIsInVzZXJfaWQiOiJkN2Q2YWMyZi04OTZhLTQxMWQtOTIxNi1kYTdjMmRmZWJmYzMifQ.sSIk-yKxNAVJP6O4CfwfmYUv3TeE1MESx9RLQ8X6oTs'\
+-h 'content-length: 417'\
+-h 'content-type: application/json'\
+-d '{"title":"Film environment sort citizen.","maxScore":71,"minScore":18,"description":"Purpose name himself reach citizen action. So throughout door authority before build third. Top production deep it.\nSide soon voice image ready base. Staff season kind but name record value.","estimatedTime":"22 weeks","previewFileId":"88a7c6bf-5595-4854-8bd8-1a125b7ec64f","createdByUserId":"d7d6ac2f-896a-411d-9216-da7c2dfebfc3"}'
