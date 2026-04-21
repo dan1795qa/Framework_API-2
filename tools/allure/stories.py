@@ -3,6 +3,7 @@ from enum import Enum
 
 class AllureStory(str, Enum):
     LOGIN = "Login"
+    REFRESH = "Refresh"
 
     GET_ENTITY = "Get entity"
     GET_ENTITIES = "GET entities"
