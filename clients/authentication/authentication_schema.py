@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from tools.fakers import fake
 
 
@@ -21,5 +21,7 @@ class LoginResponseSchema(BaseModel):
 
 
 class RefreshRequestSchema(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
     """Описание структуры запроса для обновления токена."""
-    refresh_token: str = Field(alias="refreshToken", default_factory=fake.sentence)
+    refresh_token: str = Field(alias="refreshToken")
