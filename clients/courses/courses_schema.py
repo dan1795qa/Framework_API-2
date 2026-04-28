@@ -1,4 +1,4 @@
-from pydantic import BaseModel, HttpUrl, Field, ConfigDict
+from pydantic import BaseModel, HttpUrl, Field, ConfigDict, RootModel
 from clients.users.users_schema import UserSchema
 from clients.files.files_schema import FileSchema
 from tools.fakers import fake
@@ -71,3 +71,8 @@ class UpdateCourseResponseSchema(BaseModel):
     Описание структуры ответа обновления курса.
     """
     course: CourseSchema
+
+
+class DeleteCourseResponseSchema(RootModel[str]):
+    """Описание структуры ответа на удаление курса."""
+    pass
