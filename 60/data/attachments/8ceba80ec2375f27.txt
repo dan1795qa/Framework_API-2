@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA5LjE4NDgxOCIsInVzZXJfaWQiOiI3NjBlNGQ5Mi04OGUzLTQ3MTUtYWYwYy1kNzMwMGY3NmIwMDIifQ.sZY0l5pIkj183HUlvFMki4LqbSsCEZD2or1IVPwgefM'\
+-h 'content-length: 342'\
+-h 'content-type: application/json'\
+-d '{"title":"Stuff least discover simply across.","maxScore":58,"minScore":17,"description":"Mission guess understand month. Onto you role sing.\nQuality born road huge than floor. Stuff cause new moment.","estimatedTime":"23 weeks","previewFileId":"a8a5cc72-8fc0-4f72-8d0b-dadb2d83e29c","createdByUserId":"760e4d92-88e3-4715-af0c-d7300f76b002"}'

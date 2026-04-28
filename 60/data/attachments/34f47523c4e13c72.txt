@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA2LjIyMjYxNiIsInVzZXJfaWQiOiJiZDc5MmRlMi1iY2U0LTQ4MmYtODE3OS1lMjA4OTYxN2VjOGUifQ.oGo4D7V4_IhgCLShcR-C_JSsQMCbxvttCRj-pYsi14Y'\
+-h 'content-length: 367'\
+-h 'content-type: application/json'\
+-d '{"title":"Structure morning usually west couple.","maxScore":68,"minScore":22,"description":"True fight history. At exist drug marriage fear through half.\nMoment young pretty. Democratic central name senior could environment.","estimatedTime":"49 weeks","previewFileId":"b970f6dd-b8fa-4f63-aed3-df2d41fa9899","createdByUserId":"bd792de2-bce4-482f-8179-e2089617ec8e"}'

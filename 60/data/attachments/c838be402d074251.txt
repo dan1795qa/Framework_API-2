@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjExLjE4ODM5MCIsInVzZXJfaWQiOiJhNDllNDRmZS0yODdhLTRkMzEtOTA2NS0xODg2ZjZmMzFiMDAifQ.jIHWJ8sgK3N1gviXV6RMPAPWybtVqzYWs2AKQj0ND0Y'\
+-h 'content-length: 385'\
+-h 'content-type: application/json'\
+-d '{"title":"Together also most.","maxScore":57,"minScore":4,"description":"Hundred head speech. Allow quickly manager.\nClose big house wind everyone I possible. Specific probably Mrs dinner personal. Wide next move page foreign father firm girl.","estimatedTime":"63 weeks","previewFileId":"89f887dd-f87e-4712-b92a-76fd5749562e","createdByUserId":"a49e44fe-287a-4d31-9065-1886f6f31b00"}'

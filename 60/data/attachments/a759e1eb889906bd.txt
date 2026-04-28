@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA0LjI0MjY1OCIsInVzZXJfaWQiOiJiYzY2M2M1OS1hOTA5LTQyMzUtYmEyOC1hZmQxOWQzZjAxMWUifQ.4K7RkTythlKL_LTDGdmS-y8m_w1MmsUjdBDJEKtLVLQ'\
+-h 'content-length: 395'\
+-h 'content-type: application/json'\
+-d '{"title":"Writer human order various.","maxScore":62,"minScore":15,"description":"Food reflect design. Hear industry word child hand price training.\nYet name win particular animal develop account. Wait stand crime TV. Prepare call daughter chair example.","estimatedTime":"9 weeks","previewFileId":"dc05c0a0-dee3-45f3-90f5-9ea139fe3965","createdByUserId":"bc663c59-a909-4235-ba28-afd19d3f011e"}'

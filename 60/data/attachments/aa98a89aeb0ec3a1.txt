@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/a18179b2-c791-4434-ade4-63387a04c54f'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA5Ljg0ODgyOSIsInVzZXJfaWQiOiI1MDMwMmU5Mi04MzQ0LTRiNWItODI2Ni04YTE0MmE4ZDU2ZmYifQ.PLG3yyUaxtap03shZDEOPzb__VJGJRXqEvRRY_fDXmc'\
+-h 'content-length: 307'\
+-h 'content-type: application/json'\
+-d '{"title":"Fine order agree lose adult.","maxScore":81,"minScore":19,"orderIndex":33,"description":"Effect also truth blood among. Here reveal necessary building perhaps heavy better. Blue off develop collection condition marriage certainly. Another then describe against answer.","estimatedTime":"11 weeks"}'

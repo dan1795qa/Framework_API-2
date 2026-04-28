@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA5Ljg0ODgyOSIsInVzZXJfaWQiOiI1MDMwMmU5Mi04MzQ0LTRiNWItODI2Ni04YTE0MmE4ZDU2ZmYifQ.PLG3yyUaxtap03shZDEOPzb__VJGJRXqEvRRY_fDXmc'\
+-h 'content-length: 358'\
+-h 'content-type: application/json'\
+-d '{"title":"Yes leader road young.","courseId":"d5d89fae-ae8c-4e75-91a4-7a0f63f6b42f","maxScore":64,"minScore":26,"orderIndex":4,"description":"Usually lay always treat record. Large really back talk simple standard improve.\nCould recently industry argue. Likely number why. Test important try development somebody low table this.","estimatedTime":"16 weeks"}'

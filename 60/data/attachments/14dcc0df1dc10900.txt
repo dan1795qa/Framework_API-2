@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA0LjkxMDM0MCIsInVzZXJfaWQiOiI4M2FlMTlkNC02MmY2LTQ5NjYtYTE4Yi1hMTA5MDhjODkyZWMifQ.71xibpnHGSy-ZIhoO5qZFpCLzp9DVQqkIRKjyIuCdVE'\
+-h 'content-length: 373'\
+-h 'content-type: application/json'\
+-d '{"title":"White law network federal response him.","maxScore":55,"minScore":15,"description":"Tough PM what today. Ability someone against. Walk himself share position final hold deep.\nSite money southern ability court region past.","estimatedTime":"28 weeks","previewFileId":"79176e53-63c8-4f16-b822-8507d85fbc58","createdByUserId":"83ae19d4-62f6-4966-a18b-a10908c892ec"}'

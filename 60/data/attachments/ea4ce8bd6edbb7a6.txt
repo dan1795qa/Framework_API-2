@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA4LjUyMjA4MSIsInVzZXJfaWQiOiJiMDdlMjk1Zi1kNGNiLTQ2MmEtYmRiMi0xZDZkZTU1NGM4MjUifQ.VmHqYPCqnWSXP9Pfm6YS0qgj_53XOb644W-faxDw8CI'\
+-h 'content-length: 394'\
+-h 'content-type: application/json'\
+-d '{"title":"Almost trade his road.","maxScore":97,"minScore":18,"description":"By claim science address yes add stuff. Religious again within amount leg your international. Through once account top.\nSit actually history. Thing among customer arrive back.","estimatedTime":"26 weeks","previewFileId":"ae6555c8-5dda-429d-af9a-590202175e1a","createdByUserId":"b07e295f-d4cb-462a-bdb2-1d6de554c825"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA4LjUyMjA4MSIsInVzZXJfaWQiOiJiMDdlMjk1Zi1kNGNiLTQ2MmEtYmRiMi0xZDZkZTU1NGM4MjUifQ.VmHqYPCqnWSXP9Pfm6YS0qgj_53XOb644W-faxDw8CI'\
+-h 'content-length: 294'\
+-h 'content-type: application/json'\
+-d '{"title":"Budget world win always.","courseId":"fbb1e463-7c2d-4dd6-bd02-1c8606072f01","maxScore":91,"minScore":3,"orderIndex":61,"description":"Forget list section buy police. Two tax expect onto use nor cultural.\nTree attorney tonight. Gun wind company individual.","estimatedTime":"3 weeks"}'

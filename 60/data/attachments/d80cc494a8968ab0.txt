@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjEwLjUxOTY3MCIsInVzZXJfaWQiOiI5Y2U2MWJlNS0wZGI3LTRlODMtYjI1Yy1lZmYwYjllNmJmMjcifQ.haj2IvLprv3OZYql8vw0wZQ7EvAAdQGAVLHpmC6Y1-M'\
+-h 'content-length: 321'\
+-h 'content-type: application/json'\
+-d '{"title":"Adult after fall task family.","maxScore":65,"minScore":8,"description":"Measure low case. Road at college baby.\nSeem race economy population. Meet mention place amount.","estimatedTime":"45 weeks","previewFileId":"049da056-6090-487d-bd1d-1984b950dfeb","createdByUserId":"9ce61be5-0db7-4e83-b25c-eff0b9e6bf27"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjEwLjUxOTY3MCIsInVzZXJfaWQiOiI5Y2U2MWJlNS0wZGI3LTRlODMtYjI1Yy1lZmYwYjllNmJmMjcifQ.haj2IvLprv3OZYql8vw0wZQ7EvAAdQGAVLHpmC6Y1-M'\
+-h 'content-length: 279'\
+-h 'content-type: application/json'\
+-d '{"title":"Smile teacher writer time.","courseId":"6a5e8b71-d365-4fbb-870d-f332b32b893b","maxScore":53,"minScore":5,"orderIndex":63,"description":"Southern operation we. Rather relate indeed federal safe language admit very. Black even agreement film.","estimatedTime":"39 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/aaf9361d-c26f-43a0-9b57-c3d8babf6b49'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA0LjI0MjY1OCIsInVzZXJfaWQiOiJiYzY2M2M1OS1hOTA5LTQyMzUtYmEyOC1hZmQxOWQzZjAxMWUifQ.4K7RkTythlKL_LTDGdmS-y8m_w1MmsUjdBDJEKtLVLQ'\
+-h 'content-length: 266'\
+-h 'content-type: application/json'\
+-d '{"title":"Open camera water dog carry describe vote now.","maxScore":71,"minScore":16,"description":"Population city community design beyond size resource. Education represent form friend. Method southern compare money condition wide new.","estimatedTime":"8 weeks"}'

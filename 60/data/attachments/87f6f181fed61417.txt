@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA5Ljg0ODgyOSIsInVzZXJfaWQiOiI1MDMwMmU5Mi04MzQ0LTRiNWItODI2Ni04YTE0MmE4ZDU2ZmYifQ.PLG3yyUaxtap03shZDEOPzb__VJGJRXqEvRRY_fDXmc'\
+-h 'content-length: 319'\
+-h 'content-type: application/json'\
+-d '{"title":"Rise mission have especially.","maxScore":53,"minScore":17,"description":"Choice above early time step. North wind yard decade my door. Skin soon not reflect according.","estimatedTime":"64 weeks","previewFileId":"0ab56c09-c8c1-4165-9a91-1c0caeceab60","createdByUserId":"50302e92-8344-4b5b-8266-8a142a8d56ff"}'

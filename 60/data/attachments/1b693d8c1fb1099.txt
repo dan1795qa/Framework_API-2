@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTI4VDIwOjIyOjA1LjU2MTk5MSIsInVzZXJfaWQiOiJjMjA3YWM5MC1lNzIzLTRmYTEtOTBmMy05YTIxMGU5YjAxNTUifQ.vdkFD_cwrfIAISgvm6euJoSSWUs4suTzmdv2X58Oqio'\
+-h 'content-length: 350'\
+-h 'content-type: application/json'\
+-d '{"title":"Significant standard green.","maxScore":70,"minScore":20,"description":"Citizen full your evidence can light. Project top under debate college lot dream. Day decision whether she represent those buy.","estimatedTime":"34 weeks","previewFileId":"d166845e-579e-4419-9b3d-dd13d772be2e","createdByUserId":"c207ac90-e723-4fa1-90f3-9a210e9b0155"}'
