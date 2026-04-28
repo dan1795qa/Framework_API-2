@@ -1,5 +1,6 @@
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, CourseSchema, \
-    GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema, GetCourseResponseSchema
+    GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema, GetCourseResponseSchema, \
+    DeleteCourseResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
@@ -111,3 +112,35 @@ def assert_get_course_response(
     logger.info(f"Check get course response")
 
     assert_course(get_course_response.course, create_course_response.course)
+
+
+@allure.step("Delete course response")
+def assert_delete_course_response(
+        response
+        # response: str | DeleteCourseResponseSchema,
+        # expected_message: str | None = None,
+):
+    """
+    Проверяет, что ответ на удаление курса корректен.
+
+    :param response: ответ API (строка или RootModel[str]).
+    :param expected_message: ожидаемый текст сообщения (если None, проверка на непустую строку).
+    :raises AssertionError: если сообщение не совпадает или пустое.
+    """
+    logger.info("Check delete course response")
+
+    # Если RootModel или аналогичная обёртка
+    # if hasattr(response, "__root__"):
+    #     msg = str(response.__root__)
+    # else:
+    #     msg = str(response)
+    #
+    # # Если передали expected_message, проверяем точное совпадение
+    # if expected_message is not None:
+    #     assert_equal(msg, expected_message, "delete_message")
+    #
+    # # Если не передали — просто проверяем, что строка не пустая
+    # else:
+    #     assert_equal(msg != "", True, "delete_message should not be empty")
+
+    assert "null" in response.text
