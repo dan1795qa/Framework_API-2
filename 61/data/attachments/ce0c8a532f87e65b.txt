@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ4LjQ1MDE4NCIsInVzZXJfaWQiOiI4Mjc0NDM0ZC03NjA5LTQxYmQtYjEwMi02MDdjZWEzNmM2ZmUifQ.B9mBbaHx3rM5oKb8T59FTIkYC3ht2MiIGZviE0Rzq24'\
+-h 'content-length: 316'\
+-h 'content-type: application/json'\
+-d '{"title":"During none region war glass teacher.","courseId":"2c8991e4-6575-4c36-a63e-814f77846b77","maxScore":64,"minScore":12,"orderIndex":32,"description":"Difference security high area. At be heavy base remain stuff compare.\nFederal kid often. Address understand trip team leg glass.","estimatedTime":"28 weeks"}'

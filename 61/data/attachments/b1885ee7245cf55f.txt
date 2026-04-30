@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ3Ljc4NzMzMiIsInVzZXJfaWQiOiJiNTk1N2I0Yy1lNTI5LTRhNDMtYWI2Yi04OGQ3MDgyMzM4YTMifQ.anVNqiytUa9rXdDzzffAkLyAHY7hYVQ0GkIIW9hmQPo'\
+-h 'content-length: 391'\
+-h 'content-type: application/json'\
+-d '{"title":"Drop support hope analysis without before black.","courseId":"9bd8f037-ffd6-45b7-8f91-d3ce875971d4","maxScore":100,"minScore":21,"orderIndex":82,"description":"Apply picture join culture purpose offer several. Family several condition certainly wind fill. City child all dinner off.\nTreat attack bring should.\nBook million watch computer yet benefit.","estimatedTime":"52 weeks"}'

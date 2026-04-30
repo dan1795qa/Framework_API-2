@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ5LjEyNTM5NyIsInVzZXJfaWQiOiI0ZjQwZjI4ZS1mNDRkLTRkMzktODM0Mi0zNGVjMjI5NGU4MjcifQ.W6Y5whjYADqzx5FRp14Hh08Yy37UO0Kd-4UqwudAtr8'\
+-h 'content-length: 415'\
+-h 'content-type: application/json'\
+-d '{"title":"Far light stage mean.","maxScore":76,"minScore":12,"description":"Single free treatment challenge business significant. Catch information game door left difference. Drop war impact day reality.\nHand message myself. Like science scientist apply necessary marriage.","estimatedTime":"39 weeks","previewFileId":"c798cd61-1937-4fb3-a314-37ae377b672c","createdByUserId":"4f40f28e-f44d-4d39-8342-34ec2294e827"}'

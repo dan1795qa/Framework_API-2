@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ1LjQyNzI5MSIsInVzZXJfaWQiOiI5M2I5ZTk3My0yZGE5LTQ5YWUtOGM5Mi04ZTJiOTk3YjA3ODgifQ.g2AscI8dqLmYMxbfVjGYBe67TrOIuPHpn7xBXRKSULM'\
+-h 'content-length: 340'\
+-h 'content-type: application/json'\
+-d '{"title":"Brother ready there or five art.","maxScore":85,"minScore":23,"description":"From blood total still try him. Put around choice work whose suddenly happy. Few start another power half throw.","estimatedTime":"65 weeks","previewFileId":"d671653c-9d0f-46f8-9345-f2b14eb0c7d6","createdByUserId":"93b9e973-2da9-49ae-8c92-8e2b997b0788"}'

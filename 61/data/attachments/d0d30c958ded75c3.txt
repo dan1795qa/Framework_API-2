@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/6a54d308-47ea-4213-8d70-82ab904c211c'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ5LjEyNTM5NyIsInVzZXJfaWQiOiI0ZjQwZjI4ZS1mNDRkLTRkMzktODM0Mi0zNGVjMjI5NGU4MjcifQ.W6Y5whjYADqzx5FRp14Hh08Yy37UO0Kd-4UqwudAtr8'\
+-h 'content-length: 287'\
+-h 'content-type: application/json'\
+-d '{"title":"Head catch task white.","maxScore":92,"minScore":23,"orderIndex":60,"description":"Change sure west morning.\nTry despite anything that true apply knowledge blood. Those power item air.\nHand if too condition. Experience else benefit meeting glass.","estimatedTime":"80 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ3Ljc4NzMzMiIsInVzZXJfaWQiOiJiNTk1N2I0Yy1lNTI5LTRhNDMtYWI2Yi04OGQ3MDgyMzM4YTMifQ.anVNqiytUa9rXdDzzffAkLyAHY7hYVQ0GkIIW9hmQPo'\
+-h 'content-length: 387'\
+-h 'content-type: application/json'\
+-d '{"title":"However old others close per fear finish.","maxScore":63,"minScore":1,"description":"Foreign man realize course rate keep environment data. Prove agency tend agree blue.\nTax bit myself hear modern. Draw should yeah expert attorney lot.","estimatedTime":"19 weeks","previewFileId":"93fb684d-22be-4f6f-9720-267e222778d1","createdByUserId":"b5957b4c-e529-4a43-ab6b-88d7082338a3"}'

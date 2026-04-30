@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ5LjEyNTM5NyIsInVzZXJfaWQiOiI0ZjQwZjI4ZS1mNDRkLTRkMzktODM0Mi0zNGVjMjI5NGU4MjcifQ.W6Y5whjYADqzx5FRp14Hh08Yy37UO0Kd-4UqwudAtr8'\
+-h 'content-length: 356'\
+-h 'content-type: application/json'\
+-d '{"title":"Event record small animal house poor sell.","courseId":"fec041ac-ec42-4ab0-8ba0-55f5b0b86a98","maxScore":92,"minScore":27,"orderIndex":30,"description":"Key simply with opportunity hear. Can four specific follow play make. Little Republican few this.\nCold entire clearly senior course kid. Goal than contain someone.","estimatedTime":"26 weeks"}'

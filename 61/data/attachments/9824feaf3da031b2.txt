@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQzLjQyNjc4NiIsInVzZXJfaWQiOiIwMjM4YWIwYi1mNDljLTQ3NjAtYWUzMC1lZjM4NTIxOTI1YjIifQ.RF6OBW98ETO23El640S5p7kT1C8worqW_RvdtSeih5s'\
+-h 'content-length: 306'\
+-h 'content-type: application/json'\
+-d '{"title":"Order democratic with research carry board reduce.","maxScore":68,"minScore":1,"description":"Receive field apply however. Art heavy worry record of break.","estimatedTime":"81 weeks","previewFileId":"afc9427d-42b9-4fe4-ae61-fc2ffc678ed6","createdByUserId":"0238ab0b-f49c-4760-ae30-ef38521925b2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ5Ljc5MzE5NCIsInVzZXJfaWQiOiI4YTIyZjhiYy01YjJhLTRjZmUtODY1NS0wY2Y4N2E2Nzc4NjIifQ.UIKl39rs-Z7F0qa3gJMC1S_liSqtnFMMDpWQx36nSSU'\
+-h 'content-length: 384'\
+-h 'content-type: application/json'\
+-d '{"title":"Kind pretty sea eat debate accept market.","maxScore":83,"minScore":6,"description":"Film magazine next food size. Hundred perhaps rule still action fill any. Life hit several ready husband green.\nWith involve military parent begin.","estimatedTime":"77 weeks","previewFileId":"eb8f4981-e655-467a-87f3-ed72f34668a1","createdByUserId":"8a22f8bc-5b2a-4cfe-8655-0cf87a677862"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjUwLjQ2NDg3MiIsInVzZXJfaWQiOiI0M2IyNDQ3Zi1kY2NiLTQwYjctYmM5ZS0xNDVmNDNkN2U2NjMifQ.dTwya7G4M6mHH5Tj1gvt0n1rUKbwDzUzApgCEHf0lZ0'\
+-h 'content-length: 315'\
+-h 'content-type: application/json'\
+-d '{"title":"Lay your everything light after.","maxScore":90,"minScore":1,"description":"Cause pick of senior reality. Result citizen yeah daughter. Measure song Republican two.","estimatedTime":"70 weeks","previewFileId":"ede4f00e-25ea-423f-b5e4-dc6354586b52","createdByUserId":"43b2447f-dccb-40b7-bc9e-145f43d7e663"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjUwLjQ2NDg3MiIsInVzZXJfaWQiOiI0M2IyNDQ3Zi1kY2NiLTQwYjctYmM5ZS0xNDVmNDNkN2U2NjMifQ.dTwya7G4M6mHH5Tj1gvt0n1rUKbwDzUzApgCEHf0lZ0'\
+-h 'content-length: 347'\
+-h 'content-type: application/json'\
+-d '{"title":"Fund eat red return course main.","courseId":"e1ce8dd1-9fb1-4817-8f49-31976aa34594","maxScore":97,"minScore":7,"orderIndex":69,"description":"Natural wide recognize. Again consider occur agree decide year green ready.\nSell Mrs start player ten. Amount walk chair I. System employee move drug grow interview.","estimatedTime":"17 weeks"}'

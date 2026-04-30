@@ -1,0 +1,8 @@
+curl -X 'GET'\
+'http://localhost:8000/api/v1/users/incorrect-user-id'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjM0LjcxOTk5NiIsInVzZXJfaWQiOiJiZjM3ZWRhMy1hYTViLTRhZWMtODk4Zi02ZDVmNmUwYjYyYTAifQ.bDcjq35oHMI28Eo4KYn9NB2-tyCjh6XxOWWwYJSxj9k'

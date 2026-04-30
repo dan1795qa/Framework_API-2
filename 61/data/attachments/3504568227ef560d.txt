@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ0LjA5NjUzNyIsInVzZXJfaWQiOiI4OGEyYjk1OC0yNjA1LTRkNmQtYjg5ZS03ZTA2YTIzYWJiYWYifQ.7oD1anh5agCfm7MlEem41WaDAPmca3A7hUC6h3H0r8I'\
+-h 'content-length: 394'\
+-h 'content-type: application/json'\
+-d '{"title":"Power fact include shake appear kind treatment fear.","maxScore":70,"minScore":10,"description":"Offer respond notice player. Since send cultural hard one evening.\nFull story above debate site happy. With push feeling easy generation hundred.","estimatedTime":"86 weeks","previewFileId":"04e9c465-d0c6-46d6-9a7c-c1d1d4bf0c25","createdByUserId":"88a2b958-2605-4d6d-b89e-7e06a23abbaf"}'

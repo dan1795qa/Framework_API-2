@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQ0Ljc1MDcyMiIsInVzZXJfaWQiOiI0NTUxZDQyMC0xMTJjLTQ5ZTUtYTRjNS0yMzc4YzY1MmFiMjEifQ.CI5LfVX2-N1NL5sXt3xiTfKfsGZK_7JJ3lSqXldMGAI'\
+-h 'content-length: 437'\
+-h 'content-type: application/json'\
+-d '{"title":"Item establish key team visit simply nation.","maxScore":78,"minScore":28,"description":"Million off cause.\nAlong walk high energy. Recently letter first remember.\nEdge huge consider across agreement. Fly research least short hot start describe.\nYeah by risk. North war agree reduce.","estimatedTime":"73 weeks","previewFileId":"aa18a981-c082-4445-8432-d8767cb12abe","createdByUserId":"4551d420-112c-49e5-a4c5-2378c652ab21"}'

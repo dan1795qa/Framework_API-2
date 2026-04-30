@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/fb204878-ed7a-4a7d-add6-65a77f97d053'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE3OjQzOjQzLjQyNjc4NiIsInVzZXJfaWQiOiIwMjM4YWIwYi1mNDljLTQ3NjAtYWUzMC1lZjM4NTIxOTI1YjIifQ.RF6OBW98ETO23El640S5p7kT1C8worqW_RvdtSeih5s'\
+-h 'content-length: 236'\
+-h 'content-type: application/json'\
+-d '{"title":"Scientist local surface poor any music.","maxScore":54,"minScore":19,"description":"Pick positive behavior environmental ten trial character. Training form record cultural decide area bring social.","estimatedTime":"74 weeks"}'
