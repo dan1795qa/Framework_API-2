@@ -7,6 +7,7 @@ from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
     GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema, GetCourseResponseSchema, \
     DeleteCourseResponseSchema
+from clients.errors_schema import InternalErrorResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
@@ -16,7 +17,8 @@ from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.courses import assert_update_course_response, assert_get_courses_response, \
-    assert_create_course_response, assert_get_course_response, assert_delete_course_response
+    assert_create_course_response, assert_get_course_response, assert_delete_course_response, \
+    assert_course_not_found_response
 from tools.assertions.schema import validate_json_schema
 from allure_commons.types import Severity
 
@@ -108,8 +110,15 @@ class TestCourses:
     @allure.severity(Severity.BLOCKER)
     @allure.sub_suite(AllureStory.DELETE_ENTITY)
     def test_delete_course(self, courses_client: CoursesClient, function_course: CourseFixture):
-        response = courses_client.delete_course_api(function_course.response.course.id)
-        print(response.text)
+        delete_response = courses_client.delete_course_api(function_course.response.course.id)
 
-        assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_delete_course_response(response)
+        assert_status_code(delete_response.status_code, HTTPStatus.OK)
+        assert_delete_course_response(delete_response)
+
+        get_response = courses_client.get_course_api(function_course.response.course.id)
+        get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
+
+        assert_status_code(get_response.status_code, HTTPStatus.NOT_FOUND)
+        assert_course_not_found_response(get_response_data)
+
+        validate_json_schema(get_response.json(), get_response_data.model_json_schema())
