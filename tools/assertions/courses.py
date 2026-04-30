@@ -1,7 +1,9 @@
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, CourseSchema, \
     GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema, GetCourseResponseSchema, \
     DeleteCourseResponseSchema
+from clients.errors_schema import InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
+from tools.assertions.errors import assert_internal_error_response
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
 import allure
@@ -117,30 +119,29 @@ def assert_get_course_response(
 @allure.step("Delete course response")
 def assert_delete_course_response(
         response
-        # response: str | DeleteCourseResponseSchema,
-        # expected_message: str | None = None,
 ):
     """
     Проверяет, что ответ на удаление курса корректен.
 
-    :param response: ответ API (строка или RootModel[str]).
-    :param expected_message: ожидаемый текст сообщения (если None, проверка на непустую строку).
+    :param response: ответ API.
     :raises AssertionError: если сообщение не совпадает или пустое.
     """
     logger.info("Check delete course response")
 
-    # Если RootModel или аналогичная обёртка
-    # if hasattr(response, "__root__"):
-    #     msg = str(response.__root__)
-    # else:
-    #     msg = str(response)
-    #
-    # # Если передали expected_message, проверяем точное совпадение
-    # if expected_message is not None:
-    #     assert_equal(msg, expected_message, "delete_message")
-    #
-    # # Если не передали — просто проверяем, что строка не пустая
-    # else:
-    #     assert_equal(msg != "", True, "delete_message should not be empty")
-
     assert "null" in response.text
+
+
+@allure.step("Check course not found response")
+def assert_course_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Функция для проверки ошибки, если файл не найден на сервере.
+
+    :param actual: Фактический ответ.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    logger.info(f"Check course not found response")
+
+    # Ожидаемое сообщение об ошибке, если файл не найден
+    expected = InternalErrorResponseSchema(details="Course not found")
+    # Используем ранее созданную функцию для проверки внутренней ошибки
+    assert_internal_error_response(actual, expected)
