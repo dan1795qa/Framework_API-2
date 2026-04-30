@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE2Ljg1NjY1NyIsInVzZXJfaWQiOiJkMjljZGI1Yy0yNzYyLTRiNjktOTY4NS02Y2RiNmY5N2I1YWIifQ.o8vcYq05uY7Sya8_bVU_-7lmOfMKYf_vvnSqQ9VuIeQ'\
+-h 'content-length: 397'\
+-h 'content-type: application/json'\
+-d '{"title":"Foot third how building doctor.","maxScore":73,"minScore":23,"description":"Tell oil sport provide war. Around center seem. Half else white around also deep heavy.\nAlready say head reflect executive. True public couple decade large matter watch.","estimatedTime":"46 weeks","previewFileId":"8068521a-aa02-4f5e-9a3d-10e735d13d73","createdByUserId":"d29cdb5c-2762-4b69-9685-6cdb6f97b5ab"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE2Ljg1NjY1NyIsInVzZXJfaWQiOiJkMjljZGI1Yy0yNzYyLTRiNjktOTY4NS02Y2RiNmY5N2I1YWIifQ.o8vcYq05uY7Sya8_bVU_-7lmOfMKYf_vvnSqQ9VuIeQ'\
+-h 'content-length: 224'\
+-h 'content-type: application/json'\
+-d '{"title":"Figure drug ever mean perhaps nor pass.","courseId":"08b467ef-0491-44bd-aff3-c15c5c6c0026","maxScore":76,"minScore":2,"orderIndex":91,"description":"Perform officer short pretty goal so.","estimatedTime":"8 weeks"}'

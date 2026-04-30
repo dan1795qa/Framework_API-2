@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjExLjMwNDE0MyIsInVzZXJfaWQiOiI2NjEyNjRjOS0xOTU1LTQ5MmMtYTFhNS1mOTBhZDA1ZjA3ZTMifQ.tsc2kQS18qdnVPlHSLbCeM0kVLrScg841R5adpdu30k'\
+-h 'content-length: 354'\
+-h 'content-type: application/json'\
+-d '{"title":"West cup whatever argue first.","maxScore":83,"minScore":11,"description":"Season work today gas series successful may. Daughter west fact station.\nWell tax conference manager. Present even walk bag TV.","estimatedTime":"88 weeks","previewFileId":"d7514b8c-c55c-406b-a71a-620215d94db4","createdByUserId":"661264c9-1955-492c-a1a5-f90ad05f07e3"}'

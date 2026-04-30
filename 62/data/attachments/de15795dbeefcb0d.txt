@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjEyLjYzMTY1MyIsInVzZXJfaWQiOiIyOWU3NzYwZi04NmJhLTQxYzktOWRjYy0yNmU0MzMyYTk5YjkifQ.zXBbtDEQoLYTwJCdF2ltamC8AlhMq3jt1BpzyU9MVas'\
+-h 'content-length: 440'\
+-h 'content-type: application/json'\
+-d '{"title":"Way government relationship production why next today.","maxScore":61,"minScore":8,"description":"Eye money course throw citizen.\nGrow production south road scene environmental describe. Yes note building financial need available herself. Difference create down next represent how writer.","estimatedTime":"54 weeks","previewFileId":"07909961-3b98-4eec-9830-96ebfed50467","createdByUserId":"29e7760f-86ba-41c9-9dcc-26e4332a99b9"}'

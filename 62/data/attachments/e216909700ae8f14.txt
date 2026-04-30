@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE2LjIwNDA1MCIsInVzZXJfaWQiOiJlMzc1OTM0MC00YTE2LTQ3NmQtOWM1MS1kM2ZkNGFmMjJmMTQifQ.a-f5ic13a82F4PObM5YgNU4IvKdbEguWtJGkaJmAoOw'\
+-h 'content-length: 386'\
+-h 'content-type: application/json'\
+-d '{"title":"Word force close may student take.","maxScore":61,"minScore":8,"description":"Evening suffer paper similar how. Among force return reveal condition standard old.\nFeeling left under finish fine laugh machine. Avoid air we civil energy.","estimatedTime":"29 weeks","previewFileId":"21c62e02-3ec2-46ef-9c88-855a50c3bdb6","createdByUserId":"e3759340-4a16-476d-9c51-d3fd4af22f14"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=fe0b5e41-c31c-401d-8af0-b3cf3a80f2e0
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=fe0b5e41-c31c-401d-8af0-b3cf3a80f2e0
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:123 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 04976b77-22a5-45c7-958f-b100fda6e7e3
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Any price off dinner store reality society.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to fe0b5e41-c31c-401d-8af0-b3cf3a80f2e0
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 66
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 24
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 90
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to The game produce expert. Participant knowledge support debate. Out girl will include song scientist. Outside avoid production leader her myself animal class.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 35 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE4LjE2OTk3NiIsInVzZXJfaWQiOiIxYWZjNDQ3ZS03YjBhLTQ3YzctYmIzZi1mNjkzZmVkODczNzAifQ.ysn_e6hHxxx-02A5x7SkoFtL5jwm7U88c-Q9lJswTdo'\
+-h 'content-length: 416'\
+-h 'content-type: application/json'\
+-d '{"title":"Form administration enjoy.","maxScore":88,"minScore":13,"description":"Owner would machine the. Money pretty process specific cut ten college.\nCentury major already and type chair hour. Sometimes your edge husband system color notice fear. Threat hit option phone.","estimatedTime":"55 weeks","previewFileId":"db14c7b3-e130-4846-a13e-599cdade7ecf","createdByUserId":"1afc447e-7b0a-47c7-bb3f-f693fed87370"}'

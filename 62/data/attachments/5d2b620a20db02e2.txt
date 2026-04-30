@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/e6c78621-88af-401f-a67c-bb43db2adebd'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE3LjUwOTc2MiIsInVzZXJfaWQiOiI1NTZhYTgwYS1lOThiLTQ4MTUtODBlOC1lMDE4ZTU2YzI0MzMifQ.sdmlBX3vRwQkb4p-EmBHfNo87DHQ4_0zDmC243DYh4U'\
+-h 'content-length: 304'\
+-h 'content-type: application/json'\
+-d '{"title":"Woman before claim.","maxScore":96,"minScore":26,"orderIndex":3,"description":"Bring on charge huge identify father property.\nTruth write low whose light. Describe audience yet single interesting reduce right. Hour check bar their. Treat hotel technology Democrat.","estimatedTime":"39 weeks"}'

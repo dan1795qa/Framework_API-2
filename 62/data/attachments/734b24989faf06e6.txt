@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE3LjUwOTc2MiIsInVzZXJfaWQiOiI1NTZhYTgwYS1lOThiLTQ4MTUtODBlOC1lMDE4ZTU2YzI0MzMifQ.sdmlBX3vRwQkb4p-EmBHfNo87DHQ4_0zDmC243DYh4U'\
+-h 'content-length: 383'\
+-h 'content-type: application/json'\
+-d '{"title":"Factor plant fish different indeed into.","maxScore":62,"minScore":2,"description":"East decade position any spring billion. Animal example throughout cover each.\nRed without interest good. Source who traditional pull career remain.","estimatedTime":"3 weeks","previewFileId":"3284ae77-ebd8-45f6-90c3-95a86f460b29","createdByUserId":"556aa80a-e98b-4815-80e8-e018e56c2433"}'

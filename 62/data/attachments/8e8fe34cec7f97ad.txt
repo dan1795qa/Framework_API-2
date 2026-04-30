@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE3LjUwOTc2MiIsInVzZXJfaWQiOiI1NTZhYTgwYS1lOThiLTQ4MTUtODBlOC1lMDE4ZTU2YzI0MzMifQ.sdmlBX3vRwQkb4p-EmBHfNo87DHQ4_0zDmC243DYh4U'\
+-h 'content-length: 392'\
+-h 'content-type: application/json'\
+-d '{"title":"Suffer month toward ago provide you agent magazine.","courseId":"a9b6853a-52c3-4267-a6b0-97b5e89e2deb","maxScore":90,"minScore":28,"orderIndex":6,"description":"Consider picture leg hope area born. To think dream newspaper campaign.\nDirector though simple capital.\nMarriage nature paper capital south something increase. Standard fill meet seek agent.","estimatedTime":"69 weeks"}'

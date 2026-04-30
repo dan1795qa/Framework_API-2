@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Reveal assume kitchen stay phone loss two.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to 9036afa7-d21a-4c58-bbf7-e41647b49fb4
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 93
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 29
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 21
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Kind mean trouble chair kid end sing every. Gun stage stop set key writer end.
+Up up even remember. Anything then quite.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 97 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

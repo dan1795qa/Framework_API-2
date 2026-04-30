@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjExLjk2ODkwNCIsInVzZXJfaWQiOiI4ZmY1ZWIwYS1jOTY4LTQyNTQtYmYyNC05ZjlkNzUzOTc3ZDUifQ.g_lYxj41DjXvOsKfP8tKiSa8NLmRMnTqumqPin8Re48'\
+-h 'content-length: 368'\
+-h 'content-type: application/json'\
+-d '{"title":"Study third daughter run.","maxScore":90,"minScore":7,"description":"Data hand site herself. Site sing go yourself what.\nBeyond article although father easy any. Shoulder figure throughout exist. Tend else throw none.","estimatedTime":"2 weeks","previewFileId":"f85477c0-2bea-48a4-8ee5-56a07b8c86a5","createdByUserId":"8ff5eb0a-c968-4254-bf24-9f9d753977d5"}'

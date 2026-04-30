@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjE2LjIwNDA1MCIsInVzZXJfaWQiOiJlMzc1OTM0MC00YTE2LTQ3NmQtOWM1MS1kM2ZkNGFmMjJmMTQifQ.a-f5ic13a82F4PObM5YgNU4IvKdbEguWtJGkaJmAoOw'\
+-h 'content-length: 313'\
+-h 'content-type: application/json'\
+-d '{"title":"Reveal assume kitchen stay phone loss two.","courseId":"9036afa7-d21a-4c58-bbf7-e41647b49fb4","maxScore":93,"minScore":29,"orderIndex":21,"description":"Kind mean trouble chair kid end sing every. Gun stage stop set key writer end.\nUp up even remember. Anything then quite.","estimatedTime":"97 weeks"}'

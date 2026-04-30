@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjEzLjI3OTU5NiIsInVzZXJfaWQiOiIwMWQ4YjAxYi02ZDY0LTQ4MWQtYmYxNi04MzEwYTE2YmE1NTgifQ.o8ahFh6qYEob_ZHYsdP_8u5beOP7yYHCerUicx4zOwc'\
+-h 'content-length: 384'\
+-h 'content-type: application/json'\
+-d '{"title":"Money leave computer friend.","maxScore":81,"minScore":21,"description":"Democrat church just draw again outside off idea. Election enough actually individual indicate budget. Such concern picture recently again big opportunity step.","estimatedTime":"63 weeks","previewFileId":"a4574f3f-d9f9-4b10-83d1-92af93ee6a5d","createdByUserId":"01d8b01b-6d64-481d-bf16-8310a16ba558"}'

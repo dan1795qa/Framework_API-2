@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTMwVDE5OjE3OjEzLjkzOTM1NCIsInVzZXJfaWQiOiI1ZWEyMTQwNy0zOWJiLTRlYTgtYmI4MC0zMjc5Mzc5MDJkMDMifQ.E3_Y5lGWL2wfDBMdBglLiSq5wUahLn9MGjtB4R9_Fa4'\
+-h 'content-length: 364'\
+-h 'content-type: application/json'\
+-d '{"title":"Police with own get.","maxScore":96,"minScore":16,"description":"Determine rock language total threat science. Seven happy financial when charge guy someone today. Sign audience tonight science meeting sell staff.","estimatedTime":"38 weeks","previewFileId":"711b4098-93aa-4dfe-a8a2-cd9f3fd49691","createdByUserId":"5ea21407-39bb-4ea8-bb80-327937902d03"}'
