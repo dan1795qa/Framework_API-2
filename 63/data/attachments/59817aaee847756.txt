@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA0OjU5LjUyNzgyMyIsInVzZXJfaWQiOiIzNGMzMDI5ZC04Nzc0LTQ0NDctOTU4My0zN2I3MmFkYzM5OWIifQ.QjkTAJMd6xQ08bt8C537UOl0J-8omBOMg_kXCizTUpU'\
+-h 'content-length: 326'\
+-h 'content-type: application/json'\
+-d '{"title":"Reason study hour.","courseId":"eb89c9cd-e765-4c82-b5dc-f43ab768d85f","maxScore":66,"minScore":19,"orderIndex":9,"description":"Personal especially thought perhaps seven record someone. Consumer follow night listen bank there without. Customer clearly purpose local ability several role.","estimatedTime":"98 weeks"}'

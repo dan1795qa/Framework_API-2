@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/12dfc7bf-1df3-48a5-adfa-0462ea1e3e29'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA0OjU0Ljg5MDIwNSIsInVzZXJfaWQiOiIyZWM1MzYwMS0wY2EyLTQ2MTItYWRkNC02MDk0MDJmZTI1ZTUifQ.kzX7Ee9z1DMZw2IctVWlUuHDx0-BKttknjreDW0I7SI'\
+-h 'content-length: 233'\
+-h 'content-type: application/json'\
+-d '{"title":"Room concern loss.","maxScore":69,"minScore":10,"description":"Accept century church matter. Say walk reality single himself case alone citizen. Something owner boy lot product including middle.","estimatedTime":"39 weeks"}'

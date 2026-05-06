@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA0OjU2LjMzODE5MyIsInVzZXJfaWQiOiI1MWExNDAwNS0zZDIwLTRjMTEtODZhYi1kZjFlZjVkYjlmZjcifQ.g6VzvprkvZmXfVZ2KwzrBoLLcb8jiVCBK_oHY6fTTZs'\
+-h 'content-length: 322'\
+-h 'content-type: application/json'\
+-d '{"title":"Than number seem guy however.","maxScore":76,"minScore":17,"description":"National score yet until debate more know. Have act make Mr too what. Article doctor laugh never.","estimatedTime":"47 weeks","previewFileId":"0fb1b118-7a36-47c6-9863-d11219dd0a3b","createdByUserId":"51a14005-3d20-4c11-86ab-df1ef5db9ff7"}'

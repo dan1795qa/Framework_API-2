@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=bf00a54d-75d1-42b9-9969-955f5be82547
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=bf00a54d-75d1-42b9-9969-955f5be82547
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:123 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to c8030a75-f645-40a3-8fd7-c66856170fe5
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Few store make send tell.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to bf00a54d-75d1-42b9-9969-955f5be82547
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 57
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 28
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 70
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Decide team half condition. Owner trial indeed.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 99 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

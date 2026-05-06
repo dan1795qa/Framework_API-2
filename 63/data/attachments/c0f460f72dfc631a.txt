@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA1OjAxLjcwMjg3OCIsInVzZXJfaWQiOiJhZjc5NTg3YS01ZWM2LTRiMDktODUzMC1mZmNlZTRiMjdjZDcifQ.V73kLACE8j_CtmXVCwDP-uFeW0Emdqo1oaKeSXKOSnk'\
+-h 'content-length: 372'\
+-h 'content-type: application/json'\
+-d '{"title":"Popular several position.","courseId":"bb5149ef-8091-4888-ac46-76999e8e20eb","maxScore":69,"minScore":19,"orderIndex":93,"description":"Management by interview loss through. Arrive others administration record someone piece.\nShort democratic deal firm. Common six address simply. Fill election strategy certain yeah huge blood last.","estimatedTime":"96 weeks"}'

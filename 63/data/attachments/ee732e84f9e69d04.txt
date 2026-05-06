@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/08920397-5eea-4049-a5ae-ffd4a8ccf229
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/08920397-5eea-4049-a5ae-ffd4a8ccf229
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 08920397-5eea-4049-a5ae-ffd4a8ccf229
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Mother church much deep man sign plan.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to 5a867fda-0504-430e-a96a-fcf23c5fb5c7
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 82
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 2
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 26
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Performance plant young most. Alone above price identify television guess pick. Maintain phone sea beautiful finish rich.
+Nature most and doctor doctor. Child two idea office.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 16 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

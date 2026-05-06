@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA1OjAwLjk3NTYyNSIsInVzZXJfaWQiOiI0YzU2MTYwNS00YTA4LTQ1NjEtYTIzOC1kNDlhMTU0MTI1MzIifQ.1GsA_lvN0HBkxpCDk9bPBTz7vf0JUO-8g-IliAK0eok'\
+-h 'content-length: 406'\
+-h 'content-type: application/json'\
+-d '{"title":"Hear heavy chance information.","maxScore":66,"minScore":3,"description":"Gun write provide head out card series.\nBest others rather bank baby. Agree real nice memory. Develop situation major finally.\nOffer agreement nor. Need present give network real.","estimatedTime":"45 weeks","previewFileId":"86b65361-b833-40e8-8d14-1e7b27b868b0","createdByUserId":"4c561605-4a08-4561-a238-d49a15412532"}'

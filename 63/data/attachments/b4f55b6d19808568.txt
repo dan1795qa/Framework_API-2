@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA0OjU0Ljg5MDIwNSIsInVzZXJfaWQiOiIyZWM1MzYwMS0wY2EyLTQ2MTItYWRkNC02MDk0MDJmZTI1ZTUifQ.kzX7Ee9z1DMZw2IctVWlUuHDx0-BKttknjreDW0I7SI'\
+-h 'content-length: 408'\
+-h 'content-type: application/json'\
+-d '{"title":"Listen contain environment left wind market report full.","maxScore":81,"minScore":13,"description":"Particularly pull authority late chair tough story name. Involve speak natural. Attack single question set low time.\nKid address not yet hard finally show.","estimatedTime":"66 weeks","previewFileId":"cf4c1a6a-9f2d-45c4-bfe4-5e0b72fefd08","createdByUserId":"2ec53601-0ca2-4612-add4-609402fe25e5"}'

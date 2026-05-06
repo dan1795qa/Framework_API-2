@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA1OjAwLjk3NTYyNSIsInVzZXJfaWQiOiI0YzU2MTYwNS00YTA4LTQ1NjEtYTIzOC1kNDlhMTU0MTI1MzIifQ.1GsA_lvN0HBkxpCDk9bPBTz7vf0JUO-8g-IliAK0eok'\
+-h 'content-length: 313'\
+-h 'content-type: application/json'\
+-d '{"title":"Cause hospital similar.","courseId":"ee211477-835f-4fdd-bcbf-f0b3ccc4a37a","maxScore":51,"minScore":10,"orderIndex":80,"description":"Growth prove international especially.\nSection natural policy sense.\nPattern fire position language anyone grow. Board instead peace song.","estimatedTime":"46 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA1OjAxLjcwMjg3OCIsInVzZXJfaWQiOiJhZjc5NTg3YS01ZWM2LTRiMDktODUzMC1mZmNlZTRiMjdjZDcifQ.V73kLACE8j_CtmXVCwDP-uFeW0Emdqo1oaKeSXKOSnk'\
+-h 'content-length: 361'\
+-h 'content-type: application/json'\
+-d '{"title":"View similar billion investment wait maybe.","maxScore":57,"minScore":14,"description":"Most group study education.\nLead financial community either. Mouth something find carry occur opportunity certainly none.","estimatedTime":"21 weeks","previewFileId":"b4b1f5d8-2c84-43c3-a38e-d98688d11b90","createdByUserId":"af79587a-5ec6-4b09-8530-ffcee4b27cd7"}'

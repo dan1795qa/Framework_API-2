@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA1OjAwLjI1MjU3OSIsInVzZXJfaWQiOiI2NTFmZTkzNC04NjhlLTRhZDEtOGI0Yy1iNjk4ZDcxNzQ1MDIifQ.rHOnow72Pcp85vYlEy5yDlgQiDYHbMCCmyY8jKH3hRc'\
+-h 'content-length: 363'\
+-h 'content-type: application/json'\
+-d '{"title":"Mother church much deep man sign plan.","courseId":"5a867fda-0504-430e-a96a-fcf23c5fb5c7","maxScore":82,"minScore":2,"orderIndex":26,"description":"Performance plant young most. Alone above price identify television guess pick. Maintain phone sea beautiful finish rich.\nNature most and doctor doctor. Child two idea office.","estimatedTime":"16 weeks"}'

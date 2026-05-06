@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA0OjU1LjYyMzg0MSIsInVzZXJfaWQiOiI4MmUzMjExMi02ODA4LTQ5ODQtYTk4Ni05YzM1MDU5ZGFmZWQifQ.hwx5edTVhZ335Rk3Rh-k4l2xqXSuQ7eXrSE0HgfNv4Q'\
+-h 'content-length: 397'\
+-h 'content-type: application/json'\
+-d '{"title":"Century buy sing throw.","maxScore":52,"minScore":21,"description":"Might form draw once rich. Above alone dark nature name interest section evening. Serious outside answer remain.\nNatural look piece. Raise learn skill. Eat space wrong movement.","estimatedTime":"16 weeks","previewFileId":"5bbcf9f6-ed3e-47a6-9939-77d6e06ed475","createdByUserId":"82e32112-6808-4984-a986-9c35059dafed"}'

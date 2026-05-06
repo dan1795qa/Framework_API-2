@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA1OjAyLjQzMDY2MiIsInVzZXJfaWQiOiJiZGE1ZjZkMS01MmE0LTQxYTgtODc1Yy1lZDc3NThiNzBlYTYifQ.OFoMe8kUy7KtbCwOXk5XB2HvLpgQBv-mUPx9pd8OJ6I'\
+-h 'content-length: 431'\
+-h 'content-type: application/json'\
+-d '{"title":"Spring vote sister among performance detail official mouth.","maxScore":80,"minScore":26,"description":"Individual worker thought issue year along. Music recent call. Keep audience a worry where away learn.\nDrug party simple could share at. Edge state explain half business soon.","estimatedTime":"11 weeks","previewFileId":"af8b5497-4fca-4ce1-a209-7bebad2cd5f0","createdByUserId":"bda5f6d1-52a4-41a8-875c-ed7758b70ea6"}'

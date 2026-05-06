@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA0OjU0LjE1Mjk5NCIsInVzZXJfaWQiOiJlYTcyNjJlNC1jNzBjLTRhMTItOTc2OC1hZmU2NGI1MjkxNjEifQ.O6oUUh_7HJRE95LTfjoX-9UHa42L-QAtiKoD00X7urQ'\
+-h 'content-length: 373'\
+-h 'content-type: application/json'\
+-d '{"title":"Religious theory various work population wish wall.","maxScore":51,"minScore":5,"description":"Though half brother computer mean table to. Sister this grow image family up stage stuff. Power couple situation entire a body.","estimatedTime":"88 weeks","previewFileId":"e48d8554-965c-4733-82ac-7b7d04f8e53f","createdByUserId":"ea7262e4-c70c-4a12-9768-afe64b529161"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA2VDE0OjA1OjAwLjI1MjU3OSIsInVzZXJfaWQiOiI2NTFmZTkzNC04NjhlLTRhZDEtOGI0Yy1iNjk4ZDcxNzQ1MDIifQ.rHOnow72Pcp85vYlEy5yDlgQiDYHbMCCmyY8jKH3hRc'\
+-h 'content-length: 341'\
+-h 'content-type: application/json'\
+-d '{"title":"Although quite yard commercial series.","maxScore":58,"minScore":17,"description":"You others stage morning box charge hold. Source foreign off high approach professor. Modern free son rich.","estimatedTime":"20 weeks","previewFileId":"c3b86cb0-4f46-44d5-acfe-b0a83ef4cf38","createdByUserId":"651fe934-868e-4ad1-8b4c-b698d7174502"}'
