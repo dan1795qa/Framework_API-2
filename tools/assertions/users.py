@@ -1,10 +1,10 @@
-from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema
+from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema, InternalErrorResponseSchema
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema, \
     GetUserResponseSchema, UpdateUserRequestSchema, UpdateResponseSchema
 from tools.assertions.base import assert_equal
 import allure
 
-from tools.assertions.errors import assert_validation_error_response
+from tools.assertions.errors import assert_validation_error_response, assert_internal_error_response
 from tools.logger import get_logger
 
 logger = get_logger("USERS_ASSERTIONS")
@@ -107,3 +107,17 @@ def assert_update_user_response(request: UpdateUserRequestSchema, response: Upda
     assert_equal(response.user.last_name, request.last_name, 'last_name')
     assert_equal(response.user.first_name, request.first_name, 'first_name')
     assert_equal(response.user.middle_name, request.middle_name, 'middle_name')
+
+
+@allure.step("Check user not found response")
+def assert_user_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Функция для проверки ошибки, если пользователь не найден на сервере.
+
+    :param actual: Фактический ответ.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    logger.info(f"Check user not found response")
+
+    expected = InternalErrorResponseSchema(details="User not found")
+    assert_internal_error_response(actual, expected)
