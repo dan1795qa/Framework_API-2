@@ -1,7 +1,7 @@
 from http import HTTPStatus
 import pytest
 
-from clients.errors_schema import ValidationErrorResponseSchema
+from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema, \
@@ -16,7 +16,7 @@ from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
 # Импортируем функцию для проверки ответа создания юзера
 from tools.assertions.users import assert_create_user_response, assert_get_user_response, \
-    assert_get_user_with_incorrect_user_id_response, assert_update_user_response
+    assert_get_user_with_incorrect_user_id_response, assert_update_user_response, assert_user_not_found_response
 from tools.fakers import fake
 import allure
 from allure_commons.types import Severity
@@ -116,3 +116,19 @@ class TestUsers:
         assert_update_user_response(request, response_data )
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    @allure.tag(AllureTag.DELETE_ENTITY)
+    @allure.story(AllureStory.DELETE_ENTITY)
+    @allure.title("Delete user view")
+    @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)
+    def test_delete_user(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
+        delete_response = private_users_client.delete_user_api(function_user.response.user.id)
+        assert_status_code(delete_response.status_code, HTTPStatus.OK)
+
+        get_response = private_users_client.get_user_api(function_user.response.user.id)
+        get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
+
+        assert_status_code(get_response.status_code, HTTPStatus.UNAUTHORIZED)
+
+        validate_json_schema(get_response.json(), get_response_data.model_json_schema())
