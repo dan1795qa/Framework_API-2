@@ -16,7 +16,8 @@ from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
 # Импортируем функцию для проверки ответа создания юзера
 from tools.assertions.users import assert_create_user_response, assert_get_user_response, \
-    assert_get_user_with_incorrect_user_id_response, assert_update_user_response, assert_user_not_found_response
+    assert_get_user_with_incorrect_user_id_response, assert_update_user_response, assert_user_not_found_response, \
+    assert_update_user_with_incorrect_email_in_body
 from tools.fakers import fake
 import allure
 from allure_commons.types import Severity
@@ -71,7 +72,6 @@ class TestUsers:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITY)
     @allure.title("Get user view")
@@ -86,13 +86,13 @@ class TestUsers:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.title("Get user with incorrect user id")
     @allure.severity(Severity.NORMAL)
     @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
-    def test_get_user_with_incorrect_user_id(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
+    def test_get_user_with_incorrect_user_id(self, private_users_client: PrivateUsersClient,
+                                             function_user: UserFixture):
         response = private_users_client.get_user_api(user_id="incorrect-user-id")
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
@@ -100,7 +100,6 @@ class TestUsers:
         assert_get_user_with_incorrect_user_id_response(response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
-
 
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)
@@ -113,7 +112,7 @@ class TestUsers:
         response_data = UpdateResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_update_user_response(request, response_data )
+        assert_update_user_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
@@ -132,3 +131,22 @@ class TestUsers:
         assert_status_code(get_response.status_code, HTTPStatus.UNAUTHORIZED)
 
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
+
+    @allure.story(AllureStory.VALIDATE_ENTITY)
+    @allure.tag(AllureTag.VALIDATE_ENTITY)
+    @allure.title("Update user with incorrect email in body")
+    @allure.severity(Severity.NORMAL)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
+    def test_update_user_with_incorrect_email_in_body(self, private_users_client: PrivateUsersClient,
+                                                      function_user: UserFixture):
+        request = UpdateUserRequestSchema.model_construct(
+            email="user12example.com"
+        )
+        response = private_users_client.update_user_api(function_user.response.user.id, request)
+        print(response.text)
+        response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_update_user_with_incorrect_email_in_body(response_data)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
