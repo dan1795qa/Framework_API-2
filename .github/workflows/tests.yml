@@ -128,7 +128,7 @@ jobs:
           publish_dir: allure-history
 
   coverage-report:
-    needs: [ run-tests, publish-allure ]
+    needs: [ publish-allure ]
     runs-on: ubuntu-latest
     steps:
 
