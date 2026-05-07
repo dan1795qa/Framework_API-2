@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDA5OjU5OjU2LjQ5NTQyMiIsInVzZXJfaWQiOiJjODhiOTY2Yi02NDE1LTRjM2ItYmI3OC1mZTBlOTQ2N2JlNTAifQ.fWEue2IDTJVb8Gf_K7ZT6ENixZpdw_M76mtv_pv_vng'\
+-h 'content-length: 439'\
+-h 'content-type: application/json'\
+-d '{"title":"Mouth fish role consumer six interest light.","maxScore":95,"minScore":22,"description":"Growth special subject five page. Positive family serious strong. Congress behind bad head bed old president front.\nMillion officer matter attention sure. Human care service conference medical wish.","estimatedTime":"46 weeks","previewFileId":"834d1312-a254-4cc3-9dce-81f5be46ea96","createdByUserId":"c88b966b-6415-4c3b-bb78-fe0e9467be50"}'

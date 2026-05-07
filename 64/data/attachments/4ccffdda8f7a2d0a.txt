@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAyLjY4Mjk2OCIsInVzZXJfaWQiOiJkZmUzNjg1Yi1kNzUzLTRlYWMtYjJkNS1lZDM0NzExYjE0ZmQifQ.wgPAZgFdUIYRq8a7Y0Ha5oakYeSrPNmB-oiz2MO87Hk'\
+-h 'content-length: 376'\
+-h 'content-type: application/json'\
+-d '{"title":"Set hope its three thing social.","maxScore":62,"minScore":13,"description":"Surface present eat anything quality. Question explain tree economy protect dog. Explain give nature increase draw. Turn check early like like join.","estimatedTime":"94 weeks","previewFileId":"fb904823-f8b1-4e46-9458-bf514ed89edc","createdByUserId":"dfe3685b-d753-4eac-b2d5-ed34711b14fd"}'

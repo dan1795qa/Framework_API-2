@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/exercises/115cd66e-12b1-4502-9fb0-495378c63790'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAyLjAyMjk2MyIsInVzZXJfaWQiOiJlNDY4ZWEyYi0zNmE5LTRhNjctYTQ3MC03MDY3ZmQzNTdmNjgifQ.Tx0hTR6tAq3tCYaBRTAFAJjL_RIyHPphgmhkiTWadcY'\
+-h 'content-length: 269'\
+-h 'content-type: application/json'\
+-d '{"title":"Lay laugh history me guess.","maxScore":57,"minScore":11,"orderIndex":9,"description":"Television event eight decade whom spend fight tonight. With experience important position show reflect candidate occur. Million real dog than.","estimatedTime":"12 weeks"}'

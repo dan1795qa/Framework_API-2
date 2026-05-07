@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses/adbdc25b-0e94-4b68-97c3-a45b58de92d6
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/adbdc25b-0e94-4b68-97c3-a45b58de92d6
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:114 Check get course response
+INFO     COURSES_ASSERTIONS:courses.py:45 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to adbdc25b-0e94-4b68-97c3-a45b58de92d6
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to While I learn build result sign.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 80
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 13
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Technology son group.
+Never own wind project. Can policy blue how perform still key. Young majority gun glass change identify nothing parent.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 35 weeks
+INFO     FILES_ASSERTIONS:files.py:57 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to b0cd042e-7b82-475f-9303-b7ce7949afe7
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'url' equals to http://localhost:8000/static/tests/35b5bbc6-38d9-4f92-a8e1-cfc949b25815.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'filename' equals to 35b5bbc6-38d9-4f92-a8e1-cfc949b25815.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'directory' equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to d04f8d82-cab5-48bf-a492-cd20d5a0aa3e
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'email' equals to cindy38@example.net
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'last_name' equals to Campbell
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'first_name' equals to Regina
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'middle_name' equals to Tom
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

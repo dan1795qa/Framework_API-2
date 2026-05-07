@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAwLjcwMDQ1NyIsInVzZXJfaWQiOiJhNzE1MjM5OS1lMmM5LTRhOTktYmZjNC05MmI5ZjYzYjk3MTAifQ.9XYjrxKyBsu_SFlzww6TNOB--v0kLZcWGRA0Ue9qzeQ'\
+-h 'content-length: 363'\
+-h 'content-type: application/json'\
+-d '{"title":"Itself evening role hold.","courseId":"eccfc285-b82a-4318-beed-73dbd8ec127a","maxScore":52,"minScore":14,"orderIndex":87,"description":"Its old us. Fine scene the school wide field check ahead. Case huge appear theory spend follow.\nCitizen door low technology form safe information. Everybody same drop start project raise.","estimatedTime":"89 weeks"}'

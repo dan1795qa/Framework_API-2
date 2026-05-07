@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAyLjAyMjk2MyIsInVzZXJfaWQiOiJlNDY4ZWEyYi0zNmE5LTRhNjctYTQ3MC03MDY3ZmQzNTdmNjgifQ.Tx0hTR6tAq3tCYaBRTAFAJjL_RIyHPphgmhkiTWadcY'\
+-h 'content-length: 427'\
+-h 'content-type: application/json'\
+-d '{"title":"State view side board next wife.","maxScore":50,"minScore":19,"description":"Discuss song still. Certainly garden strategy again room. Process popular show over.\nHis image defense think often staff. Practice attention last management. Country us food almost believe thousand.","estimatedTime":"18 weeks","previewFileId":"cb94bc73-5563-4b1f-9abc-00e957b8ec01","createdByUserId":"e468ea2b-36a9-4a67-a470-7067fd357f68"}'

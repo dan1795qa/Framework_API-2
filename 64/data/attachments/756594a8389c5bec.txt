@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAyLjAyMjk2MyIsInVzZXJfaWQiOiJlNDY4ZWEyYi0zNmE5LTRhNjctYTQ3MC03MDY3ZmQzNTdmNjgifQ.Tx0hTR6tAq3tCYaBRTAFAJjL_RIyHPphgmhkiTWadcY'\
+-h 'content-length: 354'\
+-h 'content-type: application/json'\
+-d '{"title":"Main thank how.","courseId":"038d5c16-f1b0-4890-8781-2910df8ab146","maxScore":99,"minScore":21,"orderIndex":50,"description":"Him something yeah material across. Major building begin herself material structure might.\nContinue tonight prove thus. Game almost blue Mr. Apply pick threat service they possible number.","estimatedTime":"46 weeks"}'

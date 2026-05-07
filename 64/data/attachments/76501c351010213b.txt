@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDA5OjU5OjU1LjgyNTY1MCIsInVzZXJfaWQiOiJkZmJhODM2Yy05NGViLTRiMTktYmI4Ny1kY2NkYjc4MGI4MDEifQ.9ZzNkdK_O1lqlB_ckhF3HuTgsHMjoRm7kQQgFQKwE_U'\
+-h 'content-length: 324'\
+-h 'content-type: application/json'\
+-d '{"title":"Meet meeting gun authority real wind.","maxScore":60,"minScore":2,"description":"Choose help development.\nCollege receive dream detail itself. Story surface whom treatment.","estimatedTime":"57 weeks","previewFileId":"912103d9-3de7-4dcd-bbb5-f3493b996133","createdByUserId":"dfba836c-94eb-4b19-bb87-dccdb780b801"}'

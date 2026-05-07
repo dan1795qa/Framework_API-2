@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAxLjM2NDYyMyIsInVzZXJfaWQiOiI3NDc2ZGZmYy02NGVkLTRkNDEtYTkyYi02ZWFiNjU5NWViNzQifQ.ir876NkYsGoXq2cSVOXeQXhebxcFyCYgJL--jGDjHc0'\
+-h 'content-length: 372'\
+-h 'content-type: application/json'\
+-d '{"title":"Only often loss goal item.","courseId":"b08913c3-d803-46f5-b310-86a16a3457d3","maxScore":69,"minScore":23,"orderIndex":17,"description":"Activity student knowledge catch investment upon international. Space image site arm and throw.\nRock reflect war off read eye. Ball include speech later season pressure. Most certainly number PM.","estimatedTime":"16 weeks"}'

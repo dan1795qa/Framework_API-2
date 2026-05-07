@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDA5OjU5OjU4LjQ2MzY3MCIsInVzZXJfaWQiOiIyZGYzMjgxZS0zYzk2LTQwNGEtYTliNy1iNzkyZDY5YjdkYjUifQ.tUzRtnDxbPUkxg67G3T0K50BafpM3ej9Zvphkp-P-F4'\
+-h 'content-length: 293'\
+-h 'content-type: application/json'\
+-d '{"title":"He attention political research machine list store case.","maxScore":85,"minScore":4,"description":"Edge customer opportunity power yeah tree.","estimatedTime":"84 weeks","previewFileId":"ebb95519-d513-40e3-aba8-6a51bb42d910","createdByUserId":"2df3281e-3c96-404a-a9b7-b792d69b7db5"}'

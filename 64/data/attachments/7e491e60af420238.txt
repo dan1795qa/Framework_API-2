@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAyLjY4Mjk2OCIsInVzZXJfaWQiOiJkZmUzNjg1Yi1kNzUzLTRlYWMtYjJkNS1lZDM0NzExYjE0ZmQifQ.wgPAZgFdUIYRq8a7Y0Ha5oakYeSrPNmB-oiz2MO87Hk'\
+-h 'content-length: 278'\
+-h 'content-type: application/json'\
+-d '{"title":"Friend lay big total head.","courseId":"82a5beda-6a09-4561-9f59-da7bca0a948e","maxScore":98,"minScore":21,"orderIndex":80,"description":"Form wrong exactly than city success current. Amount something natural high score technology thousand.","estimatedTime":"14 weeks"}'

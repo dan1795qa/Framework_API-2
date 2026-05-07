@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+'http://localhost:8000/api/v1/courses/8e3fd089-9c28-4cd5-b636-d380b8b9be6f'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDA5OjU5OjU2LjQ5NTQyMiIsInVzZXJfaWQiOiJjODhiOTY2Yi02NDE1LTRjM2ItYmI3OC1mZTBlOTQ2N2JlNTAifQ.fWEue2IDTJVb8Gf_K7ZT6ENixZpdw_M76mtv_pv_vng'\
+-h 'content-length: 308'\
+-h 'content-type: application/json'\
+-d '{"title":"South lead second mouth.","maxScore":56,"minScore":25,"description":"Author dream this worker realize benefit. Thank happen book up of as others role. Once tend school policy last.\nUp single science. Job though nor learn could.\nLand event key close seat present unit.","estimatedTime":"98 weeks"}'

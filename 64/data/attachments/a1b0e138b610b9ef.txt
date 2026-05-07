@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     COURSES_ASSERTIONS:courses.py:90 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Real protect item together protect under.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 81
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 18
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Page series impact direction. Ability physical door tonight recognize.
+Catch citizen detail argue attorney focus green start. Direction price outside either hit all quality.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 80 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 3d87d50d-cb1c-4c7f-9b68-161ef860c3f2
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to 800dd288-d906-4dab-9342-15904cc5aed1
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

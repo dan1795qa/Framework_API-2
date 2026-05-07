@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/exercises'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAzLjM0MzU0OCIsInVzZXJfaWQiOiI3OGRjZGU5MS1hOGU4LTRiOTMtYWY4MS1hYjAzNTM4MTU1ZWIifQ.S4H_wrTHH7AQ1J_j-05-i6tOKT61kVNg4LusQjdtY2E'\
+-h 'content-length: 305'\
+-h 'content-type: application/json'\
+-d '{"title":"New idea resource important although fill I.","courseId":"ab71aa58-37a4-4a94-add0-b76ef8642eff","maxScore":94,"minScore":5,"orderIndex":31,"description":"Shake none nearly. Up leader authority.\nAttack last it quality return about resource. Speak radio wear soldier.","estimatedTime":"59 weeks"}'

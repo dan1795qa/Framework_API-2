@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDA5OjU5OjU3LjE1ODg5MSIsInVzZXJfaWQiOiI4MDBkZDI4OC1kOTA2LTRkYWItOTM0Mi0xNTkwNGNjNWFlZDEifQ.uZECZivfwnftlmKwz36iAKfHO-Imx-g2Mpg7KdJkMLc'\
+-h 'content-length: 411'\
+-h 'content-type: application/json'\
+-d '{"title":"Real protect item together protect under.","maxScore":81,"minScore":18,"description":"Page series impact direction. Ability physical door tonight recognize.\nCatch citizen detail argue attorney focus green start. Direction price outside either hit all quality.","estimatedTime":"80 weeks","previewFileId":"3d87d50d-cb1c-4c7f-9b68-161ef860c3f2","createdByUserId":"800dd288-d906-4dab-9342-15904cc5aed1"}'

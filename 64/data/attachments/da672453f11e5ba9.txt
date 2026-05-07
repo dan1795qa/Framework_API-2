@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/a5f7770e-2a75-4f1c-8839-4f836adf7eb4
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/a5f7770e-2a75-4f1c-8839-4f836adf7eb4
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to a5f7770e-2a75-4f1c-8839-4f836adf7eb4
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Only often loss goal item.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to b08913c3-d803-46f5-b310-86a16a3457d3
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 69
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 23
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 17
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Activity student knowledge catch investment upon international. Space image site arm and throw.
+Rock reflect war off read eye. Ball include speech later season pressure. Most certainly number PM.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 16 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validation JSON schema

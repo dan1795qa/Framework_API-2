@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAxLjM2NDYyMyIsInVzZXJfaWQiOiI3NDc2ZGZmYy02NGVkLTRkNDEtYTkyYi02ZWFiNjU5NWViNzQifQ.ir876NkYsGoXq2cSVOXeQXhebxcFyCYgJL--jGDjHc0'\
+-h 'content-length: 399'\
+-h 'content-type: application/json'\
+-d '{"title":"Arrive network picture painting bad four.","maxScore":89,"minScore":30,"description":"Carry evidence stop year able sport. Perhaps idea his conference protect in.\nStudent election practice inside.\nMain enter similar treat voice matter stand time.","estimatedTime":"26 weeks","previewFileId":"a1e11cde-523c-4aa3-a780-8e36c65f6536","createdByUserId":"7476dffc-64ed-4d41-a92b-6eab6595eb74"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAwLjcwMDQ1NyIsInVzZXJfaWQiOiJhNzE1MjM5OS1lMmM5LTRhOTktYmZjNC05MmI5ZjYzYjk3MTAifQ.9XYjrxKyBsu_SFlzww6TNOB--v0kLZcWGRA0Ue9qzeQ'\
+-h 'content-length: 305'\
+-h 'content-type: application/json'\
+-d '{"title":"Tv husband teach state add blood our.","maxScore":60,"minScore":27,"description":"Travel reality collection practice social. Help behind or gas never head.","estimatedTime":"5 weeks","previewFileId":"06001639-2904-4184-9007-47337c5a25e9","createdByUserId":"a7152399-e2c9-4a99-bfc4-92b9f63b9710"}'

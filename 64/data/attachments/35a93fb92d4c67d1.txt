@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDEwOjAwOjAzLjM0MzU0OCIsInVzZXJfaWQiOiI3OGRjZGU5MS1hOGU4LTRiOTMtYWY4MS1hYjAzNTM4MTU1ZWIifQ.S4H_wrTHH7AQ1J_j-05-i6tOKT61kVNg4LusQjdtY2E'\
+-h 'content-length: 404'\
+-h 'content-type: application/json'\
+-d '{"title":"Tv military international bit.","maxScore":59,"minScore":26,"description":"Long oil walk small experience laugh. Their hundred attack another bag even.\nForce arm network action item affect. Sound tax coach minute. Side scientist pass question local as.","estimatedTime":"91 weeks","previewFileId":"7783e274-df16-468c-95ec-e6d9c2d5ffe7","createdByUserId":"78dcde91-a8e8-4b93-af81-ab03538155eb"}'

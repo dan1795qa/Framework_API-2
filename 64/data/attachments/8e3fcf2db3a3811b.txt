@@ -1,0 +1,11 @@
+curl -X 'POST'\
+'http://localhost:8000/api/v1/courses'\
+-h 'host: localhost:8000'\
+-h 'accept: */*'\
+-h 'accept-encoding: gzip, deflate'\
+-h 'connection: keep-alive'\
+-h 'user-agent: python-httpx/0.28.1'\
+-h 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA3VDA5OjU5OjU3LjgwNjg3NCIsInVzZXJfaWQiOiJkMDRmOGQ4Mi1jYWI1LTQ4YmYtYTQ5Mi1jZDIwZDVhMGFhM2UifQ.ixtc06Xv31RtDe3XN3BLdZ_lyqHgradfxYVF7vK2lB8'\
+-h 'content-length: 370'\
+-h 'content-type: application/json'\
+-d '{"title":"While I learn build result sign.","maxScore":80,"minScore":13,"description":"Technology son group.\nNever own wind project. Can policy blue how perform still key. Young majority gun glass change identify nothing parent.","estimatedTime":"35 weeks","previewFileId":"b0cd042e-7b82-475f-9303-b7ce7949afe7","createdByUserId":"d04f8d82-cab5-48bf-a492-cd20d5a0aa3e"}'
