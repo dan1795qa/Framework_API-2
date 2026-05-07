@@ -121,3 +121,28 @@ def assert_user_not_found_response(actual: InternalErrorResponseSchema):
 
     expected = InternalErrorResponseSchema(details="User not found")
     assert_internal_error_response(actual, expected)
+
+
+@allure.step("Check update user with incorrect email in body")
+def assert_update_user_with_incorrect_email_in_body(actual: ValidationErrorResponseSchema):
+    """
+    Проверяет, что ответ на обновление email пользователя на некорректный email соответствует ожидаемой валидационной ошибке.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    logger.info(f"Check update user with incorrect email in body")
+
+    expected = ValidationErrorResponseSchema(
+        details=[
+            ValidationErrorSchema(
+                type="value_error",
+                input="user12example.com",
+                context={
+                    "reason": "An email address must have an @-sign."},
+                message="value is not a valid email address: An email address must have an @-sign.",
+                location=["body", "email"]
+            )
+        ]
+    )
+    assert_validation_error_response(actual, expected)
